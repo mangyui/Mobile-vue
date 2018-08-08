@@ -11,12 +11,14 @@ Vue.use(vueRouter);
 
 import home from './components/home.vue';
 import cart from './components/shopcart/cart.vue';
+import news from './components/news/newslist.vue';
 
 var router1 =new vueRouter({
     linkActiveClass:'mui-active',
     routes:[
        {path:'/home',component:home},
-       {path:'/cart',component:cart}      
+       {path:'/cart',component:cart},
+       {path:'/news/newslist',component:news}
     ]
 });
 
@@ -27,7 +29,7 @@ import mintui from 'mint-ui';
 //在vue全局使用mintui
 Vue.use(mintui);
 
-import '../statics/mui/css/mui.css';
+//import '../statics/mui/css/mui.css';
 
 import '../statics/css/site.css';
 

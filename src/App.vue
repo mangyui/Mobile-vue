@@ -19,7 +19,7 @@
 				<span class="mui-tab-label">购物车</span>
 			</router-link >
 			<router-link  class="mui-tab-item" to="/tabbar-with-map">
-				<span class="mui-icon mui-icon-gear"></span>
+				<span class="mui-icon mui-icon-search"></span>
 				<span class="mui-tab-label">搜索</span>
 			</router-link >
 		</nav>  
