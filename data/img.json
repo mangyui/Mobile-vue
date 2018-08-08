@@ -1,0 +1,17 @@
+{
+    "status": 0,
+    "message": [
+        {
+            "url": "http://mangyu.coding.me/custom/",
+            "img": "http://mangyu.coding.me/custom/index/y.jpg"
+        },
+        {
+            "url": "http://mangyu.coding.me/custom/",
+            "img": "http://mangyu.coding.me/custom/index/h.jpg"
+        },
+        {
+            "url": "http://mangyu.coding.me/custom/",
+            "img": "http://mangyu.coding.me/custom/index/m.jpg"
+        }
+    ]
+}
