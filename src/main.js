@@ -12,13 +12,15 @@ Vue.use(vueRouter);
 import home from './components/home.vue';
 import cart from './components/shopcart/cart.vue';
 import news from './components/news/newslist.vue';
+import user from './components/usercenter/user.vue';
 
 var router1 =new vueRouter({
     linkActiveClass:'mui-active',
     routes:[
        {path:'/home',component:home},
        {path:'/cart',component:cart},
-       {path:'/news/newslist',component:news}
+       {path:'/news/newslist',component:news},
+       {path:'/usercenter/user',component:user}
     ]
 });
 

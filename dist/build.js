@@ -70,15 +70,19 @@
 
 	var _newslist2 = _interopRequireDefault(_newslist);
 
-	__webpack_require__(35);
+	var _user = __webpack_require__(35);
+
+	var _user2 = _interopRequireDefault(_user);
+
+	__webpack_require__(40);
 
 	var _mintUi = __webpack_require__(19);
 
 	var _mintUi2 = _interopRequireDefault(_mintUi);
 
-	__webpack_require__(39);
+	__webpack_require__(44);
 
-	var _vueResource = __webpack_require__(41);
+	var _vueResource = __webpack_require__(46);
 
 	var _vueResource2 = _interopRequireDefault(_vueResource);
 
@@ -93,7 +97,7 @@
 
 	var router1 = new _vueRouter2.default({
 	    linkActiveClass: 'mui-active',
-	    routes: [{ path: '/home', component: _home2.default }, { path: '/cart', component: _cart2.default }, { path: '/news/newslist', component: _newslist2.default }]
+	    routes: [{ path: '/home', component: _home2.default }, { path: '/cart', component: _cart2.default }, { path: '/news/newslist', component: _newslist2.default }, { path: '/usercenter/user', component: _user2.default }]
 	});
 
 	//在vue全局使用mintui
@@ -8681,7 +8685,7 @@
 
 
 	// module
-	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+	exports.push([module.id, "\n.mint-header[data-v-369594e6]\n{\n\tbackground-color: rgb(78, 187, 183);\n}\n", ""]);
 
 	// exports
 
@@ -9116,6 +9120,19 @@
 	//
 	//
 	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
 
 	exports.default = {
 	    data: function data() {
@@ -9135,7 +9152,24 @@
 	      "fixed": "",
 	      "title": "盲鱼的移动商城"
 	    }
-	  }), _vm._v(" "), _c('router-view'), _vm._v(" "), _c('nav', {
+	  }, [_c('router-link', {
+	    staticClass: "toleft",
+	    attrs: {
+	      "slot": "left",
+	      "to": "/home"
+	    },
+	    slot: "left"
+	  }, [_c('mt-button', {
+	    attrs: {
+	      "icon": "back"
+	    }
+	  }, [_vm._v("返回")])], 1), _vm._v(" "), _c('mt-button', {
+	    attrs: {
+	      "slot": "right",
+	      "icon": "more"
+	    },
+	    slot: "right"
+	  })], 1), _vm._v(" "), _c('router-view'), _vm._v(" "), _c('nav', {
 	    staticClass: "mui-bar mui-bar-tab"
 	  }, [_c('router-link', {
 	    staticClass: "mui-tab-item",
@@ -9149,33 +9183,40 @@
 	  }, [_vm._v("首页")])]), _vm._v(" "), _c('router-link', {
 	    staticClass: "mui-tab-item",
 	    attrs: {
-	      "to": "/tabbar-with-chat"
+	      "to": "/sider"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-email"
+	    staticClass: "mui-icon mui-icon-location"
 	  }), _vm._v(" "), _c('span', {
 	    staticClass: "mui-tab-label"
-	  }, [_vm._v("会员")])]), _vm._v(" "), _c('router-link', {
+	  }, [_vm._v("附近")])]), _vm._v(" "), _c('router-link', {
+	    staticClass: "mui-tab-item",
+	    attrs: {
+	      "to": "/look"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-paperplane"
+	  }), _vm._v(" "), _c('span', {
+	    staticClass: "mui-tab-label"
+	  }, [_vm._v("发现")])]), _vm._v(" "), _c('router-link', {
 	    staticClass: "mui-tab-item",
 	    attrs: {
 	      "to": "/cart"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-contact"
-	  }, [_c('span', {
-	    staticClass: "mui-badge"
-	  }, [_vm._v("0")])]), _vm._v(" "), _c('span', {
-	    staticClass: "mui-tab-label"
-	  }, [_vm._v("购物车")])]), _vm._v(" "), _c('router-link', {
-	    staticClass: "mui-tab-item",
-	    attrs: {
-	      "to": "/tabbar-with-map"
-	    }
-	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-search"
+	    staticClass: "mui-icon mui-icon-bars"
 	  }), _vm._v(" "), _c('span', {
 	    staticClass: "mui-tab-label"
-	  }, [_vm._v("搜索")])])], 1)], 1)
+	  }, [_vm._v("订单")])]), _vm._v(" "), _c('router-link', {
+	    staticClass: "mui-tab-item",
+	    attrs: {
+	      "to": "/usercenter/user"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-contact"
+	  }), _vm._v(" "), _c('span', {
+	    staticClass: "mui-tab-label"
+	  }, [_vm._v("我的")])])], 1)], 1)
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
@@ -11890,7 +11931,7 @@
 
 
 	// module
-	exports.push([module.id, "\n.mint-swipe[data-v-72b7d7c6]{\n    height:200px;\n}\n.mint-swipe-item img[data-v-72b7d7c6]\n{\n    width:100%;\n    height:100%;\n}\n.mint-swipe-item[data-v-72b7d7c6]\n{\n     text-align: center;\n     line-height:300px;\n     color:#fff;\n     font-size:36px;\n     background-color:green;\n     width:100%;\n     height:200px;\n}\n.mui-content > .mui-table-view[data-v-72b7d7c6]:first-child\n{\n    margin-top: 0;\n}\n.mui-content[data-v-72b7d7c6],.mui-content ul[data-v-72b7d7c6]{\n    background-color: #fff;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]{\n    border-bottom: 0px;\n    border-right: 0px;\n}\n.mui-grid-view.mui-grid-9[data-v-72b7d7c6]{\n    border-top: 0px;\n    border-left: 0px;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] \n{\n    font-size: 13px;\n}\n.mui-icon[data-v-72b7d7c6]::before\n{\n    color: #fff;\n    background-color: rgb(0, 149, 248);\n    border-radius: 10%;\n}\n", ""]);
+	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n /* .toleft\n\t {\n\t\t display: none;\n\t } */\n.mint-swipe[data-v-72b7d7c6]{\n      height:200px;\n}\n.mint-swipe-item img[data-v-72b7d7c6]\n  {\n      width:100%;\n      height:100%;\n}\n.mint-swipe-item[data-v-72b7d7c6]\n  {\n       text-align: center;\n       line-height:300px;\n       color:#fff;\n       font-size:36px;\n       background-color:rgb(78, 187, 183);\n       width:100%;\n       height:200px;\n}\n.mui-content > .mui-table-view[data-v-72b7d7c6]:first-child\n  {\n      margin-top: 0;\n}\n.mui-content[data-v-72b7d7c6],.mui-content ul[data-v-72b7d7c6]{\n      background-color: #fff;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]{\n      border-bottom: 0px;\n      border-right: 0px;\n}\n.mui-grid-view.mui-grid-9[data-v-72b7d7c6]{\n      border-top: 0px;\n      border-left: 0px;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] \n  {\n      font-size: 0.7em;\n      color: rgb(82, 82, 82);\n}\n.content0 .mui-icon[data-v-72b7d7c6]::before\n  {\n      color: #fff;\n      background-color: rgb(78, 187, 183);\n      border-radius: 50%;\n      box-shadow: 0 3px 3px rgba(20, 119, 116, 0.2);\n}\n.content2 .mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-72b7d7c6]\n  {\n      font-size:1.5em;\n      color: rgb(78, 187, 183);\n}\n.mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-72b7d7c6]\n  {\n      font-size:2.4em;\n}\n.content0 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 5px 0;\n}\n.content2 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 0px 0;\n}\n.mui-col-xs-3[data-v-72b7d7c6] {\n    width: 20%;\n}\n.mui-icon .mui-badge[data-v-72b7d7c6] {\n    margin-left: -15px;\n}\n.hr90[data-v-72b7d7c6]{\n    width: 90%;\n    margin: 0 auto;\n    padding: 0;\n    border-top:1px solid rgba(200, 200, 200, 0.3);\n}\n.dis-content .mui-table-view[data-v-72b7d7c6]\n{\n    margin: 10px 0;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-object[data-v-72b7d7c6]{\n    height: 110px;\n    opacity: 0.6;\n     max-width: 99.9%;\n}\n.mui-table-view[data-v-72b7d7c6]{\n    position: static;\n}\n.mui-table-view[data-v-72b7d7c6]::after\n{\n   height: 0;\n}\n.mui-table-view .mui-media[data-v-72b7d7c6], .mui-table-view .mui-media-body[data-v-72b7d7c6]\n{\n    overflow: visible;\n}\n.divpo[data-v-72b7d7c6]\n{\n    position: absolute;\n    top:2px;\n    left: 14px;\n}\n.divpo p[data-v-72b7d7c6]\n{\n   text-align: left;\n   padding: 5px 10px;\n}\n.plable[data-v-72b7d7c6]{\n    color: #fff;\n    border-radius: 0 0 5px 0;\n    display: inline-block;\n    float: left;\n    padding-right: 10px;\n    font-weight: bold;\n}\n.ptitle[data-v-72b7d7c6]\n{\n    clear: both;\n    color: #000;\n    font-weight: bold;\n}\n.ptype[data-v-72b7d7c6]\n{\n   color: rgb(82, 82, 82);\n   font-size: 12px;\n} \n", ""]);
 
 	// exports
 
@@ -11951,15 +11992,62 @@
 	//
 	//
 	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
 
 	exports.default = {
 	    data: function data() {
 	        return {
-	            list: []
+	            list: [],
+	            list2: []
+
 	        };
 	    },
 	    created: function created() {
 	        this.getimgs();
+	        this.getimglist2();
 	    },
 
 	    methods: {
@@ -11973,6 +12061,41 @@
 
 	                this.list = response.body.message;
 	            });
+	        },
+	        getimglist2: function getimglist2() {
+	            this.list2 = [{
+	                "id": 101,
+	                "label": "很优惠",
+	                "color": "#e88565",
+	                "title": "【到店吃】正新鸡排",
+	                "type": "美食",
+	                "dis": "5折抢购",
+	                "img_url": _common2.default.apidomain + "/DessertShop/images/team/team-1.jpg"
+	            }, {
+	                "id": 102,
+	                "label": "有格调",
+	                "color": "#ef3e4a",
+	                "title": "于都湖彬大酒店",
+	                "type": "酒店",
+	                "dis": "",
+	                "img_url": _common2.default.apidomain + "/DessertShop/images/team/team-2.jpg"
+	            }, {
+	                "id": 103,
+	                "label": "午餐要讲究",
+	                "color": "#a7bbc3",
+	                "title": "蚝莊",
+	                "type": "河海鲜",
+	                "dis": "",
+	                "img_url": _common2.default.apidomain + "/DessertShop/images/team/team-3.jpg"
+	            }, {
+	                "id": 104,
+	                "label": "周末去哪儿",
+	                "color": "#776ea7",
+	                "title": "赣州极地海洋世界成人票",
+	                "type": "周边游",
+	                "dis": "",
+	                "img_url": _common2.default.apidomain + "/DessertShop/images/team/team-1.jpg"
+	            }];
 	        }
 	    }
 
@@ -22022,21 +22145,23 @@
 	      }
 	    })])
 	  })), _vm._v(" "), _c('div', {
-	    staticClass: "mui-content"
+	    staticClass: "mui-content content0"
 	  }, [_c('ul', {
 	    staticClass: "mui-table-view mui-grid-view mui-grid-9"
 	  }, [_c('li', {
-	    staticClass: "mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
 	  }, [_c('router-link', {
 	    attrs: {
 	      "to": "/news/newslist"
 	    }
 	  }, [_c('span', {
 	    staticClass: "mui-icon mui-icon-list"
-	  }), _vm._v(" "), _c('div', {
+	  }, [_c('span', {
+	    staticClass: "mui-badge"
+	  }, [_vm._v("红包")])]), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
-	  }, [_vm._v("相关资讯")])])], 1), _vm._v(" "), _c('li', {
-	    staticClass: "mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"
+	  }, [_vm._v("美食")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
 	  }, [_c('router-link', {
 	    attrs: {
 	      "to": "/photos/photoslist"
@@ -22045,8 +22170,8 @@
 	    staticClass: "mui-icon mui-icon-redo"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
-	  }, [_vm._v("商品分享")])])], 1), _vm._v(" "), _c('li', {
-	    staticClass: "mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"
+	  }, [_vm._v("电影/演出")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
 	  }, [_c('router-link', {
 	    attrs: {
 	      "to": "/goods/goodsslist"
@@ -22055,8 +22180,8 @@
 	    staticClass: "mui-icon mui-icon-download"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
-	  }, [_vm._v("商品购买")])])], 1), _vm._v(" "), _c('li', {
-	    staticClass: "mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"
+	  }, [_vm._v("酒店住宿")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
 	  }, [_c('router-link', {
 	    attrs: {
 	      "to": "/mess/messlist"
@@ -22065,8 +22190,66 @@
 	    staticClass: "mui-icon mui-icon-compose"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
-	  }, [_vm._v("留言反馈")])])], 1), _vm._v(" "), _c('li', {
-	    staticClass: "mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"
+	  }, [_vm._v("休闲娱乐")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/video/videolist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-pengyouquan"
+	  }, [_c('span', {
+	    staticClass: "mui-badge"
+	  }, [_vm._v("领券")])]), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("外卖")])])], 1)]), _vm._v(" "), _c('div', {
+	    staticClass: "hr90"
+	  })]), _vm._v(" "), _c('div', {
+	    staticClass: "mui-content content2"
+	  }, [_c('ul', {
+	    staticClass: "mui-table-view mui-grid-view mui-grid-9"
+	  }, [_c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/news/newslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-list"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("机票/火车票")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/photos/photoslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-redo"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("KTV")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/goods/goodsslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-download"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("周边游/旅游")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/mess/messlist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-compose"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("丽人/美发")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
 	  }, [_c('router-link', {
 	    attrs: {
 	      "to": "/video/videolist"
@@ -22075,29 +22258,85 @@
 	    staticClass: "mui-icon mui-icon-pengyouquan"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
-	  }, [_vm._v("视频专区")])])], 1), _vm._v(" "), _c('li', {
-	    staticClass: "mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"
+	  }, [_vm._v("美发")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
 	  }, [_c('router-link', {
 	    attrs: {
 	      "to": "/news/newslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-phone"
+	    staticClass: "mui-icon mui-icon-list"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
-	  }, [_vm._v("联系我们")])])], 1), _vm._v(" "), _c('li', {
-	    staticClass: "mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"
+	  }, [_vm._v("按摩/足疗")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
 	  }, [_c('router-link', {
 	    attrs: {
-	      "to": "/myem/myemlist"
+	      "to": "/photos/photoslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-email"
-	  }, [_c('span', {
-	    staticClass: "mui-badge"
-	  }, [_vm._v("5")])]), _vm._v(" "), _c('div', {
+	    staticClass: "mui-icon mui-icon-redo"
+	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
-	  }, [_vm._v("我的消息")])])], 1)])])], 1)
+	  }, [_vm._v("洗浴/汗蒸")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/goods/goodsslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-download"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("景点/门票")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/mess/messlist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-compose"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("闪购")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/video/videolist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-pengyouquan"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("全部分类")])])], 1)])]), _vm._v(" "), _c('div', {
+	    staticClass: "dis-content"
+	  }, [_c('ul', {
+	    staticClass: "mui-table-view mui-grid-view"
+	  }, _vm._l((_vm.list2), function(item) {
+	    return _c('li', {
+	      staticClass: "mui-table-view-cell mui-media mui-col-xs-6"
+	    }, [_c('router-link', {
+	      attrs: {
+	        "to": "/disimg"
+	      }
+	    }, [_c('div', {
+	      staticClass: "mui-media-object",
+	      style: ({
+	        'background-color': item.color
+	      })
+	    }), _vm._v(" "), _c('div', {
+	      staticClass: "mui-media-body divpo"
+	    }, [_c('p', {
+	      staticClass: "plable",
+	      style: ({
+	        'background-color': item.color
+	      })
+	    }, [_vm._v(_vm._s(item.label))]), _vm._v(" "), _c('p', {
+	      staticClass: "ptitle"
+	    }, [_vm._v(_vm._s(item.title))]), _vm._v(" "), _c('p', {
+	      staticClass: "ptype"
+	    }, [_vm._v(_vm._s(item.type))])])])], 1)
+	  }))])], 1)
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
@@ -22436,7 +22675,377 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(36);
+	/* styles */
+	__webpack_require__(36)
+
+	var Component = __webpack_require__(11)(
+	  /* script */
+	  __webpack_require__(38),
+	  /* template */
+	  __webpack_require__(39),
+	  /* scopeId */
+	  "data-v-53fdbb68",
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "G:\\2018—Web\\暑期8月学习\\work\\src\\components\\usercenter\\user.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] user.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-53fdbb68", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-53fdbb68", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 36 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(37);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	if(content.locals) module.exports = content.locals;
+	// add the styles to the DOM
+	var update = __webpack_require__(9)("035294e5", content, false);
+	// Hot Module Replacement
+	if(false) {
+	 // When the styles change, update the <style> tags
+	 if(!content.locals) {
+	   module.hot.accept("!!../../../node_modules/_css-loader@1.0.0@css-loader/index.js!../../../node_modules/_vue-loader@11.3.4@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-53fdbb68\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/_vue-loader@11.3.4@vue-loader/lib/selector.js?type=styles&index=0!./user.vue", function() {
+	     var newContent = require("!!../../../node_modules/_css-loader@1.0.0@css-loader/index.js!../../../node_modules/_vue-loader@11.3.4@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-53fdbb68\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/_vue-loader@11.3.4@vue-loader/lib/selector.js?type=styles&index=0!./user.vue");
+	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	     update(newContent);
+	   });
+	 }
+	 // When the module is disposed, remove the <style> tags
+	 module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 37 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(8)(false);
+	// imports
+
+
+	// module
+	exports.push([module.id, "\n.userimg[data-v-53fdbb68]\n  {\n      text-align: center;\n      background-color: rgb(78, 187, 183);\n      padding-bottom: 20px;\n}\n.userimg img[data-v-53fdbb68]{\n      width: 60px;\n      height: 60px;\n      margin: 20px auto 10px;\n      border: 2px solid #fff;\n      border-radius: 50%;\n}\n.mui-content > .mui-table-view[data-v-53fdbb68]:first-child\n{\n    margin-top: 0;\n}\n.mui-content[data-v-53fdbb68],.mui-content ul[data-v-53fdbb68]{\n    background-color: #fff;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-53fdbb68]{\n    border-bottom: 0px;\n    border-right: 0px;\n}\n.mui-grid-view.mui-grid-9[data-v-53fdbb68]{\n    border-top: 0px;\n    border-left: 0px;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-53fdbb68] \n{\n    font-size: 0.7em;\n}\n.mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-53fdbb68]\n{\n    font-size:1.5em;\n    color: rgb(78, 187, 183);\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-53fdbb68]\n{\n    padding: 11px 0;\n}\n.content2[data-v-53fdbb68] {\n    margin: 0 auto;\n    padding: 0 5% 10px;\n}\n.content2 h6[data-v-53fdbb68]\n{\n    border-top: 1px solid rgba(200, 200, 200, 0.2);\n    padding-top: 10px;\n    margin-top: 0;\n    color: #000;\n    font-weight: bold;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 38 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _common = __webpack_require__(23);
+
+	var _common2 = _interopRequireDefault(_common);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	exports.default = {
+	    data: function data() {
+	        return {
+	            userimg: "",
+	            username: ""
+	        };
+	    },
+	    created: function created() {
+	        this.getuser();
+	    },
+
+	    methods: {
+	        getuser: function getuser() {
+	            this.userimg = _common2.default.apidomain + "/DessertShop/images/User.jpg";
+	            this.username = "张某某";
+	        }
+	    }
+
+	}; //
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+/***/ },
+/* 39 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: "topBottom"
+	  }, [_c('div', [_c('div', {
+	    staticClass: "userimg"
+	  }, [_c('img', {
+	    attrs: {
+	      "src": _vm.userimg
+	    }
+	  }), _vm._v(" "), _c('h4', [_vm._v(_vm._s(_vm.username))])]), _vm._v(" "), _c('div', {
+	    staticClass: "mui-content"
+	  }, [_c('ul', {
+	    staticClass: "mui-table-view mui-grid-view mui-grid-9"
+	  }, [_c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/news/newslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-star-filled"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("收藏")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/photos/photoslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-chat"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("评价")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/goods/goodsslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-eye"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("最近预览")])])], 1)])]), _vm._v(" "), _c('div', {
+	    staticClass: "mui-content content2"
+	  }, [_c('h6', [_vm._v("美团钱包")]), _vm._v(" "), _c('ul', {
+	    staticClass: "mui-table-view mui-grid-view mui-grid-9"
+	  }, [_c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/news/newslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-pengyouquan"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("我的钱包")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/photos/photoslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-pengyouquan"
+	  }, [_c('span', {
+	    staticClass: "mui-badge"
+	  }, [_vm._v("领券")])]), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("红包/卡券")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/goods/goodsslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-pengyouquan"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("余额")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/photos/photoslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-pengyouquan"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("美团信用卡")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/goods/goodsslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-pengyouquan"
+	  }, [_c('span', {
+	    staticClass: "mui-badge"
+	  }, [_vm._v("抽奖")])]), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("手机充值")])])], 1)])]), _vm._v(" "), _c('div', {
+	    staticClass: "mui-content content2"
+	  }, [_c('h6', [_vm._v("美团服务")]), _vm._v(" "), _c('ul', {
+	    staticClass: "mui-table-view mui-grid-view mui-grid-9"
+	  }, [_c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/news/newslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-pengyouquan"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("会员中心")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/photos/photoslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-pengyouquan"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("美团公益")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/goods/goodsslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-eye"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("客服中心")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/photos/photoslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-chat"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("免流量美团")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/goods/goodsslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-eye"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("发票助手")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/photos/photoslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-chat"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("我要合作")])])], 1), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"
+	  }, [_c('router-link', {
+	    attrs: {
+	      "to": "/goods/goodsslist"
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon mui-icon-eye"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("关于美团")])])], 1)])])])])
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-53fdbb68", module.exports)
+	  }
+	}
+
+/***/ },
+/* 40 */
+/***/ function(module, exports, __webpack_require__) {
+
+	
+	var content = __webpack_require__(41);
 
 	if(typeof content === 'string') content = [[module.id, content, '']];
 
@@ -22450,7 +23059,7 @@
 	options.transform = transform
 	options.insertInto = undefined;
 
-	var update = __webpack_require__(37)(content, options);
+	var update = __webpack_require__(42)(content, options);
 
 	if(content.locals) module.exports = content.locals;
 
@@ -22482,7 +23091,7 @@
 	}
 
 /***/ },
-/* 36 */
+/* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(8)(false);
@@ -22496,7 +23105,7 @@
 
 
 /***/ },
-/* 37 */
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -22562,7 +23171,7 @@
 	var	singletonCounter = 0;
 	var	stylesInsertedAtTop = [];
 
-	var	fixUrls = __webpack_require__(38);
+	var	fixUrls = __webpack_require__(43);
 
 	module.exports = function(list, options) {
 		if (false) {
@@ -22882,7 +23491,7 @@
 
 
 /***/ },
-/* 38 */
+/* 43 */
 /***/ function(module, exports) {
 
 	
@@ -22977,11 +23586,11 @@
 
 
 /***/ },
-/* 39 */
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(40);
+	var content = __webpack_require__(45);
 
 	if(typeof content === 'string') content = [[module.id, content, '']];
 
@@ -22995,7 +23604,7 @@
 	options.transform = transform
 	options.insertInto = undefined;
 
-	var update = __webpack_require__(37)(content, options);
+	var update = __webpack_require__(42)(content, options);
 
 	if(content.locals) module.exports = content.locals;
 
@@ -23027,7 +23636,7 @@
 	}
 
 /***/ },
-/* 40 */
+/* 45 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(8)(false);
@@ -23035,13 +23644,13 @@
 
 
 	// module
-	exports.push([module.id, "*{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\nbody{\r\n    background-color: #fff;\r\n}\r\n.topBottom\r\n{\r\n    margin: 40px 0 50px;    \r\n}", ""]);
+	exports.push([module.id, "*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: \"Arial\",\"Microsoft YaHei\",\"\\9ED1\\4F53\",\"\\5B8B\\4F53\",sans-serif;;\r\n}\r\nbody{\r\n    /* background-color: #fff; */\r\n}\r\n.topBottom\r\n{\r\n    margin: 40px 0 50px;    \r\n}", ""]);
 
 	// exports
 
 
 /***/ },
-/* 41 */
+/* 46 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*!
@@ -24137,7 +24746,7 @@
 
 	function nodeClient (request) {
 
-	    var client = __webpack_require__(42);
+	    var client = __webpack_require__(47);
 
 	    return new PromiseObj(function (resolve) {
 
@@ -24604,7 +25213,7 @@
 
 
 /***/ },
-/* 42 */
+/* 47 */
 /***/ function(module, exports) {
 
 	/* (ignored) */
