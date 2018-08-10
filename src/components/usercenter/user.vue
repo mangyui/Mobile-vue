@@ -1,5 +1,13 @@
 <template>
     <div class="topBottom">    <!--vue2.0根-->
+    <header id="header" class="mui-bar mui-bar-transparent">
+            
+			<a class="mui-icon-gear mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<!-- <h1 class="mui-title">盲鱼的移动商城</h1> -->
+            <a class="mui-icon mui-icon-email mui-pull-right"></a>              
+            <a class="mui-icon mui-icon-paperclip mui-pull-right"></a>
+         
+		</header>
     <div>
       <div class="userimg"><img :src="userimg">
       <h4>{{username}}</h4></div>
@@ -90,6 +98,14 @@ export default {
 </script>
 
 <style scoped>
+    #header{
+        background-color:  rgb(78, 187, 183);
+    }
+    #header .mui-icon
+    {
+        color: #fff;
+        margin:0 5px;
+    }
     .userimg
     {
         text-align: center;

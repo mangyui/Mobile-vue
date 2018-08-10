@@ -3,7 +3,8 @@ module.exports={
     entry:'./src/main.js', //打包入口文件
     output:{
         path:__dirname+'/dist',   //当前文件夹的绝对路径
-        filename:'build.js'
+        filename:'build.js',
+        publicPath:'./dist/'
     },
     module:{
         loaders:[
@@ -20,8 +21,12 @@ module.exports={
                 loader:'style-loader!css-loader!less-loader'               
             },
             {
-                test:/\.(png|jpg|gif|ico|jpeg|ttf)$/,
-                loader:'url-loader?limit=20000'            //限制大小 分情况
+                test:/\.(png|jpg|gif|ico|jpeg)$/,
+                loader:'url-loader?limit=8192&name=images/[hash:8].[name].[ext]'            //限制大小 分情况
+            } ,
+            {
+                test:/\.ttf$/,
+                loader:'url-loader?limit=8192&name=fonts/[hash:8].[name].[ext]'            //限制大小 分情况
             } ,
             {
                 test:/\.js$/,

@@ -13,6 +13,7 @@ import home from './components/home.vue';
 import cart from './components/shopcart/cart.vue';
 import news from './components/news/newslist.vue';
 import user from './components/usercenter/user.vue';
+import disimg from './components/other/disimg.vue';
 
 var router1 =new vueRouter({
     linkActiveClass:'mui-active',
@@ -20,7 +21,8 @@ var router1 =new vueRouter({
        {path:'/home',component:home},
        {path:'/cart',component:cart},
        {path:'/news/newslist',component:news},
-       {path:'/usercenter/user',component:user}
+       {path:'/usercenter/user',component:user},
+       {path:'/disimg/:id',component:disimg}
     ]
 });
 
@@ -31,7 +33,7 @@ import mintui from 'mint-ui';
 //在vue全局使用mintui
 Vue.use(mintui);
 
-//import '../statics/mui/css/mui.css';
+import '../statics/mui/css/mui.css';
 
 import '../statics/css/site.css';
 

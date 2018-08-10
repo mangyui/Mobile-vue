@@ -1,5 +1,13 @@
 <template>
     <div class="topBottom">    <!--vue2.0根-->
+     <header id="header" class="mui-bar mui-bar-transparent">
+			<div class="mui-title">
+                <a class="mui-icon mui-icon-search asear"></a>
+				<input type="text" class="isearch mui-icon-search" placeholder="蛋糕  ">
+			</div>
+            <a class="mui-icon mui-icon-plusempty mui-pull-right" ></a>
+		</header>
+
         <mt-swipe :auto="3000">
           
            <mt-swipe-item v-for="item in list">
@@ -66,7 +74,7 @@
             <ul class="mui-table-view mui-grid-view">
 		       
 		        <li v-for="item in list2" class="mui-table-view-cell mui-media mui-col-xs-6">
-		            <router-link to="/disimg">
+		            <router-link v-bind="{to:'/disimg/'+item.id}">
                   <!--   <img class="mui-media-object" :src="item.img_url"> -->
                     <div class="mui-media-object" :style="{'background-color': item.color}"></div>
 		                <div class="mui-media-body divpo"><p class="plable" :style="{'background-color': item.color}">{{item.label}}</p>
@@ -158,7 +166,42 @@ export default {
  /* .toleft
 	 {
 		 display: none;
-	 } */
+     } */
+    #header{
+        background-color: #fff;
+    }
+     .mui-bar .mui-title
+     {
+         width: 60%;
+         left: auto;
+         margin: 0 2%;
+     }
+     .isearch
+     {
+       border-radius: 20px;
+         padding: 8px;
+    font-size: 0.7em;
+    text-align: left;
+    padding-left: 30px;     
+    height: 24px;
+    border: none;
+    background-color: rgba(200, 200, 200, 0.3);
+     }
+         #header .mui-icon
+    {
+        color: rgb(82, 82, 82);
+        font-weight: 600;
+        font-size: 1.6em;
+    }
+    #header .mui-title .asear
+    {
+        position: absolute;
+        top:50%;
+      top: 50%;
+     margin-top: -9px;
+    font-size: 16px;
+    left: 8px;
+    }
   .mint-swipe{
       height:200px;
   }
@@ -285,4 +328,8 @@ export default {
    color: rgb(82, 82, 82);
    font-size: 12px;
 } 
+.content2
+{
+    padding-bottom: 10px;
+}
 </style>
