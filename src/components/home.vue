@@ -268,7 +268,7 @@ export default {
     width: 20%;
 }
 .mui-icon .mui-badge {
-    margin-left: -20px;
+    margin-left: -40%;
 }
 .hr90{
     width: 95%;
@@ -341,45 +341,45 @@ export default {
     content: '';
     background: url("../../statics/images/home.png");
     display: inline-block;
-    width: 51px;
+    width: 55px;
     height: 55px;
-    background-size: 770%;
+    background-size: 720%;
 }
 .content2 .mui-icon::before
 {
     content: '';
     background: url("../../statics/images/home.png");
     display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-size: 1400%;
+    width: 33px;
+    height: 33px;
+    background-size: 1280%;
 }
 .mui-content .hic1::before{
-    background-position: -18px -16px;
+    background-position: -16px -16px;
 }
 .mui-content .hic2::before{
-    background-position: -95px -16px;
+    background-position: -93px -16px;
 }
 .mui-content .hic3::before{
     background-position: -170px -16px;
 }
 .mui-content .hic4::before{
-    background-position: -250px -16px;
+    background-position: -247px -16px;
 }
 .mui-content .hic5::before{
-    background-position: -322px -16px;
+    background-position: -326px -16px;
 }
 .mui-content .hic6::before{
     background-position: -30px -120px;
 }
 .mui-content .hic7::before{
-    background-position: -115px -125px;
+    background-position: -110px -120px;
 }
 .mui-content .hic8::before{
     background-position: -194px -120px;
 }
 .mui-content .hic9::before{
-    background-position: -282px -125px;
+    background-position: -274px -120px;
 }
 .mui-content .hic10::before{
     background-position: -356px -120px;
@@ -388,13 +388,13 @@ export default {
     background-position: -32px -198px
 }
 .mui-content .hic12::before{
-    background-position: -115px -203px;
+    background-position: -110px -198px;
 }
 .mui-content .hic13::before{
     background-position: -194px -198px;
 }
 .mui-content .hic14::before{
-    background-position: -282px -203px;
+    background-position: -274px -198px;
 }
 .mui-content .hic15::before{
     background-position: -356px -198px;

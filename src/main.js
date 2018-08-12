@@ -18,6 +18,7 @@ import disimg from './components/other/disimg.vue';
 var router1 =new vueRouter({
     linkActiveClass:'mui-active',
     routes:[
+       {path:'/',redirect:"/home"},       
        {path:'/home',component:home},
        {path:'/cart',component:cart},
        {path:'/news/newslist',component:news},
