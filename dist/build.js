@@ -54,41 +54,41 @@
 
 	var _App2 = _interopRequireDefault(_App);
 
-	var _vueRouter = __webpack_require__(16);
+	var _vueRouter = __webpack_require__(17);
 
 	var _vueRouter2 = _interopRequireDefault(_vueRouter);
 
-	var _home = __webpack_require__(17);
+	var _home = __webpack_require__(18);
 
 	var _home2 = _interopRequireDefault(_home);
 
-	var _cart = __webpack_require__(27);
+	var _cart = __webpack_require__(29);
 
 	var _cart2 = _interopRequireDefault(_cart);
 
-	var _newslist = __webpack_require__(32);
+	var _newslist = __webpack_require__(34);
 
 	var _newslist2 = _interopRequireDefault(_newslist);
 
-	var _user = __webpack_require__(37);
+	var _user = __webpack_require__(39);
 
 	var _user2 = _interopRequireDefault(_user);
 
-	var _disimg = __webpack_require__(42);
+	var _disimg = __webpack_require__(46);
 
 	var _disimg2 = _interopRequireDefault(_disimg);
 
-	__webpack_require__(48);
+	__webpack_require__(52);
 
-	var _mintUi = __webpack_require__(21);
+	var _mintUi = __webpack_require__(23);
 
 	var _mintUi2 = _interopRequireDefault(_mintUi);
 
-	__webpack_require__(52);
+	__webpack_require__(56);
 
-	__webpack_require__(54);
+	__webpack_require__(58);
 
-	var _vueResource = __webpack_require__(56);
+	var _vueResource = __webpack_require__(60);
 
 	var _vueResource2 = _interopRequireDefault(_vueResource);
 
@@ -8624,11 +8624,11 @@
 	/* styles */
 	__webpack_require__(6)
 
-	var Component = __webpack_require__(13)(
+	var Component = __webpack_require__(14)(
 	  /* script */
-	  __webpack_require__(14),
-	  /* template */
 	  __webpack_require__(15),
+	  /* template */
+	  __webpack_require__(16),
 	  /* scopeId */
 	  "data-v-369594e6",
 	  /* cssModules */
@@ -8665,7 +8665,7 @@
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(11)("83ee6e20", content, false);
+	var update = __webpack_require__(12)("83ee6e20", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
@@ -8690,7 +8690,7 @@
 
 
 	// module
-	exports.push([module.id, "\n@font-face {\r\n    font-family: Muiicons;\r\n    font-weight: normal;\r\n    font-style: normal;\r\n\r\n    src: url(" + escape(__webpack_require__(10)) + ") format('truetype');\n}\n.mint-header[data-v-369594e6]\r\n\t{\r\n\t\tbackground-color: rgb(78, 187, 183);\n}\n.mui-bar[data-v-369594e6]\r\n\t{\r\n\t   box-shadow: 0 0 1px rgba(0, 0, 0, .2);\n}\r\n", ""]);
+	exports.push([module.id, "\n@font-face {\r\n    font-family: Muiicons;\r\n    font-weight: normal;\r\n    font-style: normal;\r\n\r\n    src: url(" + escape(__webpack_require__(10)) + ") format('truetype');\n}\n.mint-header[data-v-369594e6]\r\n\t{\r\n\t\tbackground-color: rgb(37, 173, 180);\n}\n.mui-bar[data-v-369594e6]\r\n\t{\r\n\t\tbackground-color: #fff;\r\n\t   box-shadow: 0 0 1px rgba(0, 0, 0, .2);\n}\n.mui-bar .mui-icon[data-v-369594e6]::before\r\n{\r\n    content: '';\r\n    background: url(" + escape(__webpack_require__(11)) + ");\r\n    display: inline-block;\r\n    width: 30px;\r\n    height: 30px;\r\n    background-size: 1400%;\r\n    margin-left: -2px;\n}\n.mui-bar .tic1[data-v-369594e6]::before{\r\n    background-position: -31px -60px;\n}\n.mui-bar .tic2[data-v-369594e6]::before{\r\n    background-position: -112px -60px;\n}\n.mui-bar .tic3[data-v-369594e6]::before{\r\n    background-position: -194px -60px;\n}\n.mui-bar .tic4[data-v-369594e6]::before{\r\n    background-position: -275px -60px;\n}\n.mui-bar .tic5[data-v-369594e6]::before{\r\n    background-position: -357px -60px;\n}\n.mui-bar-tab .mui-tab-item.mui-active .mui-icon[data-v-369594e6]::before\r\n{\r\n\tbackground-position-y: -5px;\n}\n.mui-bar-tab .mui-tab-item.mui-active[data-v-369594e6]\r\n{\r\n\tcolor: rgb(37, 173, 180);\n}\r\n", ""]);
 
 	// exports
 
@@ -8809,6 +8809,12 @@
 /* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
+	module.exports = __webpack_require__.p + "images/eb472947.tabar.png";
+
+/***/ },
+/* 12 */
+/***/ function(module, exports, __webpack_require__) {
+
 	/*
 	  MIT License http://www.opensource.org/licenses/mit-license.php
 	  Author Tobias Koppers @sokra
@@ -8825,7 +8831,7 @@
 	  ) }
 	}
 
-	var listToStyles = __webpack_require__(12)
+	var listToStyles = __webpack_require__(13)
 
 	/*
 	type StyleObject = {
@@ -9027,7 +9033,7 @@
 
 
 /***/ },
-/* 12 */
+/* 13 */
 /***/ function(module, exports) {
 
 	/**
@@ -9060,7 +9066,7 @@
 
 
 /***/ },
-/* 13 */
+/* 14 */
 /***/ function(module, exports) {
 
 	// this module is a runtime utility for cleaner component module output and will
@@ -9117,7 +9123,7 @@
 
 
 /***/ },
-/* 14 */
+/* 15 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -9176,7 +9182,7 @@
 	};
 
 /***/ },
-/* 15 */
+/* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -9188,7 +9194,7 @@
 	      "to": "/home"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-home"
+	    staticClass: "mui-icon tic1"
 	  }), _vm._v(" "), _c('span', {
 	    staticClass: "mui-tab-label"
 	  }, [_vm._v("首页")])]), _vm._v(" "), _c('router-link', {
@@ -9197,7 +9203,7 @@
 	      "to": "/sider"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-location"
+	    staticClass: "mui-icon tic2"
 	  }), _vm._v(" "), _c('span', {
 	    staticClass: "mui-tab-label"
 	  }, [_vm._v("附近")])]), _vm._v(" "), _c('router-link', {
@@ -9206,7 +9212,7 @@
 	      "to": "/look"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-paperplane"
+	    staticClass: "mui-icon tic3"
 	  }), _vm._v(" "), _c('span', {
 	    staticClass: "mui-tab-label"
 	  }, [_vm._v("发现")])]), _vm._v(" "), _c('router-link', {
@@ -9215,7 +9221,7 @@
 	      "to": "/cart"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-bars"
+	    staticClass: "mui-icon tic4"
 	  }), _vm._v(" "), _c('span', {
 	    staticClass: "mui-tab-label"
 	  }, [_vm._v("订单")])]), _vm._v(" "), _c('router-link', {
@@ -9224,7 +9230,7 @@
 	      "to": "/usercenter/user"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-contact"
+	    staticClass: "mui-icon tic5"
 	  }), _vm._v(" "), _c('span', {
 	    staticClass: "mui-tab-label"
 	  }, [_vm._v("我的")])])], 1)], 1)
@@ -9238,7 +9244,7 @@
 	}
 
 /***/ },
-/* 16 */
+/* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -11870,18 +11876,18 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ },
-/* 17 */
+/* 18 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(18)
+	__webpack_require__(19)
 
-	var Component = __webpack_require__(13)(
+	var Component = __webpack_require__(14)(
 	  /* script */
-	  __webpack_require__(20),
+	  __webpack_require__(22),
 	  /* template */
-	  __webpack_require__(26),
+	  __webpack_require__(28),
 	  /* scopeId */
 	  "data-v-72b7d7c6",
 	  /* cssModules */
@@ -11908,17 +11914,17 @@
 
 
 /***/ },
-/* 18 */
+/* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(19);
+	var content = __webpack_require__(20);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(11)("0ab45ff4", content, false);
+	var update = __webpack_require__(12)("0ab45ff4", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
@@ -11934,21 +11940,28 @@
 	}
 
 /***/ },
-/* 19 */
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
+	var escape = __webpack_require__(8);
 	exports = module.exports = __webpack_require__(9)(false);
 	// imports
 
 
 	// module
-	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n /* .toleft\n\t {\n\t\t display: none;\n     } */\n#header[data-v-72b7d7c6]{\n        background-color: #fff;\n}\n.mui-bar .mui-title[data-v-72b7d7c6]\n     {\n         width: 60%;\n         left: auto;\n         margin: 0 2%;\n}\n.isearch[data-v-72b7d7c6]\n     {\n       border-radius: 20px;\n         padding: 8px;\n    font-size: 0.7em;\n    text-align: left;\n    padding-left: 30px;     \n    height: 24px;\n    border: none;\n    background-color: rgba(200, 200, 200, 0.3);\n}\n#header .mui-icon[data-v-72b7d7c6]\n    {\n        color: rgb(82, 82, 82);\n        font-weight: 600;\n        font-size: 1.6em;\n}\n#header .mui-title .asear[data-v-72b7d7c6]\n    {\n        position: absolute;\n        top:50%;\n      top: 50%;\n     margin-top: -9px;\n    font-size: 16px;\n    left: 8px;\n}\n.mint-swipe[data-v-72b7d7c6]{\n      height:200px;\n}\n.mint-swipe-item img[data-v-72b7d7c6]\n  {\n      width:100%;\n      height:100%;\n}\n.mint-swipe-item[data-v-72b7d7c6]\n  {\n       text-align: center;\n       line-height:300px;\n       color:#fff;\n       font-size:36px;\n       background-color:rgb(78, 187, 183);\n       width:100%;\n       height:200px;\n}\n.mui-content > .mui-table-view[data-v-72b7d7c6]:first-child\n  {\n      margin-top: 0;\n}\n.mui-content[data-v-72b7d7c6],.mui-content ul[data-v-72b7d7c6]{\n      background-color: #fff;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]{\n      border-bottom: 0px;\n      border-right: 0px;\n}\n.mui-grid-view.mui-grid-9[data-v-72b7d7c6]{\n      border-top: 0px;\n      border-left: 0px;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] \n  {\n      font-size: 0.7em;\n      color: rgb(82, 82, 82);\n}\n.content0 .mui-icon[data-v-72b7d7c6]::before\n  {\n      color: #fff;\n      background-color: rgb(78, 187, 183);\n      border-radius: 50%;\n      box-shadow: 0 3px 3px rgba(20, 119, 116, 0.2);\n}\n.content2 .mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-72b7d7c6]\n  {\n      font-size:1.5em;\n      color: rgb(78, 187, 183);\n}\n.mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-72b7d7c6]\n  {\n      font-size:2.4em;\n}\n.content0 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 5px 0;\n}\n.content2 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 0px 0;\n}\n.mui-col-xs-3[data-v-72b7d7c6] {\n    width: 20%;\n}\n.mui-icon .mui-badge[data-v-72b7d7c6] {\n    margin-left: -15px;\n}\n.hr90[data-v-72b7d7c6]{\n    width: 90%;\n    margin: 0 auto;\n    padding: 0;\n    border-top:1px solid rgba(200, 200, 200, 0.3);\n}\n.dis-content .mui-table-view[data-v-72b7d7c6]\n{\n    margin: 10px 0;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-object[data-v-72b7d7c6]{\n    height: 110px;\n    opacity: 0.6;\n     max-width: 99.9%;\n}\n.mui-table-view[data-v-72b7d7c6]{\n    position: static;\n}\n.mui-table-view[data-v-72b7d7c6]::after\n{\n   height: 0;\n}\n.mui-table-view .mui-media[data-v-72b7d7c6], .mui-table-view .mui-media-body[data-v-72b7d7c6]\n{\n    overflow: visible;\n}\n.divpo[data-v-72b7d7c6]\n{\n    position: absolute;\n    top:2px;\n    left: 14px;\n}\n.divpo p[data-v-72b7d7c6]\n{\n   text-align: left;\n   padding: 5px 10px;\n}\n.plable[data-v-72b7d7c6]{\n    color: #fff;\n    border-radius: 0 0 5px 0;\n    display: inline-block;\n    float: left;\n    padding-right: 10px;\n    font-weight: bold;\n}\n.ptitle[data-v-72b7d7c6]\n{\n    clear: both;\n    color: #000;\n    font-weight: bold;\n}\n.ptype[data-v-72b7d7c6]\n{\n   color: rgb(82, 82, 82);\n   font-size: 12px;\n}\n.content2[data-v-72b7d7c6]\n{\n    padding-bottom: 10px;\n}\n", ""]);
+	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n /* .toleft\n\t {\n\t\t display: none;\n     } */\n#header[data-v-72b7d7c6]{\n        background-color: #fff;\n}\n.mui-bar .mui-title[data-v-72b7d7c6]\n     {\n         width: 60%;\n         left: auto;\n         margin: 0 2%;\n}\n.isearch[data-v-72b7d7c6]\n     {\n       border-radius: 20px;\n         padding: 8px;\n    font-size: 0.7em;\n    text-align: left;\n    padding-left: 30px;     \n    height: 24px;\n    border: none;\n    background-color: rgba(200, 200, 200, 0.3);\n}\n#header .mui-icon[data-v-72b7d7c6]\n    {\n        color: rgb(82, 82, 82);\n        font-weight: 600;\n        font-size: 1.6em;\n}\n#header .mui-title .asear[data-v-72b7d7c6]\n    {\n        position: absolute;\n        top:50%;\n      top: 50%;\n     margin-top: -9px;\n    font-size: 16px;\n    left: 8px;\n}\n.mint-swipe[data-v-72b7d7c6]{\n      height:200px;\n}\n.mint-swipe-item img[data-v-72b7d7c6]\n  {\n      width:100%;\n      height:100%;\n}\n.mint-swipe-item[data-v-72b7d7c6]\n  {\n       text-align: center;\n       line-height:300px;\n       color:#fff;\n       font-size:36px;\n       background-color:rgb(37, 173, 180);\n       width:100%;\n       height:200px;\n}\n.mui-content > .mui-table-view[data-v-72b7d7c6]:first-child\n  {\n      margin-top: 0;\n}\n.mui-content[data-v-72b7d7c6],.mui-content ul[data-v-72b7d7c6]{\n      background-color: #fff;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]{\n      border-bottom: 0px;\n      border-right: 0px;\n}\n.mui-grid-view.mui-grid-9[data-v-72b7d7c6]{\n      border-top: 0px;\n      border-left: 0px;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] \n  {\n      font-size: 0.7em;\n      color: rgb(82, 82, 82);\n       overflow: visible;\n}\n.mui-content .mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] \n  {\n      margin-top: 0;\n}\n\n/*   .content2 .mui-grid-view.mui-grid-9 .mui-media .mui-icon\n  {\n      font-size:1.5em;\n      color: rgb(78, 187, 183);\n  } */\n.mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-72b7d7c6]\n  {\n      font-size:2.4em;\n}\n.content0 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 5px 0;\n}\n.content2 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 0px 0;\n}\n.mui-col-xs-3[data-v-72b7d7c6] {\n    width: 20%;\n}\n.mui-icon .mui-badge[data-v-72b7d7c6] {\n    margin-left: -20px;\n}\n.hr90[data-v-72b7d7c6]{\n    width: 95%;\n    margin: 0 auto;\n    padding: 0;\n    border-top:1px solid rgba(200, 200, 200, 0.3);\n}\n.dis-content .mui-table-view[data-v-72b7d7c6]\n{\n    margin: 10px 0;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-object[data-v-72b7d7c6]{\n    height: 110px;\n    opacity: 0.6;\n     max-width: 99.9%;\n}\n.mui-table-view[data-v-72b7d7c6]{\n    position: static;\n}\n.mui-table-view[data-v-72b7d7c6]::after\n{\n   height: 0;\n}\n.divpo[data-v-72b7d7c6]\n{\n    position: absolute;\n    top:2px;\n    left: 14px;\n}\n.divpo p[data-v-72b7d7c6]\n{\n   text-align: left;\n   padding: 5px 10px;\n}\n.plable[data-v-72b7d7c6]{\n    color: #fff;\n    border-radius: 0 0 5px 0;\n    display: inline-block;\n    float: left;\n    padding-right: 10px;\n    font-weight: bold;\n}\n.ptitle[data-v-72b7d7c6]\n{\n    clear: both;\n    color: #000;\n    font-weight: bold;\n}\n.ptype[data-v-72b7d7c6]\n{\n   color: rgb(82, 82, 82);\n   font-size: 12px;\n}\n.mui-content[data-v-72b7d7c6]\n{\n    padding: 2px 5px 0;\n}\n.content2[data-v-72b7d7c6]\n{\n    padding-bottom: 10px;\n}\n.content0 .mui-icon[data-v-72b7d7c6]\n{\n    line-height: 0;\n}\n.content0 .mui-icon[data-v-72b7d7c6]::before\n{\n    content: '';\n    background: url(" + escape(__webpack_require__(21)) + ");\n    display: inline-block;\n    width: 51px;\n    height: 55px;\n    background-size: 770%;\n}\n.content2 .mui-icon[data-v-72b7d7c6]::before\n{\n    content: '';\n    background: url(" + escape(__webpack_require__(21)) + ");\n    display: inline-block;\n    width: 30px;\n    height: 30px;\n    background-size: 1400%;\n}\n.mui-content .hic1[data-v-72b7d7c6]::before{\n    background-position: -18px -16px;\n}\n.mui-content .hic2[data-v-72b7d7c6]::before{\n    background-position: -95px -16px;\n}\n.mui-content .hic3[data-v-72b7d7c6]::before{\n    background-position: -170px -16px;\n}\n.mui-content .hic4[data-v-72b7d7c6]::before{\n    background-position: -250px -16px;\n}\n.mui-content .hic5[data-v-72b7d7c6]::before{\n    background-position: -322px -16px;\n}\n.mui-content .hic6[data-v-72b7d7c6]::before{\n    background-position: -30px -120px;\n}\n.mui-content .hic7[data-v-72b7d7c6]::before{\n    background-position: -115px -125px;\n}\n.mui-content .hic8[data-v-72b7d7c6]::before{\n    background-position: -194px -120px;\n}\n.mui-content .hic9[data-v-72b7d7c6]::before{\n    background-position: -282px -125px;\n}\n.mui-content .hic10[data-v-72b7d7c6]::before{\n    background-position: -356px -120px;\n}\n.mui-content .hic11[data-v-72b7d7c6]::before{\n    background-position: -32px -198px\n}\n.mui-content .hic12[data-v-72b7d7c6]::before{\n    background-position: -115px -203px;\n}\n.mui-content .hic13[data-v-72b7d7c6]::before{\n    background-position: -194px -198px;\n}\n.mui-content .hic14[data-v-72b7d7c6]::before{\n    background-position: -282px -203px;\n}\n.mui-content .hic15[data-v-72b7d7c6]::before{\n    background-position: -356px -198px;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 20 */
+/* 21 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "images/50135012.home.png";
+
+/***/ },
+/* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11957,9 +11970,9 @@
 	    value: true
 	});
 
-	var _mintUi = __webpack_require__(21);
+	var _mintUi = __webpack_require__(23);
 
-	var _common = __webpack_require__(25);
+	var _common = __webpack_require__(27);
 
 	var _common2 = _interopRequireDefault(_common);
 
@@ -12121,7 +12134,7 @@
 	};
 
 /***/ },
-/* 21 */
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports =
@@ -22018,19 +22031,19 @@
 	/* 199 */
 	/***/ function(module, exports) {
 
-	module.exports = __webpack_require__(22);
+	module.exports = __webpack_require__(24);
 
 	/***/ },
 	/* 200 */
 	/***/ function(module, exports) {
 
-	module.exports = __webpack_require__(23);
+	module.exports = __webpack_require__(25);
 
 	/***/ },
 	/* 201 */
 	/***/ function(module, exports) {
 
-	module.exports = __webpack_require__(24);
+	module.exports = __webpack_require__(26);
 
 	/***/ },
 	/* 202 */
@@ -22043,7 +22056,7 @@
 	/******/ ]);
 
 /***/ },
-/* 22 */
+/* 24 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -22074,7 +22087,7 @@
 
 
 /***/ },
-/* 23 */
+/* 25 */
 /***/ function(module, exports) {
 
 	/*
@@ -22121,7 +22134,7 @@
 
 
 /***/ },
-/* 24 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*!
@@ -22133,7 +22146,7 @@
 
 
 /***/ },
-/* 25 */
+/* 27 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -22146,7 +22159,7 @@
 	};
 
 /***/ },
-/* 26 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -22174,7 +22187,7 @@
 	      "to": "/news/newslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-list"
+	    staticClass: "mui-icon hic1"
 	  }, [_c('span', {
 	    staticClass: "mui-badge"
 	  }, [_vm._v("红包")])]), _vm._v(" "), _c('div', {
@@ -22186,7 +22199,7 @@
 	      "to": "/photos/photoslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-redo"
+	    staticClass: "mui-icon hic2"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("电影/演出")])])], 1), _vm._v(" "), _c('li', {
@@ -22196,7 +22209,7 @@
 	      "to": "/goods/goodsslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-download"
+	    staticClass: "mui-icon hic3"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("酒店住宿")])])], 1), _vm._v(" "), _c('li', {
@@ -22206,7 +22219,7 @@
 	      "to": "/mess/messlist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-compose"
+	    staticClass: "mui-icon hic4"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("休闲娱乐")])])], 1), _vm._v(" "), _c('li', {
@@ -22216,7 +22229,7 @@
 	      "to": "/video/videolist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-pengyouquan"
+	    staticClass: "mui-icon hic5"
 	  }, [_c('span', {
 	    staticClass: "mui-badge"
 	  }, [_vm._v("领券")])]), _vm._v(" "), _c('div', {
@@ -22234,7 +22247,7 @@
 	      "to": "/news/newslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-list"
+	    staticClass: "mui-icon hic6"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("机票/火车票")])])], 1), _vm._v(" "), _c('li', {
@@ -22244,7 +22257,7 @@
 	      "to": "/photos/photoslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-redo"
+	    staticClass: "mui-icon hic7"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("KTV")])])], 1), _vm._v(" "), _c('li', {
@@ -22254,7 +22267,7 @@
 	      "to": "/goods/goodsslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-download"
+	    staticClass: "mui-icon hic8"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("周边游/旅游")])])], 1), _vm._v(" "), _c('li', {
@@ -22264,7 +22277,7 @@
 	      "to": "/mess/messlist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-compose"
+	    staticClass: "mui-icon hic9"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("丽人/美发")])])], 1), _vm._v(" "), _c('li', {
@@ -22274,7 +22287,7 @@
 	      "to": "/video/videolist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-pengyouquan"
+	    staticClass: "mui-icon hic10"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("美发")])])], 1), _vm._v(" "), _c('li', {
@@ -22284,7 +22297,7 @@
 	      "to": "/news/newslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-list"
+	    staticClass: "mui-icon hic11"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("按摩/足疗")])])], 1), _vm._v(" "), _c('li', {
@@ -22294,7 +22307,7 @@
 	      "to": "/photos/photoslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-redo"
+	    staticClass: "mui-icon hic12"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("洗浴/汗蒸")])])], 1), _vm._v(" "), _c('li', {
@@ -22304,7 +22317,7 @@
 	      "to": "/goods/goodsslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-download"
+	    staticClass: "mui-icon hic13"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("景点/门票")])])], 1), _vm._v(" "), _c('li', {
@@ -22314,7 +22327,7 @@
 	      "to": "/mess/messlist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-compose"
+	    staticClass: "mui-icon hic14"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("闪购")])])], 1), _vm._v(" "), _c('li', {
@@ -22324,7 +22337,7 @@
 	      "to": "/video/videolist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-pengyouquan"
+	    staticClass: "mui-icon hic15"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("全部分类")])])], 1)])]), _vm._v(" "), _c('div', {
@@ -22383,18 +22396,18 @@
 	}
 
 /***/ },
-/* 27 */
+/* 29 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(28)
+	__webpack_require__(30)
 
-	var Component = __webpack_require__(13)(
+	var Component = __webpack_require__(14)(
 	  /* script */
-	  __webpack_require__(30),
+	  __webpack_require__(32),
 	  /* template */
-	  __webpack_require__(31),
+	  __webpack_require__(33),
 	  /* scopeId */
 	  "data-v-19a2832b",
 	  /* cssModules */
@@ -22421,17 +22434,17 @@
 
 
 /***/ },
-/* 28 */
+/* 30 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(29);
+	var content = __webpack_require__(31);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(11)("a13d53ec", content, false);
+	var update = __webpack_require__(12)("a13d53ec", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
@@ -22447,7 +22460,7 @@
 	}
 
 /***/ },
-/* 29 */
+/* 31 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)(false);
@@ -22461,7 +22474,7 @@
 
 
 /***/ },
-/* 30 */
+/* 32 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -22500,7 +22513,7 @@
 	exports.default = {};
 
 /***/ },
-/* 31 */
+/* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -22580,18 +22593,18 @@
 	}
 
 /***/ },
-/* 32 */
+/* 34 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(33)
+	__webpack_require__(35)
 
-	var Component = __webpack_require__(13)(
+	var Component = __webpack_require__(14)(
 	  /* script */
-	  __webpack_require__(35),
+	  __webpack_require__(37),
 	  /* template */
-	  __webpack_require__(36),
+	  __webpack_require__(38),
 	  /* scopeId */
 	  "data-v-46b6585f",
 	  /* cssModules */
@@ -22618,17 +22631,17 @@
 
 
 /***/ },
-/* 33 */
+/* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(34);
+	var content = __webpack_require__(36);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(11)("251d1fda", content, false);
+	var update = __webpack_require__(12)("251d1fda", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
@@ -22644,7 +22657,7 @@
 	}
 
 /***/ },
-/* 34 */
+/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)(false);
@@ -22658,7 +22671,7 @@
 
 
 /***/ },
-/* 35 */
+/* 37 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -22667,7 +22680,7 @@
 	    value: true
 	});
 
-	var _common = __webpack_require__(25);
+	var _common = __webpack_require__(27);
 
 	var _common2 = _interopRequireDefault(_common);
 
@@ -22738,7 +22751,7 @@
 	//
 
 /***/ },
-/* 36 */
+/* 38 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -22772,7 +22785,7 @@
 	    })])]), _vm._v(" "), _vm._m(0, true)])
 	  }), _vm._v(" "), _c('p', {
 	    staticClass: "pbottom"
-	  }, [_vm._v("-------我是有底线的-------")])], 2)
+	  }, [_vm._v("————————————— 我是有底线的 —————————————")])], 2)
 	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('div', {
 	    staticClass: "mui-card-footer"
@@ -22791,18 +22804,18 @@
 	}
 
 /***/ },
-/* 37 */
+/* 39 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(38)
+	__webpack_require__(40)
 
-	var Component = __webpack_require__(13)(
+	var Component = __webpack_require__(14)(
 	  /* script */
-	  __webpack_require__(40),
+	  __webpack_require__(44),
 	  /* template */
-	  __webpack_require__(41),
+	  __webpack_require__(45),
 	  /* scopeId */
 	  "data-v-53fdbb68",
 	  /* cssModules */
@@ -22829,17 +22842,17 @@
 
 
 /***/ },
-/* 38 */
+/* 40 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(39);
+	var content = __webpack_require__(41);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(11)("035294e5", content, false);
+	var update = __webpack_require__(12)("035294e5", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
@@ -22855,21 +22868,34 @@
 	}
 
 /***/ },
-/* 39 */
+/* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
+	var escape = __webpack_require__(8);
 	exports = module.exports = __webpack_require__(9)(false);
 	// imports
 
 
 	// module
-	exports.push([module.id, "\n#header[data-v-53fdbb68]{\n      background-color:  rgb(78, 187, 183);\n}\n#header .mui-icon[data-v-53fdbb68]\n  {\n      color: #fff;\n      margin:0 5px;\n}\n.userimg[data-v-53fdbb68]\n  {\n      text-align: center;\n      background-color: rgb(78, 187, 183);\n      padding-bottom: 20px;\n}\n.userimg img[data-v-53fdbb68]{\n      width: 60px;\n      height: 60px;\n      margin: 20px auto 10px;\n      border: 2px solid #fff;\n      border-radius: 50%;\n}\n.mui-content > .mui-table-view[data-v-53fdbb68]:first-child\n{\n    margin-top: 0;\n}\n.mui-content[data-v-53fdbb68],.mui-content ul[data-v-53fdbb68]{\n    background-color: #fff;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-53fdbb68]{\n    border-bottom: 0px;\n    border-right: 0px;\n}\n.mui-grid-view.mui-grid-9[data-v-53fdbb68]{\n    border-top: 0px;\n    border-left: 0px;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-53fdbb68] \n{\n    font-size: 0.7em;\n}\n.mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-53fdbb68]\n{\n    font-size:1.5em;\n    color: rgb(78, 187, 183);\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-53fdbb68]\n{\n    padding: 11px 0;\n}\n.content2[data-v-53fdbb68] {\n    margin: 0 auto;\n    padding: 0 5% 10px;\n}\n.content2 h6[data-v-53fdbb68]\n{\n    border-top: 1px solid rgba(200, 200, 200, 0.2);\n    padding-top: 10px;\n    margin-top: 0;\n    color: #000;\n    font-weight: bold;\n}\n", ""]);
+	exports.push([module.id, "\n#header[data-v-53fdbb68]{\n        background-color:  rgb(37, 173, 180);\n}\n#header .mui-icon[data-v-53fdbb68]\n    {\n        color: #fff;\n        margin: 0 9px;\n}\n#header .mui-icon[data-v-53fdbb68]::before{\n         content: '';\n         background: url(" + escape(__webpack_require__(42)) + ");\n         display: inline-block;\n         width: 30px;\n         height: 30px;\n         background-size: 1580%;\n}\n#header .utopic1[data-v-53fdbb68]::before{\n        background-position:-18px -8px;\n}\n#header .utopic2[data-v-53fdbb68]::before{\n        background-position:-365px -10px;\n}\n#header .utopic3[data-v-53fdbb68]::before{\n        background-position:-425px -10px;\n}\n.userimg[data-v-53fdbb68]\n    {\n        text-align: center;\n        background-color: rgb(78, 187, 183);\n        padding-bottom: 20px;\n        height: 130px;\n        overflow: hidden;\n        background: linear-gradient(rgb(37, 173, 180),rgb(83, 233, 228))\n}\n.userimg img[data-v-53fdbb68]{\n        width: 60px;\n        height: 60px;\n        margin: 20px auto 10px;\n        border: 2px solid #fff;\n        border-radius: 50%;\n}\n.userimg h4[data-v-53fdbb68],.userimg img[data-v-53fdbb68]{\n       position: relative;\n        z-index: 5;\n}\n.mui-content > .mui-table-view[data-v-53fdbb68]:first-child\n  {\n      margin-top: 0;\n      padding: 0 3%;\n}\n.mui-content[data-v-53fdbb68],.mui-content ul[data-v-53fdbb68]{\n      background-color: #fff;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-53fdbb68]{\n      border-bottom: 0px;\n      border-right: 0px;\n}\n.mui-grid-view.mui-grid-9[data-v-53fdbb68]{\n      border-top: 0px;\n      border-left: 0px;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-53fdbb68] \n  {\n      font-size: 0.7em;\n}\n.mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-53fdbb68]\n  {\n      font-size:1.5em;\n      color: rgb(37, 173, 180);\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-53fdbb68]\n  {\n      padding: 10px 0 0;\n}\n.content2[data-v-53fdbb68] {\n      margin: 0 auto;\n      padding: 0 5% 10px;\n}\n.content2 h6[data-v-53fdbb68]\n  {\n      border-top: 1px solid rgba(200, 200, 200, 0.2);\n      padding-top: 10px;\n      margin-top: 0;\n      color: #000;\n      font-weight: bold;\n}\n.mui-content .mui-icon[data-v-53fdbb68]::before\n{\n    content: '';\n    background: url(" + escape(__webpack_require__(43)) + ");\n    display: inline-block;\n    width: 30px;\n    height: 35px;\n    background-size: 1580%;\n}\n.mui-content .uic1[data-v-53fdbb68]::before{\n    background-position: -79px -27px;\n}\n.mui-content .uic2[data-v-53fdbb68]::before{\n    background-position: -221px -27px;\n}\n.mui-content .uic3[data-v-53fdbb68]::before{\n    background-position: -362px -27px;\n}\n.mui-content .uic4[data-v-53fdbb68]::before{\n    background-position: -62px -170px;\n}\n.mui-content .uic5[data-v-53fdbb68]::before{\n    background-position: -167px -170px;\n}\n.mui-content .uic6[data-v-53fdbb68]::before{\n    background-position: -271px -170px;\n}\n.mui-content .uic7[data-v-53fdbb68]::before{\n    background-position: -377px -170px;\n}\n.mui-content .uic8[data-v-53fdbb68]::before{\n    background-position: -62px -276px;\n}\n.mui-content .uic9[data-v-53fdbb68]::before{\n    background-position: -62px -373px;\n}\n.mui-content .uic10[data-v-53fdbb68]::before{\n    background-position: -167px -373px;\n}\n.mui-content .uic11[data-v-53fdbb68]::before{\n    background-position: -271px -373px;\n}\n.mui-content .uic12[data-v-53fdbb68]::before{\n    background-position: -377px -373px;\n}\n.mui-content .uic13[data-v-53fdbb68]::before{\n    background-position: -62px -480px;\n}\n.mui-content .uic14[data-v-53fdbb68]::before{\n    background-position: -167px -480px;\n}\n.mui-content .uic15[data-v-53fdbb68]::before{\n    background-position: -271px -480px;\n}\n.bgring[data-v-53fdbb68]{\n    position: relative;\n    background-color: #fff;\n    width: 1500px;\n    height: 1500px;\n    border-radius: 50%;\n    top: -72px;\n    left: -150%;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 40 */
+/* 42 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "images/5cf9b3c3.uic.png";
+
+/***/ },
+/* 43 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "images/34bdfe4b.user.png";
+
+/***/ },
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -22878,7 +22904,7 @@
 	    value: true
 	});
 
-	var _common = __webpack_require__(25);
+	var _common = __webpack_require__(27);
 
 	var _common2 = _interopRequireDefault(_common);
 
@@ -22978,9 +23004,10 @@
 	//
 	//
 	//
+	//
 
 /***/ },
-/* 41 */
+/* 45 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -22992,7 +23019,9 @@
 	    attrs: {
 	      "src": _vm.userimg
 	    }
-	  }), _vm._v(" "), _c('h4', [_vm._v(_vm._s(_vm.username))])]), _vm._v(" "), _c('div', {
+	  }), _vm._v(" "), _c('h4', [_vm._v(_vm._s(_vm.username))]), _c('div', {
+	    staticClass: "bgring"
+	  })]), _vm._v(" "), _c('div', {
 	    staticClass: "mui-content"
 	  }, [_c('ul', {
 	    staticClass: "mui-table-view mui-grid-view mui-grid-9"
@@ -23003,7 +23032,7 @@
 	      "to": "/news/newslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-star-filled"
+	    staticClass: "mui-icon uic1"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("收藏")])])], 1), _vm._v(" "), _c('li', {
@@ -23013,7 +23042,7 @@
 	      "to": "/photos/photoslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-chat"
+	    staticClass: "mui-icon uic2"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("评价")])])], 1), _vm._v(" "), _c('li', {
@@ -23023,7 +23052,7 @@
 	      "to": "/goods/goodsslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-eye"
+	    staticClass: "mui-icon uic3"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("最近预览")])])], 1)])]), _vm._v(" "), _c('div', {
@@ -23037,7 +23066,7 @@
 	      "to": "/news/newslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-pengyouquan"
+	    staticClass: "mui-icon uic4"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("我的钱包")])])], 1), _vm._v(" "), _c('li', {
@@ -23047,7 +23076,7 @@
 	      "to": "/photos/photoslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-pengyouquan"
+	    staticClass: "mui-icon uic5"
 	  }, [_c('span', {
 	    staticClass: "mui-badge"
 	  }, [_vm._v("领券")])]), _vm._v(" "), _c('div', {
@@ -23059,7 +23088,7 @@
 	      "to": "/goods/goodsslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-pengyouquan"
+	    staticClass: "mui-icon uic6"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("余额")])])], 1), _vm._v(" "), _c('li', {
@@ -23069,7 +23098,7 @@
 	      "to": "/photos/photoslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-pengyouquan"
+	    staticClass: "mui-icon uic7"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("美团信用卡")])])], 1), _vm._v(" "), _c('li', {
@@ -23079,7 +23108,7 @@
 	      "to": "/goods/goodsslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-pengyouquan"
+	    staticClass: "mui-icon uic8"
 	  }, [_c('span', {
 	    staticClass: "mui-badge"
 	  }, [_vm._v("抽奖")])]), _vm._v(" "), _c('div', {
@@ -23095,7 +23124,7 @@
 	      "to": "/news/newslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-pengyouquan"
+	    staticClass: "mui-icon uic9"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("会员中心")])])], 1), _vm._v(" "), _c('li', {
@@ -23105,7 +23134,7 @@
 	      "to": "/photos/photoslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-pengyouquan"
+	    staticClass: "mui-icon uic10"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("美团公益")])])], 1), _vm._v(" "), _c('li', {
@@ -23115,7 +23144,7 @@
 	      "to": "/goods/goodsslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-eye"
+	    staticClass: "mui-icon uic11"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("客服中心")])])], 1), _vm._v(" "), _c('li', {
@@ -23125,7 +23154,7 @@
 	      "to": "/photos/photoslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-chat"
+	    staticClass: "mui-icon uic12"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("免流量美团")])])], 1), _vm._v(" "), _c('li', {
@@ -23135,7 +23164,7 @@
 	      "to": "/goods/goodsslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-eye"
+	    staticClass: "mui-icon uic13"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("发票助手")])])], 1), _vm._v(" "), _c('li', {
@@ -23145,7 +23174,7 @@
 	      "to": "/photos/photoslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-chat"
+	    staticClass: "mui-icon uic14"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("我要合作")])])], 1), _vm._v(" "), _c('li', {
@@ -23155,7 +23184,7 @@
 	      "to": "/goods/goodsslist"
 	    }
 	  }, [_c('span', {
-	    staticClass: "mui-icon mui-icon-eye"
+	    staticClass: "mui-icon uic15"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("关于美团")])])], 1)])])])])
@@ -23166,11 +23195,11 @@
 	      "id": "header"
 	    }
 	  }, [_c('a', {
-	    staticClass: "mui-icon-gear mui-icon mui-icon-left-nav mui-pull-left"
+	    staticClass: "utopic1 mui-icon mui-pull-left"
 	  }), _vm._v(" "), _c('a', {
-	    staticClass: "mui-icon mui-icon-email mui-pull-right"
+	    staticClass: "mui-icon utopic2 mui-pull-right"
 	  }), _vm._v(" "), _c('a', {
-	    staticClass: "mui-icon mui-icon-paperclip mui-pull-right"
+	    staticClass: "mui-icon utopic3 mui-pull-right"
 	  })])
 	}]}
 	module.exports.render._withStripped = true
@@ -23182,18 +23211,18 @@
 	}
 
 /***/ },
-/* 42 */
+/* 46 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(43)
+	__webpack_require__(47)
 
-	var Component = __webpack_require__(13)(
+	var Component = __webpack_require__(14)(
 	  /* script */
-	  __webpack_require__(46),
+	  __webpack_require__(50),
 	  /* template */
-	  __webpack_require__(47),
+	  __webpack_require__(51),
 	  /* scopeId */
 	  "data-v-7e4d4712",
 	  /* cssModules */
@@ -23220,17 +23249,17 @@
 
 
 /***/ },
-/* 43 */
+/* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(44);
+	var content = __webpack_require__(48);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(11)("1b773f92", content, false);
+	var update = __webpack_require__(12)("1b773f92", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
@@ -23246,7 +23275,7 @@
 	}
 
 /***/ },
-/* 44 */
+/* 48 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var escape = __webpack_require__(8);
@@ -23255,19 +23284,19 @@
 
 
 	// module
-	exports.push([module.id, "\n.distopbg[data-v-7e4d4712]{\r\n    background: url(" + escape(__webpack_require__(45)) + ");\n}\r\n", ""]);
+	exports.push([module.id, "\n.distopbg[data-v-7e4d4712]{\r\n    background: url(" + escape(__webpack_require__(49)) + ");\n}\r\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 45 */
+/* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "images/f66c70a7.im35.jpeg";
 
 /***/ },
-/* 46 */
+/* 50 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -23276,7 +23305,7 @@
 	    value: true
 	});
 
-	var _common = __webpack_require__(25);
+	var _common = __webpack_require__(27);
 
 	var _common2 = _interopRequireDefault(_common);
 
@@ -23317,7 +23346,7 @@
 	//
 
 /***/ },
-/* 47 */
+/* 51 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -23336,11 +23365,11 @@
 	}
 
 /***/ },
-/* 48 */
+/* 52 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(49);
+	var content = __webpack_require__(53);
 
 	if(typeof content === 'string') content = [[module.id, content, '']];
 
@@ -23354,7 +23383,7 @@
 	options.transform = transform
 	options.insertInto = undefined;
 
-	var update = __webpack_require__(50)(content, options);
+	var update = __webpack_require__(54)(content, options);
 
 	if(content.locals) module.exports = content.locals;
 
@@ -23386,7 +23415,7 @@
 	}
 
 /***/ },
-/* 49 */
+/* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)(false);
@@ -23400,7 +23429,7 @@
 
 
 /***/ },
-/* 50 */
+/* 54 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -23466,7 +23495,7 @@
 	var	singletonCounter = 0;
 	var	stylesInsertedAtTop = [];
 
-	var	fixUrls = __webpack_require__(51);
+	var	fixUrls = __webpack_require__(55);
 
 	module.exports = function(list, options) {
 		if (false) {
@@ -23786,7 +23815,7 @@
 
 
 /***/ },
-/* 51 */
+/* 55 */
 /***/ function(module, exports) {
 
 	
@@ -23881,11 +23910,11 @@
 
 
 /***/ },
-/* 52 */
+/* 56 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(53);
+	var content = __webpack_require__(57);
 
 	if(typeof content === 'string') content = [[module.id, content, '']];
 
@@ -23899,7 +23928,7 @@
 	options.transform = transform
 	options.insertInto = undefined;
 
-	var update = __webpack_require__(50)(content, options);
+	var update = __webpack_require__(54)(content, options);
 
 	if(content.locals) module.exports = content.locals;
 
@@ -23931,7 +23960,7 @@
 	}
 
 /***/ },
-/* 53 */
+/* 57 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var escape = __webpack_require__(8);
@@ -23946,11 +23975,11 @@
 
 
 /***/ },
-/* 54 */
+/* 58 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(55);
+	var content = __webpack_require__(59);
 
 	if(typeof content === 'string') content = [[module.id, content, '']];
 
@@ -23964,7 +23993,7 @@
 	options.transform = transform
 	options.insertInto = undefined;
 
-	var update = __webpack_require__(50)(content, options);
+	var update = __webpack_require__(54)(content, options);
 
 	if(content.locals) module.exports = content.locals;
 
@@ -23996,7 +24025,7 @@
 	}
 
 /***/ },
-/* 55 */
+/* 59 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)(false);
@@ -24010,7 +24039,7 @@
 
 
 /***/ },
-/* 56 */
+/* 60 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*!
@@ -25106,7 +25135,7 @@
 
 	function nodeClient (request) {
 
-	    var client = __webpack_require__(57);
+	    var client = __webpack_require__(61);
 
 	    return new PromiseObj(function (resolve) {
 
@@ -25573,7 +25602,7 @@
 
 
 /***/ },
-/* 57 */
+/* 61 */
 /***/ function(module, exports) {
 
 	/* (ignored) */

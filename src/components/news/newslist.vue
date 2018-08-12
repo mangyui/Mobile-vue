@@ -20,7 +20,7 @@
 					<a class="mui-card-link">Read more</a>
 				</div>
 			</div>
-            <p class="pbottom">-------我是有底线的-------</p>
+            <p class="pbottom">————————————— 我是有底线的 —————————————</p>
       </div>
 </template>
 

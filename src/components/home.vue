@@ -19,19 +19,19 @@
         <div class="mui-content content0">
 		        <ul class="mui-table-view mui-grid-view mui-grid-9">
 		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><router-link to="/news/newslist">
-		                    <span class="mui-icon mui-icon-list"><span class="mui-badge">红包</span></span>
+		                    <span class="mui-icon hic1"><span class="mui-badge">红包</span></span>
 		                    <div class="mui-media-body">美食</div></router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><router-link to="/photos/photoslist">
-		                    <span class="mui-icon mui-icon-redo"></span>
+		                    <span class="mui-icon hic2"></span>
 		                    <div class="mui-media-body">电影/演出</div></router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><router-link to="/goods/goodsslist">
-		                    <span class="mui-icon mui-icon-download"></span>
+		                    <span class="mui-icon hic3"></span>
 		                    <div class="mui-media-body">酒店住宿</div></router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><router-link to="/mess/messlist">
-		                    <span class="mui-icon mui-icon-compose"></span>
+		                    <span class="mui-icon hic4"></span>
 		                    <div class="mui-media-body">休闲娱乐</div></router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><router-link to="/video/videolist">
-		                    <span class="mui-icon mui-icon-pengyouquan"><span class="mui-badge">领券</span></span>
+		                    <span class="mui-icon hic5"><span class="mui-badge">领券</span></span>
 		                    <div class="mui-media-body">外卖</div></router-link></li>		       
 		        </ul> <div class="hr90"></div>
 		</div>
@@ -39,34 +39,34 @@
          <div class="mui-content content2">
 		        <ul class="mui-table-view mui-grid-view mui-grid-9">
 		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><router-link to="/news/newslist">
-		                    <span class="mui-icon mui-icon-list"></span>
+		                    <span class="mui-icon hic6"></span>
 		                    <div class="mui-media-body">机票/火车票</div></router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><router-link to="/photos/photoslist">
-		                    <span class="mui-icon mui-icon-redo"></span>
+		                    <span class="mui-icon hic7"></span>
 		                    <div class="mui-media-body">KTV</div></router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><router-link to="/goods/goodsslist">
-		                    <span class="mui-icon mui-icon-download"></span>
+		                    <span class="mui-icon hic8"></span>
 		                    <div class="mui-media-body">周边游/旅游</div></router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><router-link to="/mess/messlist">
-		                    <span class="mui-icon mui-icon-compose"></span>
+		                    <span class="mui-icon hic9"></span>
 		                    <div class="mui-media-body">丽人/美发</div></router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><router-link to="/video/videolist">
-		                    <span class="mui-icon mui-icon-pengyouquan"></span>
+		                    <span class="mui-icon hic10"></span>
 		                    <div class="mui-media-body">美发</div></router-link></li>	
                    <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><router-link to="/news/newslist">
-		                    <span class="mui-icon mui-icon-list"></span>
+		                    <span class="mui-icon hic11"></span>
 		                    <div class="mui-media-body">按摩/足疗</div></router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><router-link to="/photos/photoslist">
-		                    <span class="mui-icon mui-icon-redo"></span>
+		                    <span class="mui-icon hic12"></span>
 		                    <div class="mui-media-body">洗浴/汗蒸</div></router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><router-link to="/goods/goodsslist">
-		                    <span class="mui-icon mui-icon-download"></span>
+		                    <span class="mui-icon hic13"></span>
 		                    <div class="mui-media-body">景点/门票</div></router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><router-link to="/mess/messlist">
-		                    <span class="mui-icon mui-icon-compose"></span>
+		                    <span class="mui-icon hic14"></span>
 		                    <div class="mui-media-body">闪购</div></router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><router-link to="/video/videolist">
-		                    <span class="mui-icon mui-icon-pengyouquan"></span>
+		                    <span class="mui-icon hic15"></span>
 		                    <div class="mui-media-body">全部分类</div></router-link></li>		       
 		        </ul> 
 		</div>
@@ -216,7 +216,7 @@ export default {
        line-height:300px;
        color:#fff;
        font-size:36px;
-       background-color:rgb(78, 187, 183);
+       background-color:rgb(37, 173, 180);
        width:100%;
        height:200px;
   }
@@ -235,25 +235,24 @@ export default {
       border-top: 0px;
       border-left: 0px;
   }
+
   .mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body 
   {
       font-size: 0.7em;
       color: rgb(82, 82, 82);
+       overflow: visible;
   }
-  .content0 .mui-icon::before
+  .mui-content .mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body 
   {
-      color: #fff;
-      background-color: rgb(78, 187, 183);
-      border-radius: 50%;
-      box-shadow: 0 3px 3px rgba(20, 119, 116, 0.2);
-      
+      margin-top: 0;
   }
-  .content2 .mui-grid-view.mui-grid-9 .mui-media .mui-icon
+
+/*   .content2 .mui-grid-view.mui-grid-9 .mui-media .mui-icon
   {
       font-size:1.5em;
       color: rgb(78, 187, 183);
-  }
-      .mui-grid-view.mui-grid-9 .mui-media .mui-icon
+  } */
+ .mui-grid-view.mui-grid-9 .mui-media .mui-icon
   {
       font-size:2.4em;
   }
@@ -269,10 +268,10 @@ export default {
     width: 20%;
 }
 .mui-icon .mui-badge {
-    margin-left: -15px;
+    margin-left: -20px;
 }
 .hr90{
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     padding: 0;
     border-top:1px solid rgba(200, 200, 200, 0.3);
@@ -294,10 +293,7 @@ export default {
 {
    height: 0;
 }
-.mui-table-view .mui-media, .mui-table-view .mui-media-body
-{
-    overflow: visible;
-}
+
 .divpo
 {
     position: absolute;
@@ -328,8 +324,79 @@ export default {
    color: rgb(82, 82, 82);
    font-size: 12px;
 } 
+.mui-content
+{
+    padding: 2px 5px 0;
+}
 .content2
 {
     padding-bottom: 10px;
+}
+ .content0 .mui-icon
+{
+    line-height: 0;
+} 
+.content0 .mui-icon::before
+{
+    content: '';
+    background: url("../../statics/images/home.png");
+    display: inline-block;
+    width: 51px;
+    height: 55px;
+    background-size: 770%;
+}
+.content2 .mui-icon::before
+{
+    content: '';
+    background: url("../../statics/images/home.png");
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: 1400%;
+}
+.mui-content .hic1::before{
+    background-position: -18px -16px;
+}
+.mui-content .hic2::before{
+    background-position: -95px -16px;
+}
+.mui-content .hic3::before{
+    background-position: -170px -16px;
+}
+.mui-content .hic4::before{
+    background-position: -250px -16px;
+}
+.mui-content .hic5::before{
+    background-position: -322px -16px;
+}
+.mui-content .hic6::before{
+    background-position: -30px -120px;
+}
+.mui-content .hic7::before{
+    background-position: -115px -125px;
+}
+.mui-content .hic8::before{
+    background-position: -194px -120px;
+}
+.mui-content .hic9::before{
+    background-position: -282px -125px;
+}
+.mui-content .hic10::before{
+    background-position: -356px -120px;
+}
+.mui-content .hic11::before{
+    background-position: -32px -198px
+}
+.mui-content .hic12::before{
+    background-position: -115px -203px;
+}
+.mui-content .hic13::before{
+    background-position: -194px -198px;
+}
+.mui-content .hic14::before{
+    background-position: -282px -203px;
+}
+.mui-content .hic15::before{
+    background-position: -356px -198px;
 }
 </style>
