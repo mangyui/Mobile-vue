@@ -1,0 +1,74 @@
+8-26
+
+url打包问题，
+之前做的时候，打包一直很正常，webpack.config是一开始就配置好的，8.25再进行这个项目的时候，打包出错，怀疑本地文件出了问题，下载GitHub上的版本，打包还是报错：Module build failed: Error: File Loader
+
+又是版本问题，可是我又没有动我已经配置好的版本啊，这还能错？无语
+
+重新cnpm install file-loader --save-dev后，打包还是报错，下载降低一个版本，打包还是报错。/无语
+
+之前的url打包是这样的
+
+{
+                
+test:/\.(png|jpg|gif|ico|jpeg)$/,
+                
+loader:'url-loader?limit=8192&name=images/[hash:8].[name].[ext]'            //限制大小 分情况
+            
+} ,
+            
+{
+                
+test:/\.ttf$/,
+                
+loader:'url-loader?limit=8192&name=fonts/[hash:8].[name].[ext]'            //限制大小 分情况
+            
+} ,
+
+我将limit=8192限制删掉，
+
+{
+                
+test:/\.(png|jpg|gif|ico|jpeg)$/,
+                
+loader:'url-loader'            //限制大小 分情况
+            
+} ,
+            
+{
+                
+test:/\.ttf$/,
+                
+loader:'url-loader'            //限制大小 分情况
+            
+} ,
+
+打包成功，但打包少了限制，不是那么好，所有的url文件都打包在了build.js文件
+
+而url-loader和file-loader的直接关系是
+
+url-loader?limit=8192&name=images/[hash:8].[name].[ext]
+
+url-loader工作分两种情况：1.文件大小小于limit参数，url-loader将会把文件转为DataURL；2.文件大小大于limit，url-loader会调用file-loader进行处理，参数也会直接传给file-loader。
+
+通过上面所说，我没加限制，是打包成功的，而加了限制是打包失败的，分明两个包都已经有了，
+
+所有说，还是版本问题，url-loader和file-loader的版本又不合，大于限制时，url-loader将参数传给file-loader的过程中出了问题，
+
+但我这次就不用版本来解决这个问题了
+
+考虑到我的图片和字体文件等资源我都要单独的去打包，何不直接就用file-loader打包，不用限制，直接跳过url-loader
+
+所以现在的配置为：
+
+            {
+                test:/\.(png|jpg|gif|ico|jpeg)$/,
+                loader:'file-loader?name=images/[hash:8].[name].[ext]'            //限制大小 分情况
+            },
+            {
+                test:/\.ttf$/,
+                loader:'file-loader?name=fonts/[hash:8].[name].[ext]'            //限制大小 分情况
+            },
+
+这样大小文件都会单独打包，虽然在道理上应该url-loader打包小文件 节省请求次数，但我目前用的文件都不是十分的小，效果上不会有太大的差别。
+

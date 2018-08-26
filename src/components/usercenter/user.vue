@@ -2,7 +2,7 @@
     <div class="topBottom">    <!--vue2.0根-->
     <header id="header" class="mui-bar mui-bar-transparent">
             
-			<a class="utopic1 mui-icon mui-pull-left"></a>
+			<router-link to='/setting' class="utopic1 mui-icon mui-pull-left"></router-link>
 			<!-- <h1 class="mui-title">盲鱼的移动商城</h1> -->
             <a class="mui-icon utopic3 mui-pull-right"></a>              
             <a class="mui-icon utopic2 mui-pull-right"></a>
@@ -113,16 +113,16 @@ export default {
          display: inline-block;
          width: 30px;
          height: 30px;
-         background-size: 1580%;
+         background-size: 1300%;
     }
     #header .utopic1::before{
-        background-position:-18px -10px;
+        background-position:-12px -9px;
     }
     #header .utopic2::before{
-        background-position:-365px -10px;
+        background-position:-298px -9px;
     }
     #header .utopic3::before{
-        background-position:-425px -10px;
+        background-position:-348px -9px;
     }
     .userimg
     {

@@ -1,5 +1,8 @@
 <template>
     <div class="topBottom">    <!--vue2.0根-->
+    <header id="header" class="mui-bar mui-bar-transparent">    
+			<h1 class="mui-title">发现</h1>
+		</header>
 
     <div v-for="item in list" class="mui-card">             
 				<div class="mui-card-header mui-card-media" :style="{height:'40vw', background:'url('+item.img_url+') no-repeat', 'background-size': '100%'}">
@@ -20,7 +23,7 @@
 					<a class="mui-card-link">Read more</a>
 				</div>
 			</div>
-            <p class="pbottom">————————————— 我是有底线的 —————————————</p>
+            <p class="pbottom">—— 我是有底线的 ——</p>
       </div>
 </template>
 
@@ -70,6 +73,13 @@ export default {
 </script>
 
 <style scoped>
+   #header{
+       background-color: #fff;
+       border-bottom: 1px solid #ccc;
+   }
+   #header h1{
+       font-weight: bold;
+   }
   .topBottom
   {
           margin: 45px 0 55px;

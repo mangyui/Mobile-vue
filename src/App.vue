@@ -23,7 +23,7 @@
 				<span class="mui-icon tic2"></span>
 				<span class="mui-tab-label">附近</span>
 			</router-link >
-			<router-link  class="mui-tab-item" to="/look">
+			<router-link  class="mui-tab-item" to="/news/newslist">
 				<span class="mui-icon tic3"></span>
 				<span class="mui-tab-label">发现</span>
 			</router-link >

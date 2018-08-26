@@ -22,12 +22,12 @@ module.exports={
             },
             {
                 test:/\.(png|jpg|gif|ico|jpeg)$/,
-                loader:'url-loader?limit=8192&name=images/[hash:8].[name].[ext]'            //限制大小 分情况
-            } ,
+                loader:'file-loader?name=images/[hash:8].[name].[ext]'            //限制大小 分情况
+            },
             {
                 test:/\.ttf$/,
-                loader:'url-loader?limit=8192&name=fonts/[hash:8].[name].[ext]'            //限制大小 分情况
-            } ,
+                loader:'file-loader?name=fonts/[hash:8].[name].[ext]'            //限制大小 分情况
+            },
             {
                 test:/\.js$/,
                 loader:'babel-loader',         
