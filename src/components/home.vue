@@ -85,6 +85,38 @@
                 </li>
 		    </ul>    
         </div>
+        <div class="yourlove">
+            <p class="pulove">- 猜你喜欢 -</p>
+          <ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="../../statics/images/im35.jpeg">
+						<div class="mui-media-body">
+							幸福
+							<p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="../../statics/images/im35.jpeg">
+						<div class="mui-media-body">
+							木屋
+							<p class='mui-ellipsis'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="../../statics/images/im35.jpeg">
+						<div class="mui-media-body">
+							CBD
+							<p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+        </div>
       </div>
 </template>
 
@@ -398,5 +430,16 @@ export default {
 }
 .mui-content .hic15::before{
     background-position: -356px -198px;
+}
+.yourlove .mui-table-view-cell{
+    padding: 15px 14px;
+}
+.pulove{
+    text-align: center;
+    padding: 10px;
+    color: #aaa;
+    background: #fff;
+    border-bottom: 1px solid #f7f7f7;
+    margin-bottom: 0;
 }
 </style>

@@ -62,19 +62,19 @@
 
 	var _home2 = _interopRequireDefault(_home);
 
-	var _cart = __webpack_require__(29);
+	var _cart = __webpack_require__(30);
 
 	var _cart2 = _interopRequireDefault(_cart);
 
-	var _newslist = __webpack_require__(34);
+	var _newslist = __webpack_require__(35);
 
 	var _newslist2 = _interopRequireDefault(_newslist);
 
-	var _user = __webpack_require__(39);
+	var _user = __webpack_require__(40);
 
 	var _user2 = _interopRequireDefault(_user);
 
-	var _disimg = __webpack_require__(46);
+	var _disimg = __webpack_require__(47);
 
 	var _disimg2 = _interopRequireDefault(_disimg);
 
@@ -8694,7 +8694,7 @@
 
 
 	// module
-	exports.push([module.id, "\n@font-face {\r\n    font-family: Muiicons;\r\n    font-weight: normal;\r\n    font-style: normal;\r\n\r\n    src: url(" + escape(__webpack_require__(10)) + ") format('truetype');\n}\n.mint-header[data-v-369594e6]\r\n\t{\r\n\t\tbackground-color: rgb(37, 173, 180);\n}\n.mui-bar[data-v-369594e6]\r\n\t{\r\n\t\tbackground-color: #fff;\r\n\t   box-shadow: 0 0 1px rgba(0, 0, 0, .2);\n}\n.mui-bar .mui-icon[data-v-369594e6]::before\r\n{\r\n    content: '';\r\n    background: url(" + escape(__webpack_require__(11)) + ");\r\n    display: inline-block;\r\n    width: 30px;\r\n    height: 30px;\r\n    background-size: 1400%;\r\n    margin-left: -2px;\n}\n.mui-bar .tic1[data-v-369594e6]::before{\r\n    background-position: -31px -60px;\n}\n.mui-bar .tic2[data-v-369594e6]::before{\r\n    background-position: -112px -60px;\n}\n.mui-bar .tic3[data-v-369594e6]::before{\r\n    background-position: -194px -60px;\n}\n.mui-bar .tic4[data-v-369594e6]::before{\r\n    background-position: -275px -60px;\n}\n.mui-bar .tic5[data-v-369594e6]::before{\r\n    background-position: -357px -60px;\n}\n.mui-bar-tab .mui-tab-item.mui-active .mui-icon[data-v-369594e6]::before\r\n{\r\n\tbackground-position-y: -5px;\n}\n.mui-bar-tab .mui-tab-item.mui-active[data-v-369594e6]\r\n{\r\n\tcolor: rgb(37, 173, 180);\n}\r\n", ""]);
+	exports.push([module.id, "\n@font-face {\r\n    font-family: Muiicons;\r\n    font-weight: normal;\r\n    font-style: normal;\r\n\r\n    src: url(" + escape(__webpack_require__(10)) + ") format('truetype');\n}\n*[data-v-369594e6]{\r\n\tfont-family: '\\9ED1\\4F53'\n}\n.mint-header[data-v-369594e6]\r\n\t{\r\n\t\tbackground-color: rgb(37, 173, 180);\n}\n.mui-bar[data-v-369594e6]\r\n\t{\r\n\t\tbackground-color: #fff;\r\n\t   box-shadow: 0 0 1px rgba(0, 0, 0, .2);\n}\n.mui-bar .mui-icon[data-v-369594e6]::before\r\n{\r\n    content: '';\r\n    background: url(" + escape(__webpack_require__(11)) + ");\r\n    display: inline-block;\r\n    width: 30px;\r\n    height: 30px;\r\n    background-size: 1400%;\r\n    margin-left: -2px;\n}\n.mui-bar .tic1[data-v-369594e6]::before{\r\n    background-position: -31px -60px;\n}\n.mui-bar .tic2[data-v-369594e6]::before{\r\n    background-position: -112px -60px;\n}\n.mui-bar .tic3[data-v-369594e6]::before{\r\n    background-position: -194px -60px;\n}\n.mui-bar .tic4[data-v-369594e6]::before{\r\n    background-position: -275px -60px;\n}\n.mui-bar .tic5[data-v-369594e6]::before{\r\n    background-position: -357px -60px;\n}\n.mui-bar-tab .mui-tab-item.mui-active .mui-icon[data-v-369594e6]::before\r\n{\r\n\tbackground-position-y: -5px;\n}\n.mui-bar-tab .mui-tab-item.mui-active[data-v-369594e6]\r\n{\r\n\tcolor: rgb(37, 173, 180);\n}\r\n", ""]);
 
 	// exports
 
@@ -11953,7 +11953,7 @@
 
 
 	// module
-	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n /* .toleft\n\t {\n\t\t display: none;\n     } */\n#header[data-v-72b7d7c6]{\n        background-color: #fff;\n}\n.mui-bar .mui-title[data-v-72b7d7c6]\n     {\n         width: 60%;\n         left: auto;\n         margin: 0 2%;\n}\n.isearch[data-v-72b7d7c6]\n     {\n       border-radius: 20px;\n         padding: 8px;\n    font-size: 0.7em;\n    text-align: left;\n    padding-left: 30px;     \n    height: 24px;\n    border: none;\n    background-color: rgba(200, 200, 200, 0.3);\n}\n#header .mui-icon[data-v-72b7d7c6]\n    {\n        color: rgb(82, 82, 82);\n        font-weight: 600;\n        font-size: 1.6em;\n}\n#header .mui-title .asear[data-v-72b7d7c6]\n    {\n        position: absolute;\n        top:50%;\n      top: 50%;\n     margin-top: -9px;\n    font-size: 16px;\n    left: 8px;\n}\n.mint-swipe[data-v-72b7d7c6]{\n      height:200px;\n}\n.mint-swipe-item img[data-v-72b7d7c6]\n  {\n      width:100%;\n      height:100%;\n}\n.mint-swipe-item[data-v-72b7d7c6]\n  {\n       text-align: center;\n       line-height:300px;\n       color:#fff;\n       font-size:36px;\n       background-color:rgb(37, 173, 180);\n       width:100%;\n       height:200px;\n}\n.mui-content > .mui-table-view[data-v-72b7d7c6]:first-child\n  {\n      margin-top: 0;\n}\n.mui-content[data-v-72b7d7c6],.mui-content ul[data-v-72b7d7c6]{\n      background-color: #fff;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]{\n      border-bottom: 0px;\n      border-right: 0px;\n}\n.mui-grid-view.mui-grid-9[data-v-72b7d7c6]{\n      border-top: 0px;\n      border-left: 0px;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] \n  {\n      font-size: 0.7em;\n      color: rgb(82, 82, 82);\n       overflow: visible;\n}\n.mui-content .mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] \n  {\n      margin-top: 0;\n}\n\n/*   .content2 .mui-grid-view.mui-grid-9 .mui-media .mui-icon\n  {\n      font-size:1.5em;\n      color: rgb(78, 187, 183);\n  } */\n.mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-72b7d7c6]\n  {\n      font-size:2.4em;\n}\n.content0 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 5px 0;\n}\n.content2 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 0px 0;\n}\n.mui-col-xs-3[data-v-72b7d7c6] {\n    width: 20%;\n}\n.mui-icon .mui-badge[data-v-72b7d7c6] {\n    margin-left: -40%;\n}\n.hr90[data-v-72b7d7c6]{\n    width: 95%;\n    margin: 0 auto;\n    padding: 0;\n    border-top:1px solid rgba(200, 200, 200, 0.3);\n}\n.dis-content .mui-table-view[data-v-72b7d7c6]\n{\n    margin: 10px 0;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-object[data-v-72b7d7c6]{\n    height: 110px;\n    opacity: 0.6;\n     max-width: 99.9%;\n}\n.mui-table-view[data-v-72b7d7c6]{\n    position: static;\n}\n.mui-table-view[data-v-72b7d7c6]::after\n{\n   height: 0;\n}\n.divpo[data-v-72b7d7c6]\n{\n    position: absolute;\n    top:2px;\n    left: 14px;\n}\n.divpo p[data-v-72b7d7c6]\n{\n   text-align: left;\n   padding: 5px 10px;\n}\n.plable[data-v-72b7d7c6]{\n    color: #fff;\n    border-radius: 0 0 5px 0;\n    display: inline-block;\n    float: left;\n    padding-right: 10px;\n    font-weight: bold;\n}\n.ptitle[data-v-72b7d7c6]\n{\n    clear: both;\n    color: #000;\n    font-weight: bold;\n}\n.ptype[data-v-72b7d7c6]\n{\n   color: rgb(82, 82, 82);\n   font-size: 12px;\n}\n.mui-content[data-v-72b7d7c6]\n{\n    padding: 2px 5px 0;\n}\n.content2[data-v-72b7d7c6]\n{\n    padding-bottom: 10px;\n}\n.content0 .mui-icon[data-v-72b7d7c6]\n{\n    line-height: 0;\n}\n.content0 .mui-icon[data-v-72b7d7c6]::before\n{\n    content: '';\n    background: url(" + escape(__webpack_require__(21)) + ");\n    display: inline-block;\n    width: 55px;\n    height: 55px;\n    background-size: 720%;\n}\n.content2 .mui-icon[data-v-72b7d7c6]::before\n{\n    content: '';\n    background: url(" + escape(__webpack_require__(21)) + ");\n    display: inline-block;\n    width: 33px;\n    height: 33px;\n    background-size: 1280%;\n}\n.mui-content .hic1[data-v-72b7d7c6]::before{\n    background-position: -16px -16px;\n}\n.mui-content .hic2[data-v-72b7d7c6]::before{\n    background-position: -93px -16px;\n}\n.mui-content .hic3[data-v-72b7d7c6]::before{\n    background-position: -170px -16px;\n}\n.mui-content .hic4[data-v-72b7d7c6]::before{\n    background-position: -247px -16px;\n}\n.mui-content .hic5[data-v-72b7d7c6]::before{\n    background-position: -326px -16px;\n}\n.mui-content .hic6[data-v-72b7d7c6]::before{\n    background-position: -30px -120px;\n}\n.mui-content .hic7[data-v-72b7d7c6]::before{\n    background-position: -110px -120px;\n}\n.mui-content .hic8[data-v-72b7d7c6]::before{\n    background-position: -194px -120px;\n}\n.mui-content .hic9[data-v-72b7d7c6]::before{\n    background-position: -274px -120px;\n}\n.mui-content .hic10[data-v-72b7d7c6]::before{\n    background-position: -356px -120px;\n}\n.mui-content .hic11[data-v-72b7d7c6]::before{\n    background-position: -32px -198px\n}\n.mui-content .hic12[data-v-72b7d7c6]::before{\n    background-position: -110px -198px;\n}\n.mui-content .hic13[data-v-72b7d7c6]::before{\n    background-position: -194px -198px;\n}\n.mui-content .hic14[data-v-72b7d7c6]::before{\n    background-position: -274px -198px;\n}\n.mui-content .hic15[data-v-72b7d7c6]::before{\n    background-position: -356px -198px;\n}\n", ""]);
+	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n /* .toleft\n\t {\n\t\t display: none;\n     } */\n#header[data-v-72b7d7c6]{\n        background-color: #fff;\n}\n.mui-bar .mui-title[data-v-72b7d7c6]\n     {\n         width: 60%;\n         left: auto;\n         margin: 0 2%;\n}\n.isearch[data-v-72b7d7c6]\n     {\n       border-radius: 20px;\n         padding: 8px;\n    font-size: 0.7em;\n    text-align: left;\n    padding-left: 30px;     \n    height: 24px;\n    border: none;\n    background-color: rgba(200, 200, 200, 0.3);\n}\n#header .mui-icon[data-v-72b7d7c6]\n    {\n        color: rgb(82, 82, 82);\n        font-weight: 600;\n        font-size: 1.6em;\n}\n#header .mui-title .asear[data-v-72b7d7c6]\n    {\n        position: absolute;\n        top:50%;\n      top: 50%;\n     margin-top: -9px;\n    font-size: 16px;\n    left: 8px;\n}\n.mint-swipe[data-v-72b7d7c6]{\n      height:200px;\n}\n.mint-swipe-item img[data-v-72b7d7c6]\n  {\n      width:100%;\n      height:100%;\n}\n.mint-swipe-item[data-v-72b7d7c6]\n  {\n       text-align: center;\n       line-height:300px;\n       color:#fff;\n       font-size:36px;\n       background-color:rgb(37, 173, 180);\n       width:100%;\n       height:200px;\n}\n.mui-content > .mui-table-view[data-v-72b7d7c6]:first-child\n  {\n      margin-top: 0;\n}\n.mui-content[data-v-72b7d7c6],.mui-content ul[data-v-72b7d7c6]{\n      background-color: #fff;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]{\n      border-bottom: 0px;\n      border-right: 0px;\n}\n.mui-grid-view.mui-grid-9[data-v-72b7d7c6]{\n      border-top: 0px;\n      border-left: 0px;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] \n  {\n      font-size: 0.7em;\n      color: rgb(82, 82, 82);\n       overflow: visible;\n}\n.mui-content .mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] \n  {\n      margin-top: 0;\n}\n\n/*   .content2 .mui-grid-view.mui-grid-9 .mui-media .mui-icon\n  {\n      font-size:1.5em;\n      color: rgb(78, 187, 183);\n  } */\n.mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-72b7d7c6]\n  {\n      font-size:2.4em;\n}\n.content0 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 5px 0;\n}\n.content2 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 0px 0;\n}\n.mui-col-xs-3[data-v-72b7d7c6] {\n    width: 20%;\n}\n.mui-icon .mui-badge[data-v-72b7d7c6] {\n    margin-left: -40%;\n}\n.hr90[data-v-72b7d7c6]{\n    width: 95%;\n    margin: 0 auto;\n    padding: 0;\n    border-top:1px solid rgba(200, 200, 200, 0.3);\n}\n.dis-content .mui-table-view[data-v-72b7d7c6]\n{\n    margin: 10px 0;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-object[data-v-72b7d7c6]{\n    height: 110px;\n    opacity: 0.6;\n     max-width: 99.9%;\n}\n.mui-table-view[data-v-72b7d7c6]{\n    position: static;\n}\n.mui-table-view[data-v-72b7d7c6]::after\n{\n   height: 0;\n}\n.divpo[data-v-72b7d7c6]\n{\n    position: absolute;\n    top:2px;\n    left: 14px;\n}\n.divpo p[data-v-72b7d7c6]\n{\n   text-align: left;\n   padding: 5px 10px;\n}\n.plable[data-v-72b7d7c6]{\n    color: #fff;\n    border-radius: 0 0 5px 0;\n    display: inline-block;\n    float: left;\n    padding-right: 10px;\n    font-weight: bold;\n}\n.ptitle[data-v-72b7d7c6]\n{\n    clear: both;\n    color: #000;\n    font-weight: bold;\n}\n.ptype[data-v-72b7d7c6]\n{\n   color: rgb(82, 82, 82);\n   font-size: 12px;\n}\n.mui-content[data-v-72b7d7c6]\n{\n    padding: 2px 5px 0;\n}\n.content2[data-v-72b7d7c6]\n{\n    padding-bottom: 10px;\n}\n.content0 .mui-icon[data-v-72b7d7c6]\n{\n    line-height: 0;\n}\n.content0 .mui-icon[data-v-72b7d7c6]::before\n{\n    content: '';\n    background: url(" + escape(__webpack_require__(21)) + ");\n    display: inline-block;\n    width: 55px;\n    height: 55px;\n    background-size: 720%;\n}\n.content2 .mui-icon[data-v-72b7d7c6]::before\n{\n    content: '';\n    background: url(" + escape(__webpack_require__(21)) + ");\n    display: inline-block;\n    width: 33px;\n    height: 33px;\n    background-size: 1280%;\n}\n.mui-content .hic1[data-v-72b7d7c6]::before{\n    background-position: -16px -16px;\n}\n.mui-content .hic2[data-v-72b7d7c6]::before{\n    background-position: -93px -16px;\n}\n.mui-content .hic3[data-v-72b7d7c6]::before{\n    background-position: -170px -16px;\n}\n.mui-content .hic4[data-v-72b7d7c6]::before{\n    background-position: -247px -16px;\n}\n.mui-content .hic5[data-v-72b7d7c6]::before{\n    background-position: -326px -16px;\n}\n.mui-content .hic6[data-v-72b7d7c6]::before{\n    background-position: -30px -120px;\n}\n.mui-content .hic7[data-v-72b7d7c6]::before{\n    background-position: -110px -120px;\n}\n.mui-content .hic8[data-v-72b7d7c6]::before{\n    background-position: -194px -120px;\n}\n.mui-content .hic9[data-v-72b7d7c6]::before{\n    background-position: -274px -120px;\n}\n.mui-content .hic10[data-v-72b7d7c6]::before{\n    background-position: -356px -120px;\n}\n.mui-content .hic11[data-v-72b7d7c6]::before{\n    background-position: -32px -198px\n}\n.mui-content .hic12[data-v-72b7d7c6]::before{\n    background-position: -110px -198px;\n}\n.mui-content .hic13[data-v-72b7d7c6]::before{\n    background-position: -194px -198px;\n}\n.mui-content .hic14[data-v-72b7d7c6]::before{\n    background-position: -274px -198px;\n}\n.mui-content .hic15[data-v-72b7d7c6]::before{\n    background-position: -356px -198px;\n}\n.yourlove .mui-table-view-cell[data-v-72b7d7c6]{\n    padding: 15px 14px;\n}\n.pulove[data-v-72b7d7c6]{\n    text-align: center;\n    padding: 10px;\n    color: #aaa;\n    background: #fff;\n    border-bottom: 1px solid #f7f7f7;\n    margin-bottom: 0;\n}\n", ""]);
 
 	// exports
 
@@ -11982,6 +11982,38 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
 	//
 	//
 	//
@@ -22370,7 +22402,7 @@
 	    }, [_vm._v(_vm._s(item.title))]), _vm._v(" "), _c('p', {
 	      staticClass: "ptype"
 	    }, [_vm._v(_vm._s(item.type))])])])], 1)
-	  }))])], 1)
+	  }))]), _vm._v(" "), _vm._m(1)], 1)
 	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('header', {
 	    staticClass: "mui-bar mui-bar-transparent",
@@ -22390,6 +22422,59 @@
 	  })]), _vm._v(" "), _c('a', {
 	    staticClass: "mui-icon mui-icon-plusempty mui-pull-right"
 	  })])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: "yourlove"
+	  }, [_c('p', {
+	    staticClass: "pulove"
+	  }, [_vm._v("- 猜你喜欢 -")]), _vm._v(" "), _c('ul', {
+	    staticClass: "mui-table-view"
+	  }, [_c('li', {
+	    staticClass: "mui-table-view-cell mui-media"
+	  }, [_c('a', {
+	    attrs: {
+	      "href": "javascript:;"
+	    }
+	  }, [_c('img', {
+	    staticClass: "mui-media-object mui-pull-left",
+	    attrs: {
+	      "src": __webpack_require__(29)
+	    }
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("\n\t\t\t\t\t\t\t幸福\n\t\t\t\t\t\t\t"), _c('p', {
+	    staticClass: "mui-ellipsis"
+	  }, [_vm._v("能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？")])])])]), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media"
+	  }, [_c('a', {
+	    attrs: {
+	      "href": "javascript:;"
+	    }
+	  }, [_c('img', {
+	    staticClass: "mui-media-object mui-pull-left",
+	    attrs: {
+	      "src": __webpack_require__(29)
+	    }
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("\n\t\t\t\t\t\t\t木屋\n\t\t\t\t\t\t\t"), _c('p', {
+	    staticClass: "mui-ellipsis"
+	  }, [_vm._v("想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.")])])])]), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media"
+	  }, [_c('a', {
+	    attrs: {
+	      "href": "javascript:;"
+	    }
+	  }, [_c('img', {
+	    staticClass: "mui-media-object mui-pull-left",
+	    attrs: {
+	      "src": __webpack_require__(29)
+	    }
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("\n\t\t\t\t\t\t\tCBD\n\t\t\t\t\t\t\t"), _c('p', {
+	    staticClass: "mui-ellipsis"
+	  }, [_vm._v("烤炉模式的城，到黄昏，如同打翻的调色盘一般.")])])])])])])
 	}]}
 	module.exports.render._withStripped = true
 	if (false) {
@@ -22403,15 +22488,21 @@
 /* 29 */
 /***/ function(module, exports, __webpack_require__) {
 
+	module.exports = __webpack_require__.p + "images/f66c70a7.im35.jpeg";
+
+/***/ },
+/* 30 */
+/***/ function(module, exports, __webpack_require__) {
+
 	
 	/* styles */
-	__webpack_require__(30)
+	__webpack_require__(31)
 
 	var Component = __webpack_require__(14)(
 	  /* script */
-	  __webpack_require__(32),
-	  /* template */
 	  __webpack_require__(33),
+	  /* template */
+	  __webpack_require__(34),
 	  /* scopeId */
 	  "data-v-19a2832b",
 	  /* cssModules */
@@ -22438,13 +22529,13 @@
 
 
 /***/ },
-/* 30 */
+/* 31 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(31);
+	var content = __webpack_require__(32);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
@@ -22464,7 +22555,7 @@
 	}
 
 /***/ },
-/* 31 */
+/* 32 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)(false);
@@ -22478,7 +22569,7 @@
 
 
 /***/ },
-/* 32 */
+/* 33 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -22517,7 +22608,7 @@
 	exports.default = {};
 
 /***/ },
-/* 33 */
+/* 34 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -22597,18 +22688,18 @@
 	}
 
 /***/ },
-/* 34 */
+/* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(35)
+	__webpack_require__(36)
 
 	var Component = __webpack_require__(14)(
 	  /* script */
-	  __webpack_require__(37),
-	  /* template */
 	  __webpack_require__(38),
+	  /* template */
+	  __webpack_require__(39),
 	  /* scopeId */
 	  "data-v-46b6585f",
 	  /* cssModules */
@@ -22635,13 +22726,13 @@
 
 
 /***/ },
-/* 35 */
+/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(36);
+	var content = __webpack_require__(37);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
@@ -22661,7 +22752,7 @@
 	}
 
 /***/ },
-/* 36 */
+/* 37 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)(false);
@@ -22675,7 +22766,7 @@
 
 
 /***/ },
-/* 37 */
+/* 38 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -22758,7 +22849,7 @@
 	//
 
 /***/ },
-/* 38 */
+/* 39 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -22820,18 +22911,18 @@
 	}
 
 /***/ },
-/* 39 */
+/* 40 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(40)
+	__webpack_require__(41)
 
 	var Component = __webpack_require__(14)(
 	  /* script */
-	  __webpack_require__(44),
-	  /* template */
 	  __webpack_require__(45),
+	  /* template */
+	  __webpack_require__(46),
 	  /* scopeId */
 	  "data-v-53fdbb68",
 	  /* cssModules */
@@ -22858,13 +22949,13 @@
 
 
 /***/ },
-/* 40 */
+/* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(41);
+	var content = __webpack_require__(42);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
@@ -22884,7 +22975,7 @@
 	}
 
 /***/ },
-/* 41 */
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var escape = __webpack_require__(8);
@@ -22893,25 +22984,25 @@
 
 
 	// module
-	exports.push([module.id, "\n#header[data-v-53fdbb68]{\n        background-color:  rgb(37, 173, 180);\n}\n#header .mui-icon[data-v-53fdbb68]\n    {\n        color: #fff;\n        margin: 0 9px;\n}\n#header .mui-icon[data-v-53fdbb68]::before{\n         content: '';\n         background: url(" + escape(__webpack_require__(42)) + ");\n         display: inline-block;\n         width: 30px;\n         height: 30px;\n         background-size: 1300%;\n}\n#header .utopic1[data-v-53fdbb68]::before{\n        background-position:-12px -9px;\n}\n#header .utopic2[data-v-53fdbb68]::before{\n        background-position:-298px -9px;\n}\n#header .utopic3[data-v-53fdbb68]::before{\n        background-position:-348px -9px;\n}\n.userimg[data-v-53fdbb68]\n    {\n        text-align: center;\n        background-color: rgb(78, 187, 183);\n        padding-bottom: 20px;\n        height: 130px;\n        overflow: hidden;\n        background: linear-gradient(rgb(37, 173, 180),rgb(83, 233, 228))\n}\n.userimg img[data-v-53fdbb68]{\n        width: 60px;\n        height: 60px;\n        margin: 20px auto 10px;\n        border: 2px solid #fff;\n        border-radius: 50%;\n}\n.userimg h4[data-v-53fdbb68],.userimg img[data-v-53fdbb68]{\n       position: relative;\n        z-index: 5;\n}\n.mui-content > .mui-table-view[data-v-53fdbb68]:first-child\n  {\n      margin-top: 0;\n      padding: 0 10px;\n}\n.mui-content[data-v-53fdbb68],.mui-content ul[data-v-53fdbb68]{\n      background-color: #fff;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-53fdbb68]{\n      border-bottom: 0px;\n      border-right: 0px;\n}\n.mui-grid-view.mui-grid-9[data-v-53fdbb68]{\n      border-top: 0px;\n      border-left: 0px;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-53fdbb68] \n  {\n      font-size: 0.7em;\n}\n.mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-53fdbb68]\n  {\n      font-size:1.5em;\n      color: rgb(37, 173, 180);\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-53fdbb68]\n  {\n      padding: 10px 0 0;\n}\n.content2[data-v-53fdbb68] {\n      margin: 0 auto;\n      padding: 0 5% 10px;\n}\n.content2 h6[data-v-53fdbb68]\n  {\n      border-top: 1px solid rgba(200, 200, 200, 0.2);\n      padding-top: 10px;\n      margin-top: 0;\n      color: #000;\n      font-weight: bold;\n}\n.mui-content .mui-icon[data-v-53fdbb68]::before\n{\n    content: '';\n    background: url(" + escape(__webpack_require__(43)) + ");\n    display: inline-block;\n    width: 35px;\n    height: 35px;\n    background-size: 1350%;\n}\n.mui-content .uic1[data-v-53fdbb68]::before{\n    background-position: -79px -27px;\n}\n.mui-content .uic2[data-v-53fdbb68]::before{\n    background-position: -220px -27px;\n}\n.mui-content .uic3[data-v-53fdbb68]::before{\n    background-position: -360px -27px;\n}\n.mui-content .uic4[data-v-53fdbb68]::before{\n    background-position: -62px -170px;\n}\n.mui-content .uic5[data-v-53fdbb68]::before{\n    background-position: -167px -170px;\n}\n.mui-content .uic6[data-v-53fdbb68]::before{\n    background-position: -270px -170px;\n}\n.mui-content .uic7[data-v-53fdbb68]::before{\n    background-position: -374px -170px;\n}\n.mui-content .uic8[data-v-53fdbb68]::before{\n    background-position: -62px -276px;\n}\n.mui-content .uic9[data-v-53fdbb68]::before{\n    background-position: -62px -373px;\n}\n.mui-content .uic10[data-v-53fdbb68]::before{\n    background-position: -166px -373px;\n}\n.mui-content .uic11[data-v-53fdbb68]::before{\n    background-position: -270px -373px;\n}\n.mui-content .uic12[data-v-53fdbb68]::before{\n    background-position: -377px -373px;\n}\n.mui-content .uic13[data-v-53fdbb68]::before{\n    background-position: -62px -480px;\n}\n.mui-content .uic14[data-v-53fdbb68]::before{\n    background-position: -166px -480px;\n}\n.mui-content .uic15[data-v-53fdbb68]::before{\n    background-position: -270px -480px;\n}\n.bgring[data-v-53fdbb68]{\n    position: relative;\n    background-color: #fff;\n    width: 200%;\n    height: 400px;\n    border-radius: 50%;\n    margin: 0 auto;\n    top: -72px;\n    left: -50%;\n}\n", ""]);
+	exports.push([module.id, "\n#header[data-v-53fdbb68]{\n        background-color:  rgb(37, 173, 180);\n}\n#header .mui-icon[data-v-53fdbb68]\n    {\n        color: #fff;\n        margin: 0 9px;\n}\n#header .mui-icon[data-v-53fdbb68]::before{\n         content: '';\n         background: url(" + escape(__webpack_require__(43)) + ");\n         display: inline-block;\n         width: 30px;\n         height: 30px;\n         background-size: 1300%;\n}\n#header .utopic1[data-v-53fdbb68]::before{\n        background-position:-12px -9px;\n}\n#header .utopic2[data-v-53fdbb68]::before{\n        background-position:-298px -9px;\n}\n#header .utopic3[data-v-53fdbb68]::before{\n        background-position:-348px -9px;\n}\n.userimg[data-v-53fdbb68]\n    {\n        text-align: center;\n        background-color: rgb(78, 187, 183);\n        padding-bottom: 20px;\n        height: 130px;\n        overflow: hidden;\n        background: linear-gradient(rgb(37, 173, 180),rgb(83, 233, 228))\n}\n.userimg img[data-v-53fdbb68]{\n        width: 60px;\n        height: 60px;\n        margin: 20px auto 10px;\n        border: 2px solid #fff;\n        border-radius: 50%;\n}\n.userimg h4[data-v-53fdbb68],.userimg img[data-v-53fdbb68]{\n       position: relative;\n        z-index: 5;\n}\n.mui-content > .mui-table-view[data-v-53fdbb68]:first-child\n  {\n      margin-top: 0;\n      padding: 0 10px;\n}\n.mui-content[data-v-53fdbb68],.mui-content ul[data-v-53fdbb68]{\n      background-color: #fff;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-53fdbb68]{\n      border-bottom: 0px;\n      border-right: 0px;\n}\n.mui-grid-view.mui-grid-9[data-v-53fdbb68]{\n      border-top: 0px;\n      border-left: 0px;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-53fdbb68] \n  {\n      font-size: 0.7em;\n}\n.mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-53fdbb68]\n  {\n      font-size:1.5em;\n      color: rgb(37, 173, 180);\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-53fdbb68]\n  {\n      padding: 10px 0 0;\n}\n.content2[data-v-53fdbb68] {\n      margin: 0 auto;\n      padding: 0 5% 10px;\n}\n.content2 h6[data-v-53fdbb68]\n  {\n      border-top: 1px solid rgba(200, 200, 200, 0.2);\n      padding-top: 10px;\n      margin-top: 0;\n      color: #000;\n      font-weight: bold;\n}\n.mui-content .mui-icon[data-v-53fdbb68]::before\n{\n    content: '';\n    background: url(" + escape(__webpack_require__(44)) + ");\n    display: inline-block;\n    width: 35px;\n    height: 35px;\n    background-size: 1350%;\n}\n.mui-content .uic1[data-v-53fdbb68]::before{\n    background-position: -79px -27px;\n}\n.mui-content .uic2[data-v-53fdbb68]::before{\n    background-position: -220px -27px;\n}\n.mui-content .uic3[data-v-53fdbb68]::before{\n    background-position: -360px -27px;\n}\n.mui-content .uic4[data-v-53fdbb68]::before{\n    background-position: -62px -170px;\n}\n.mui-content .uic5[data-v-53fdbb68]::before{\n    background-position: -167px -170px;\n}\n.mui-content .uic6[data-v-53fdbb68]::before{\n    background-position: -270px -170px;\n}\n.mui-content .uic7[data-v-53fdbb68]::before{\n    background-position: -374px -170px;\n}\n.mui-content .uic8[data-v-53fdbb68]::before{\n    background-position: -62px -276px;\n}\n.mui-content .uic9[data-v-53fdbb68]::before{\n    background-position: -62px -373px;\n}\n.mui-content .uic10[data-v-53fdbb68]::before{\n    background-position: -166px -373px;\n}\n.mui-content .uic11[data-v-53fdbb68]::before{\n    background-position: -270px -373px;\n}\n.mui-content .uic12[data-v-53fdbb68]::before{\n    background-position: -377px -373px;\n}\n.mui-content .uic13[data-v-53fdbb68]::before{\n    background-position: -62px -480px;\n}\n.mui-content .uic14[data-v-53fdbb68]::before{\n    background-position: -166px -480px;\n}\n.mui-content .uic15[data-v-53fdbb68]::before{\n    background-position: -270px -480px;\n}\n.bgring[data-v-53fdbb68]{\n    position: relative;\n    background-color: #fff;\n    width: 200%;\n    height: 400px;\n    border-radius: 50%;\n    margin: 0 auto;\n    top: -72px;\n    left: -50%;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 42 */
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "images/5cf9b3c3.uic.png";
 
 /***/ },
-/* 43 */
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "images/34bdfe4b.user.png";
 
 /***/ },
-/* 44 */
+/* 45 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -23023,7 +23114,7 @@
 	//
 
 /***/ },
-/* 45 */
+/* 46 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -23228,12 +23319,12 @@
 	}
 
 /***/ },
-/* 46 */
+/* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(47)
+	__webpack_require__(48)
 
 	var Component = __webpack_require__(14)(
 	  /* script */
@@ -23266,13 +23357,13 @@
 
 
 /***/ },
-/* 47 */
+/* 48 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(48);
+	var content = __webpack_require__(49);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
@@ -23292,7 +23383,7 @@
 	}
 
 /***/ },
-/* 48 */
+/* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var escape = __webpack_require__(8);
@@ -23301,16 +23392,10 @@
 
 
 	// module
-	exports.push([module.id, "\n.distopbg[data-v-7e4d4712]{\r\n    background: url(" + escape(__webpack_require__(49)) + ");\n}\r\n", ""]);
+	exports.push([module.id, "\n.distopbg[data-v-7e4d4712]{\r\n    background: url(" + escape(__webpack_require__(29)) + ");\n}\r\n", ""]);
 
 	// exports
 
-
-/***/ },
-/* 49 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "images/f66c70a7.im35.jpeg";
 
 /***/ },
 /* 50 */
@@ -23454,7 +23539,7 @@
 
 
 	// module
-	exports.push([module.id, "\n.mui-scroll-wrapper[data-v-91e6c356]\n{\n    top: 50px;\n    bottom: 55px;\n}\n.mui-bar-tab[data-v-91e6c356]{\n    display: none;\n}\n", ""]);
+	exports.push([module.id, "\n.mui-scroll-wrapper[data-v-91e6c356]\n  {\n      top: 50px;\n      bottom: 55px;\n}\n.mui-bar-tab[data-v-91e6c356]{\n      display: none;\n}\n.mui-table-view[data-v-91e6c356] {\n    margin-top: 10px;\n    position: static;\n}\n.update[data-v-91e6c356] {\n    font-style: normal;\n    color: #999999;\n    margin-right: -25px;\n    font-size: 14px;\n}\n.mui-scroll .mui-navigate-right[data-v-91e6c356]{\n     padding-top: 15px;\n     padding-bottom: 15px;\n}\n.mui-table-view-cell[data-v-91e6c356]:after {\n    left: 0;\n    background-color: #e0dfdf;\n}\n.mui-bar .mui-title[data-v-91e6c356]\n  {\n    right: unset;\n}\n.topBottom .mui-bar-nav[data-v-91e6c356]{\n      box-shadow: 0 0;\n      border-bottom: 1px solid #ccc;\n}\n.btnout[data-v-91e6c356]{\n    margin: 20px 10px;\n    border: 1px solid #ddd;\n    border-radius: 3px;\n    box-shadow: 0 1px 2px #ccc;\n}\n.mui-table-view[data-v-91e6c356]::before,\n  .mui-table-view[data-v-91e6c356]::after{\n      position: static;\n}\n.strongpwd[data-v-91e6c356]{\n      color: rgb(236, 66, 14);\n      font-size: 19px;\n      margin-left: 15px;\n}\n", ""]);
 
 	// exports
 
@@ -23468,8 +23553,6 @@
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
-	//
-	//
 	//
 	//
 	//
@@ -23540,22 +23623,23 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _vm._m(0)
-	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('div', {
 	    staticClass: "topBottom"
 	  }, [_c('div', {
 	    staticClass: "mui-navbar-inner mui-bar mui-bar-nav"
-	  }, [_c('button', {
+	  }, [_c('router-link', {
 	    staticClass: "mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left",
 	    attrs: {
+	      "to": "/usercenter/user",
 	      "type": "button"
 	    }
 	  }, [_c('span', {
 	    staticClass: "mui-icon mui-icon-left-nav"
 	  })]), _vm._v(" "), _c('h1', {
 	    staticClass: "mui-center mui-title"
-	  }, [_vm._v("设置")])]), _vm._v(" "), _c('div', {
+	  }, [_vm._v("设置")])], 1), _vm._v(" "), _vm._m(0)])
+	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
 	    staticClass: "mui-page-content"
 	  }, [_c('div', {
 	    staticClass: "mui-scroll-wrapper"
@@ -23564,48 +23648,58 @@
 	  }, [_c('ul', {
 	    staticClass: "mui-table-view mui-table-view-chevron"
 	  }, [_c('li', {
-	    staticClass: "mui-table-view-cell mui-media"
-	  }, [_c('a', {
-	    staticClass: "mui-navigate-right",
-	    attrs: {
-	      "href": "#account"
-	    }
-	  }, [_c('img', {
-	    staticClass: "mui-media-object mui-pull-left head-img",
-	    attrs: {
-	      "id": "head-img",
-	      "src": ""
-	    }
-	  }), _vm._v(" "), _c('div', {
-	    staticClass: "mui-media-body"
-	  }, [_vm._v("\n                                    Hello MUI\n                                    "), _c('p', {
-	    staticClass: "mui-ellipsis"
-	  }, [_vm._v("账号:hellomui")])])])])]), _vm._v(" "), _c('ul', {
-	    staticClass: "mui-table-view mui-table-view-chevron"
-	  }, [_c('li', {
 	    staticClass: "mui-table-view-cell"
 	  }, [_c('a', {
 	    staticClass: "mui-navigate-right",
 	    attrs: {
 	      "href": "#account"
 	    }
-	  }, [_vm._v("账号与安全")])])]), _vm._v(" "), _c('ul', {
-	    staticClass: "mui-table-view mui-table-view-chevron"
-	  }, [_c('li', {
+	  }, [_vm._v("个人信息")])]), _vm._v(" "), _c('li', {
 	    staticClass: "mui-table-view-cell"
 	  }, [_c('a', {
 	    staticClass: "mui-navigate-right",
 	    attrs: {
-	      "href": "#notifications"
+	      "href": "#about"
 	    }
-	  }, [_vm._v("新消息通知")])]), _vm._v(" "), _c('li', {
+	  }, [_vm._v("换绑手机 "), _c('i', {
+	    staticClass: "mui-pull-right update"
+	  }, [_vm._v("100****0086")])])]), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell"
+	  }, [_c('a', {
+	    staticClass: "mui-navigate-right",
+	    attrs: {
+	      "href": "#about"
+	    }
+	  }, [_vm._v("社交账号绑定 "), _c('i', {
+	    staticClass: "mui-pull-right update"
+	  }, [_vm._v("绑定/解绑")])])]), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell"
+	  }, [_c('a', {
+	    staticClass: "mui-navigate-right",
+	    attrs: {
+	      "href": "#about"
+	    }
+	  }, [_vm._v("登录密码"), _c('span', {
+	    staticClass: "strongpwd"
+	  }, [_vm._v("强")]), _vm._v(" "), _c('i', {
+	    staticClass: "mui-pull-right update"
+	  }, [_vm._v("修改")])])]), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell"
+	  }, [_c('a', {
+	    staticClass: "mui-navigate-right",
+	    attrs: {
+	      "href": "#account"
+	    }
+	  }, [_vm._v("支付设置")])])]), _vm._v(" "), _c('ul', {
+	    staticClass: "mui-table-view mui-table-view-chevron"
+	  }, [_c('li', {
 	    staticClass: "mui-table-view-cell"
 	  }, [_c('a', {
 	    staticClass: "mui-navigate-right",
 	    attrs: {
 	      "href": "#privacy"
 	    }
-	  }, [_vm._v("隐私")])]), _vm._v(" "), _c('li', {
+	  }, [_vm._v("安全中心")])]), _vm._v(" "), _c('li', {
 	    staticClass: "mui-table-view-cell"
 	  }, [_c('a', {
 	    staticClass: "mui-navigate-right",
@@ -23621,16 +23715,16 @@
 	    attrs: {
 	      "href": "#about"
 	    }
-	  }, [_vm._v("关于MUI "), _c('i', {
+	  }, [_vm._v("关于美团 "), _c('i', {
 	    staticClass: "mui-pull-right update"
-	  }, [_vm._v("V3.1.0")])])])]), _vm._v(" "), _c('ul', {
-	    staticClass: "mui-table-view"
+	  }, [_vm._v("v9.6.6")])])])]), _vm._v(" "), _c('ul', {
+	    staticClass: "mui-table-view btnout"
 	  }, [_c('li', {
 	    staticClass: "mui-table-view-cell",
 	    staticStyle: {
 	      "text-align": "center"
 	    }
-	  }, [_c('a', [_vm._v("退出登录")])])])])])])])
+	  }, [_c('a', [_vm._v("退出账户")])])])])])])
 	}]}
 	module.exports.render._withStripped = true
 	if (false) {
@@ -24309,7 +24403,7 @@
 
 
 	// module
-	exports.push([module.id, "*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: \"Arial\",\"Microsoft YaHei\",\"\\9ED1\\4F53\",\"\\5B8B\\4F53\",sans-serif;;\r\n}\r\nbody{\r\n    /* background-color: #fff; */\r\n}\r\n.topBottom\r\n{\r\n    margin: 40px 0 50px;    \r\n}", ""]);
+	exports.push([module.id, "*{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\nbody{\r\n    /* background-color: #fff; */\r\n}\r\n.topBottom\r\n{\r\n    margin: 40px 0 50px;    \r\n}", ""]);
 
 	// exports
 

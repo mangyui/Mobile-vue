@@ -57,6 +57,9 @@ export default {
 
     src: url("../statics/mui/fonts/mui.ttf") format('truetype');
 }
+*{
+	font-family: '黑体'
+}
 	.mint-header
 	{
 		background-color: rgb(37, 173, 180);
