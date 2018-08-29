@@ -11953,7 +11953,7 @@
 
 
 	// module
-	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n /* .toleft\n\t {\n\t\t display: none;\n     } */\n#header[data-v-72b7d7c6]{\n        background-color: #fff;\n}\n.mui-bar .mui-title[data-v-72b7d7c6]\n     {\n         width: 60%;\n         left: auto;\n         margin: 0 2%;\n}\n.isearch[data-v-72b7d7c6]\n     {\n       border-radius: 20px;\n         padding: 8px;\n    font-size: 0.7em;\n    text-align: left;\n    padding-left: 30px;     \n    height: 24px;\n    border: none;\n    background-color: rgba(200, 200, 200, 0.3);\n}\n#header .mui-icon[data-v-72b7d7c6]\n    {\n        color: rgb(82, 82, 82);\n        font-weight: 600;\n        font-size: 1.6em;\n}\n#header .mui-title .asear[data-v-72b7d7c6]\n    {\n        position: absolute;\n        top:50%;\n      top: 50%;\n     margin-top: -9px;\n    font-size: 16px;\n    left: 8px;\n}\n.mint-swipe[data-v-72b7d7c6]{\n      height:200px;\n}\n.mint-swipe-item img[data-v-72b7d7c6]\n  {\n      width:100%;\n      height:100%;\n}\n.mint-swipe-item[data-v-72b7d7c6]\n  {\n       text-align: center;\n       line-height:300px;\n       color:#fff;\n       font-size:36px;\n       background-color:rgb(37, 173, 180);\n       width:100%;\n       height:200px;\n}\n.mui-content > .mui-table-view[data-v-72b7d7c6]:first-child\n  {\n      margin-top: 0;\n}\n.mui-content[data-v-72b7d7c6],.mui-content ul[data-v-72b7d7c6]{\n      background-color: #fff;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]{\n      border-bottom: 0px;\n      border-right: 0px;\n}\n.mui-grid-view.mui-grid-9[data-v-72b7d7c6]{\n      border-top: 0px;\n      border-left: 0px;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] \n  {\n      font-size: 0.7em;\n      color: rgb(82, 82, 82);\n       overflow: visible;\n}\n.mui-content .mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] \n  {\n      margin-top: 0;\n}\n\n/*   .content2 .mui-grid-view.mui-grid-9 .mui-media .mui-icon\n  {\n      font-size:1.5em;\n      color: rgb(78, 187, 183);\n  } */\n.mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-72b7d7c6]\n  {\n      font-size:2.4em;\n}\n.content0 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 5px 0;\n}\n.content2 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 0px 0;\n}\n.mui-col-xs-3[data-v-72b7d7c6] {\n    width: 20%;\n}\n.mui-icon .mui-badge[data-v-72b7d7c6] {\n    margin-left: -40%;\n}\n.hr90[data-v-72b7d7c6]{\n    width: 95%;\n    margin: 0 auto;\n    padding: 0;\n    border-top:1px solid rgba(200, 200, 200, 0.3);\n}\n.dis-content .mui-table-view[data-v-72b7d7c6]\n{\n    margin: 10px 0;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-object[data-v-72b7d7c6]{\n    height: 110px;\n    opacity: 0.6;\n     max-width: 99.9%;\n}\n.mui-table-view[data-v-72b7d7c6]{\n    position: static;\n}\n.mui-table-view[data-v-72b7d7c6]::after\n{\n   height: 0;\n}\n.divpo[data-v-72b7d7c6]\n{\n    position: absolute;\n    top:2px;\n    left: 14px;\n}\n.divpo p[data-v-72b7d7c6]\n{\n   text-align: left;\n   padding: 5px 10px;\n}\n.plable[data-v-72b7d7c6]{\n    color: #fff;\n    border-radius: 0 0 5px 0;\n    display: inline-block;\n    float: left;\n    padding-right: 10px;\n    font-weight: bold;\n}\n.ptitle[data-v-72b7d7c6]\n{\n    clear: both;\n    color: #000;\n    font-weight: bold;\n}\n.ptype[data-v-72b7d7c6]\n{\n   color: rgb(82, 82, 82);\n   font-size: 12px;\n}\n.mui-content[data-v-72b7d7c6]\n{\n    padding: 2px 5px 0;\n}\n.content2[data-v-72b7d7c6]\n{\n    padding-bottom: 10px;\n}\n.content0 .mui-icon[data-v-72b7d7c6]\n{\n    line-height: 0;\n}\n.content0 .mui-icon[data-v-72b7d7c6]::before\n{\n    content: '';\n    background: url(" + escape(__webpack_require__(21)) + ");\n    display: inline-block;\n    width: 55px;\n    height: 55px;\n    background-size: 720%;\n}\n.content2 .mui-icon[data-v-72b7d7c6]::before\n{\n    content: '';\n    background: url(" + escape(__webpack_require__(21)) + ");\n    display: inline-block;\n    width: 33px;\n    height: 33px;\n    background-size: 1280%;\n}\n.mui-content .hic1[data-v-72b7d7c6]::before{\n    background-position: -16px -16px;\n}\n.mui-content .hic2[data-v-72b7d7c6]::before{\n    background-position: -93px -16px;\n}\n.mui-content .hic3[data-v-72b7d7c6]::before{\n    background-position: -170px -16px;\n}\n.mui-content .hic4[data-v-72b7d7c6]::before{\n    background-position: -247px -16px;\n}\n.mui-content .hic5[data-v-72b7d7c6]::before{\n    background-position: -326px -16px;\n}\n.mui-content .hic6[data-v-72b7d7c6]::before{\n    background-position: -30px -120px;\n}\n.mui-content .hic7[data-v-72b7d7c6]::before{\n    background-position: -110px -120px;\n}\n.mui-content .hic8[data-v-72b7d7c6]::before{\n    background-position: -194px -120px;\n}\n.mui-content .hic9[data-v-72b7d7c6]::before{\n    background-position: -274px -120px;\n}\n.mui-content .hic10[data-v-72b7d7c6]::before{\n    background-position: -356px -120px;\n}\n.mui-content .hic11[data-v-72b7d7c6]::before{\n    background-position: -32px -198px\n}\n.mui-content .hic12[data-v-72b7d7c6]::before{\n    background-position: -110px -198px;\n}\n.mui-content .hic13[data-v-72b7d7c6]::before{\n    background-position: -194px -198px;\n}\n.mui-content .hic14[data-v-72b7d7c6]::before{\n    background-position: -274px -198px;\n}\n.mui-content .hic15[data-v-72b7d7c6]::before{\n    background-position: -356px -198px;\n}\n.yourlove .mui-table-view-cell[data-v-72b7d7c6]{\n    padding: 15px 14px;\n}\n.pulove[data-v-72b7d7c6]{\n    text-align: center;\n    padding: 10px;\n    color: #aaa;\n    background: #fff;\n    border-bottom: 1px solid #f7f7f7;\n    margin-bottom: 0;\n}\n", ""]);
+	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n /* .toleft\n\t {\n\t\t display: none;\n     } */\n#header[data-v-72b7d7c6]{\n        background-color: #fff;\n}\n.mui-bar .mui-title[data-v-72b7d7c6]\n     {\n         width: 60%;\n         left: auto;\n         margin: 0 2%;\n}\n.isearch[data-v-72b7d7c6]\n     {\n       border-radius: 20px;\n         padding: 8px;\n    font-size: 0.7em;\n    text-align: left;\n    padding-left: 30px;     \n    height: 24px;\n    border: none;\n    background-color: rgba(200, 200, 200, 0.3);\n}\n#header .mui-icon[data-v-72b7d7c6]\n    {\n        color: rgb(82, 82, 82);\n        font-weight: 600;\n        font-size: 1.6em;\n}\n#header .mui-title .asear[data-v-72b7d7c6]\n    {\n        position: absolute;\n        top:50%;\n      top: 50%;\n     margin-top: -9px;\n    font-size: 16px;\n    left: 8px;\n}\n.mint-swipe[data-v-72b7d7c6]{\n      height:200px;\n}\n.mint-swipe-item img[data-v-72b7d7c6]\n  {\n      width:100%;\n      height:100%;\n}\n.mint-swipe-item[data-v-72b7d7c6]\n  {\n       text-align: center;\n       line-height:300px;\n       color:#fff;\n       font-size:36px;\n       background-color:rgb(37, 173, 180);\n       width:100%;\n       height:200px;\n}\n.mui-content > .mui-table-view[data-v-72b7d7c6]:first-child\n  {\n      margin-top: 0;\n}\n.mui-content[data-v-72b7d7c6],.mui-content ul[data-v-72b7d7c6]{\n      background-color: #fff;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]{\n      border-bottom: 0px;\n      border-right: 0px;\n}\n.mui-grid-view.mui-grid-9[data-v-72b7d7c6]{\n      border-top: 0px;\n      border-left: 0px;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] \n  {\n      font-size: 0.7em;\n      color: rgb(82, 82, 82);\n       overflow: visible;\n}\n.mui-content .mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] \n  {\n      margin-top: 0;\n}\n\n/*   .content2 .mui-grid-view.mui-grid-9 .mui-media .mui-icon\n  {\n      font-size:1.5em;\n      color: rgb(78, 187, 183);\n  } */\n.mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-72b7d7c6]\n  {\n      font-size:2.4em;\n}\n.content0 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 5px 0;\n}\n.content2 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 0px 0;\n}\n.mui-col-xs-3[data-v-72b7d7c6] {\n    width: 20%;\n}\n.mui-icon .mui-badge[data-v-72b7d7c6] {\n    margin-left: -40%;\n}\n.hr90[data-v-72b7d7c6]{\n    width: 95%;\n    margin: 0 auto;\n    padding: 0;\n    border-top:1px solid rgba(200, 200, 200, 0.3);\n}\n.dis-content .mui-table-view[data-v-72b7d7c6]\n{\n    margin: 10px 0;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-object[data-v-72b7d7c6]{\n    height: 110px;\n    opacity: 0.6;\n     max-width: 99.9%;\n}\n.mui-table-view[data-v-72b7d7c6]{\n    position: static;\n}\n.mui-table-view[data-v-72b7d7c6]::after\n{\n   height: 0;\n}\n.divpo[data-v-72b7d7c6]\n{\n    position: absolute;\n    top:2px;\n    left: 14px;\n}\n.divpo p[data-v-72b7d7c6]\n{\n   text-align: left;\n   padding: 5px 10px;\n}\n.plable[data-v-72b7d7c6]{\n    color: #fff;\n    border-radius: 0 0 5px 0;\n    display: inline-block;\n    float: left;\n    padding-right: 10px;\n    font-weight: bold;\n}\n.ptitle[data-v-72b7d7c6]\n{\n    clear: both;\n    color: #000;\n    font-weight: bold;\n}\n.ptype[data-v-72b7d7c6]\n{\n   color: rgb(82, 82, 82);\n   font-size: 12px;\n}\n.mui-content[data-v-72b7d7c6]\n{\n    padding: 2px 5px 0;\n}\n.content2[data-v-72b7d7c6]\n{\n    padding-bottom: 10px;\n}\n.content0 .mui-icon[data-v-72b7d7c6]\n{\n    line-height: 0;\n}\n.content0 .mui-icon[data-v-72b7d7c6]::before\n{\n    content: '';\n    background: url(" + escape(__webpack_require__(21)) + ");\n    display: inline-block;\n    width: 55px;\n    height: 55px;\n    background-size: 720%;\n}\n.content2 .mui-icon[data-v-72b7d7c6]::before\n{\n    content: '';\n    background: url(" + escape(__webpack_require__(21)) + ");\n    display: inline-block;\n    width: 33px;\n    height: 33px;\n    background-size: 1280%;\n}\n.mui-content .hic1[data-v-72b7d7c6]::before{\n    background-position: -16px -16px;\n}\n.mui-content .hic2[data-v-72b7d7c6]::before{\n    background-position: -93px -16px;\n}\n.mui-content .hic3[data-v-72b7d7c6]::before{\n    background-position: -170px -16px;\n}\n.mui-content .hic4[data-v-72b7d7c6]::before{\n    background-position: -247px -16px;\n}\n.mui-content .hic5[data-v-72b7d7c6]::before{\n    background-position: -326px -16px;\n}\n.mui-content .hic6[data-v-72b7d7c6]::before{\n    background-position: -30px -120px;\n}\n.mui-content .hic7[data-v-72b7d7c6]::before{\n    background-position: -110px -120px;\n}\n.mui-content .hic8[data-v-72b7d7c6]::before{\n    background-position: -194px -120px;\n}\n.mui-content .hic9[data-v-72b7d7c6]::before{\n    background-position: -274px -120px;\n}\n.mui-content .hic10[data-v-72b7d7c6]::before{\n    background-position: -356px -120px;\n}\n.mui-content .hic11[data-v-72b7d7c6]::before{\n    background-position: -32px -198px\n}\n.mui-content .hic12[data-v-72b7d7c6]::before{\n    background-position: -110px -198px;\n}\n.mui-content .hic13[data-v-72b7d7c6]::before{\n    background-position: -194px -198px;\n}\n.mui-content .hic14[data-v-72b7d7c6]::before{\n    background-position: -274px -198px;\n}\n.mui-content .hic15[data-v-72b7d7c6]::before{\n    background-position: -356px -198px;\n}\n.yourlove .mui-table-view-cell[data-v-72b7d7c6]{\n    padding: 14px 14px 0px;\n}\n.pulove[data-v-72b7d7c6]{\n    text-align: center;\n    padding: 10px;\n    color: #aaa;\n    background: #fff;\n    border-bottom: 1px solid #f7f7f7;\n    margin-bottom: 0;\n}\n.guanggao[data-v-72b7d7c6]{\n    margin-bottom: 10px;\n    text-align: center;\n    width: 100%;\n    height: 100px;\n    background:linear-gradient(90deg,#17c5b0,#4daafd,#ff6c84);\n    font-weight: bold;\n    line-height: 100px;\n}\n.yourlove li img[data-v-72b7d7c6]{\n    border-radius: 2px;\n    max-width: 75px;\n    height: 75px;\n}\n.yourlove li .product-info[data-v-72b7d7c6]{\n    color: #555;\n    font-size: 13px;\n    height: 40px;\n    white-space: inherit;\n    margin: 5px 0;\n    overflow: hidden;\n    text-overflow: ellipsis; \n    font-family: Arial, Helvetica, sans-serif\n}\n.yourlove .mui-media-body[data-v-72b7d7c6]{\n    white-space: initial;\n}\n.yourlove li .product-distance[data-v-72b7d7c6]{\n    position: absolute;\n    top: 15px;\n    right: 10px;\n    font-size: 13px;\n    color: #555;\n}\n.yourlove li .product-info .product-sale[data-v-72b7d7c6]{\n    float: right;\n}\n.yourlove li .product-info .product-price[data-v-72b7d7c6]{\n    color: #f74940;\n}\n.yourlove li .product-info .product-price .bigprice[data-v-72b7d7c6]{\n    font-size: 18px;\n    font-weight: bold;\n}\n", ""]);
 
 	// exports
 
@@ -11982,6 +11982,21 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
 	//
 	//
 	//
@@ -12133,8 +12148,8 @@
 	        getimglist2: function getimglist2() {
 	            this.list2 = [{
 	                "id": 101,
-	                "label": "很优惠",
-	                "color": "#e88565",
+	                "label": "狠优惠",
+	                "color": "#fe4f5c",
 	                "title": "【到店吃】正新鸡排",
 	                "type": "美食",
 	                "dis": "5折抢购",
@@ -12142,7 +12157,7 @@
 	            }, {
 	                "id": 102,
 	                "label": "有格调",
-	                "color": "#ef3e4a",
+	                "color": "#c4aa7a",
 	                "title": "于都湖彬大酒店",
 	                "type": "酒店",
 	                "dis": "",
@@ -12150,7 +12165,7 @@
 	            }, {
 	                "id": 103,
 	                "label": "午餐要讲究",
-	                "color": "#a7bbc3",
+	                "color": "#fb8708",
 	                "title": "蚝莊",
 	                "type": "河海鲜",
 	                "dis": "",
@@ -12158,7 +12173,7 @@
 	            }, {
 	                "id": 104,
 	                "label": "周末去哪儿",
-	                "color": "#776ea7",
+	                "color": "#4685eb",
 	                "title": "赣州极地海洋世界成人票",
 	                "type": "周边游",
 	                "dis": "",
@@ -22388,7 +22403,7 @@
 	    }, false), [_c('div', {
 	      staticClass: "mui-media-object",
 	      style: ({
-	        'background-color': item.color
+	        'background': 'linear-gradient(120deg,#f0f4f7,' + item.color + ')'
 	      })
 	    }), _vm._v(" "), _c('div', {
 	      staticClass: "mui-media-body divpo"
@@ -22402,7 +22417,9 @@
 	    }, [_vm._v(_vm._s(item.title))]), _vm._v(" "), _c('p', {
 	      staticClass: "ptype"
 	    }, [_vm._v(_vm._s(item.type))])])])], 1)
-	  }))]), _vm._v(" "), _vm._m(1)], 1)
+	  }))]), _vm._v(" "), _c('div', {
+	    staticClass: "guanggao"
+	  }, [_vm._v("\n            我是一条广告，你看不出来么\n        ")]), _vm._v(" "), _vm._m(1)], 1)
 	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('header', {
 	    staticClass: "mui-bar mui-bar-transparent",
@@ -22442,9 +22459,21 @@
 	    }
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
-	  }, [_vm._v("\n\t\t\t\t\t\t\t幸福\n\t\t\t\t\t\t\t"), _c('p', {
-	    staticClass: "mui-ellipsis"
-	  }, [_vm._v("能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？")])])])]), _vm._v(" "), _c('li', {
+	  }, [_vm._v("\n\t\t\t\t\t\t\t【到店吃】汉堡王\n\t\t\t\t\t\t\t"), _c('p', {
+	    staticClass: "product-info"
+	  }, [_vm._v("[多城市]【到点吃】仅售36元！价值40元的2份双层香脆皮鸡排堡+薯霸王(中)+百事可乐(中)")]), _vm._v(" "), _c('p', {
+	    staticClass: "product-info"
+	  }, [_c('span', {
+	    staticClass: "product-price"
+	  }, [_vm._v("￥"), _c('span', {
+	    staticClass: "bigprice"
+	  }, [_vm._v("36")])]), _vm._v(" "), _c('span', {
+	    staticClass: "product-oldprice"
+	  }, [_vm._v("门市价:￥40")]), _vm._v(" "), _c('span', {
+	    staticClass: "product-sale"
+	  }, [_vm._v("已售:29376")])]), _vm._v(" "), _c('span', {
+	    staticClass: "product-distance"
+	  }, [_vm._v("78.5km")])])])]), _vm._v(" "), _c('li', {
 	    staticClass: "mui-table-view-cell mui-media"
 	  }, [_c('a', {
 	    attrs: {
@@ -22457,9 +22486,21 @@
 	    }
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
-	  }, [_vm._v("\n\t\t\t\t\t\t\t木屋\n\t\t\t\t\t\t\t"), _c('p', {
-	    staticClass: "mui-ellipsis"
-	  }, [_vm._v("想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.")])])])]), _vm._v(" "), _c('li', {
+	  }, [_vm._v("\n\t\t\t\t\t\t\t【到店吃】汉堡王\n\t\t\t\t\t\t\t"), _c('p', {
+	    staticClass: "product-info"
+	  }, [_vm._v("[多城市]【到点吃】仅售36元！价值40元的2份双层香脆皮鸡排堡+薯霸王(中)+百事可乐(中)")]), _vm._v(" "), _c('p', {
+	    staticClass: "product-info"
+	  }, [_c('span', {
+	    staticClass: "product-price"
+	  }, [_vm._v("￥"), _c('span', {
+	    staticClass: "bigprice"
+	  }, [_vm._v("36")])]), _vm._v(" "), _c('span', {
+	    staticClass: "product-oldprice"
+	  }, [_vm._v("门市价:￥40")]), _vm._v(" "), _c('span', {
+	    staticClass: "product-sale"
+	  }, [_vm._v("已售:29376")])]), _vm._v(" "), _c('span', {
+	    staticClass: "product-distance"
+	  }, [_vm._v("78.5km")])])])]), _vm._v(" "), _c('li', {
 	    staticClass: "mui-table-view-cell mui-media"
 	  }, [_c('a', {
 	    attrs: {
@@ -22472,9 +22513,21 @@
 	    }
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
-	  }, [_vm._v("\n\t\t\t\t\t\t\tCBD\n\t\t\t\t\t\t\t"), _c('p', {
-	    staticClass: "mui-ellipsis"
-	  }, [_vm._v("烤炉模式的城，到黄昏，如同打翻的调色盘一般.")])])])])])])
+	  }, [_vm._v("\n\t\t\t\t\t\t\t【到店吃】汉堡王\n\t\t\t\t\t\t\t"), _c('p', {
+	    staticClass: "product-info"
+	  }, [_vm._v("[多城市]【到点吃】仅售36元！价值40元的2份双层香脆皮鸡排堡+薯霸王(中)+百事可乐(中)")]), _vm._v(" "), _c('p', {
+	    staticClass: "product-info"
+	  }, [_c('span', {
+	    staticClass: "product-price"
+	  }, [_vm._v("￥"), _c('span', {
+	    staticClass: "bigprice"
+	  }, [_vm._v("36")])]), _vm._v(" "), _c('span', {
+	    staticClass: "product-oldprice"
+	  }, [_vm._v("门市价:￥40")]), _vm._v(" "), _c('span', {
+	    staticClass: "product-sale"
+	  }, [_vm._v("已售:29376")])]), _vm._v(" "), _c('span', {
+	    staticClass: "product-distance"
+	  }, [_vm._v("78.5km")])])])])])])
 	}]}
 	module.exports.render._withStripped = true
 	if (false) {
@@ -24403,7 +24456,7 @@
 
 
 	// module
-	exports.push([module.id, "*{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\nbody{\r\n    /* background-color: #fff; */\r\n}\r\n.topBottom\r\n{\r\n    margin: 40px 0 50px;    \r\n}", ""]);
+	exports.push([module.id, "*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: Arial, Helvetica, sans-serif\r\n}\r\nbody{\r\n    /* background-color: #fff; */\r\n}\r\n.topBottom\r\n{\r\n    margin: 40px 0 50px;    \r\n}", ""]);
 
 	// exports
 

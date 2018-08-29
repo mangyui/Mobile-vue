@@ -76,7 +76,7 @@
 		        <li v-for="item in list2" class="mui-table-view-cell mui-media mui-col-xs-6">
 		            <router-link v-bind="{to:'/disimg/'+item.id}">
                   <!--   <img class="mui-media-object" :src="item.img_url"> -->
-                    <div class="mui-media-object" :style="{'background-color': item.color}"></div>
+                    <div class="mui-media-object" :style="{'background': 'linear-gradient(120deg,#f0f4f7,'+item.color+')'}"></div>
 		                <div class="mui-media-body divpo"><p class="plable" :style="{'background-color': item.color}">{{item.label}}</p>
                             <p class="ptitle">{{item.title}}</p>
                             <p class="ptype">{{item.type}}</p>
@@ -85,6 +85,9 @@
                 </li>
 		    </ul>    
         </div>
+        <div class="guanggao">
+            我是一条广告，你看不出来么
+        </div>
         <div class="yourlove">
             <p class="pulove">- 猜你喜欢 -</p>
           <ul class="mui-table-view">
@@ -92,8 +95,12 @@
 					<a href="javascript:;">
 						<img class="mui-media-object mui-pull-left" src="../../statics/images/im35.jpeg">
 						<div class="mui-media-body">
-							幸福
-							<p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+							【到店吃】汉堡王
+							<p class='product-info'>[多城市]【到点吃】仅售36元！价值40元的2份双层香脆皮鸡排堡+薯霸王(中)+百事可乐(中)</p>
+                            <p class='product-info'><span class="product-price">￥<span class="bigprice">36</span></span>
+                            <span class="product-oldprice">门市价:￥40</span>
+                            <span class="product-sale">已售:29376</span></p>
+                            <span class="product-distance">78.5km</span>
 						</div>
 					</a>
 				</li>
@@ -101,8 +108,12 @@
 					<a href="javascript:;">
 						<img class="mui-media-object mui-pull-left" src="../../statics/images/im35.jpeg">
 						<div class="mui-media-body">
-							木屋
-							<p class='mui-ellipsis'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+							【到店吃】汉堡王
+							<p class='product-info'>[多城市]【到点吃】仅售36元！价值40元的2份双层香脆皮鸡排堡+薯霸王(中)+百事可乐(中)</p>
+                            <p class='product-info'><span class="product-price">￥<span class="bigprice">36</span></span>
+                            <span class="product-oldprice">门市价:￥40</span>
+                            <span class="product-sale">已售:29376</span></p>
+                            <span class="product-distance">78.5km</span>
 						</div>
 					</a>
 				</li>
@@ -110,8 +121,12 @@
 					<a href="javascript:;">
 						<img class="mui-media-object mui-pull-left" src="../../statics/images/im35.jpeg">
 						<div class="mui-media-body">
-							CBD
-							<p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							【到店吃】汉堡王
+							<p class='product-info'>[多城市]【到点吃】仅售36元！价值40元的2份双层香脆皮鸡排堡+薯霸王(中)+百事可乐(中)</p>
+                            <p class='product-info'><span class="product-price">￥<span class="bigprice">36</span></span>
+                            <span class="product-oldprice">门市价:￥40</span>
+                            <span class="product-sale">已售:29376</span></p>
+                            <span class="product-distance">78.5km</span>
 						</div>
 					</a>
 				</li>
@@ -153,8 +168,8 @@ export default {
            this.list2=[
                {
                     "id":101,
-                    "label":"很优惠",
-                    "color":"#e88565",
+                    "label":"狠优惠",
+                    "color":"#fe4f5c",
                     "title":"【到店吃】正新鸡排",
                     "type":"美食",
                     "dis":"5折抢购",
@@ -163,7 +178,7 @@ export default {
                                {
                     "id":102,
                     "label":"有格调",
-                    "color":"#ef3e4a",
+                    "color":"#c4aa7a",
                     "title":"于都湖彬大酒店",
                     "type":"酒店",
                     "dis":"",
@@ -172,7 +187,7 @@ export default {
                                {
                     "id":103,
                     "label":"午餐要讲究",
-                    "color":"#a7bbc3",
+                    "color":"#fb8708",
                     "title":"蚝莊",
                     "type":"河海鲜",
                     "dis":"",
@@ -181,7 +196,7 @@ export default {
                                {
                     "id":104,
                     "label":"周末去哪儿",
-                    "color":"#776ea7",
+                    "color":"#4685eb",
                     "title":"赣州极地海洋世界成人票",
                     "type":"周边游",
                     "dis":"",
@@ -432,7 +447,7 @@ export default {
     background-position: -356px -198px;
 }
 .yourlove .mui-table-view-cell{
-    padding: 15px 14px;
+    padding: 14px 14px 0px;
 }
 .pulove{
     text-align: center;
@@ -441,5 +456,49 @@ export default {
     background: #fff;
     border-bottom: 1px solid #f7f7f7;
     margin-bottom: 0;
+}
+.guanggao{
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background:linear-gradient(90deg,#17c5b0,#4daafd,#ff6c84);
+    font-weight: bold;
+    line-height: 100px;
+}
+.yourlove li img{
+    border-radius: 2px;
+    max-width: 75px;
+    height: 75px;
+}
+.yourlove li .product-info{
+    color: #555;
+    font-size: 13px;
+    height: 40px;
+    white-space: inherit;
+    margin: 5px 0;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    font-family: Arial, Helvetica, sans-serif
+}
+.yourlove .mui-media-body{
+    white-space: initial;
+}
+.yourlove li .product-distance{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 13px;
+    color: #555;
+}
+.yourlove li .product-info .product-sale{
+    float: right;
+}
+.yourlove li .product-info .product-price{
+    color: #f74940;
+}
+.yourlove li .product-info .product-price .bigprice{
+    font-size: 18px;
+    font-weight: bold;
 }
 </style>
