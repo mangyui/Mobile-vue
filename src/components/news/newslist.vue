@@ -82,7 +82,7 @@ export default {
    }
   .topBottom
   {
-          margin: 45px 0 55px;
+          margin: 50px 0 55px;
   }
   .mui-card-header.mui-card-media
   {

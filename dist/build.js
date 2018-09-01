@@ -82,17 +82,21 @@
 
 	var _set2 = _interopRequireDefault(_set);
 
-	__webpack_require__(57);
+	var _nearby = __webpack_require__(57);
+
+	var _nearby2 = _interopRequireDefault(_nearby);
+
+	__webpack_require__(62);
 
 	var _mintUi = __webpack_require__(23);
 
 	var _mintUi2 = _interopRequireDefault(_mintUi);
 
-	__webpack_require__(61);
+	__webpack_require__(66);
 
-	__webpack_require__(63);
+	__webpack_require__(68);
 
-	var _vueResource = __webpack_require__(65);
+	var _vueResource = __webpack_require__(70);
 
 	var _vueResource2 = _interopRequireDefault(_vueResource);
 
@@ -107,7 +111,7 @@
 
 	var router1 = new _vueRouter2.default({
 	    linkActiveClass: 'mui-active',
-	    routes: [{ path: '/', redirect: "/home" }, { path: '/home', component: _home2.default }, { path: '/cart', component: _cart2.default }, { path: '/news/newslist', component: _newslist2.default }, { path: '/usercenter/user', component: _user2.default }, { path: '/disimg/:id', component: _disimg2.default }, { path: '/setting', component: _set2.default }]
+	    routes: [{ path: '/', redirect: "/home" }, { path: '/home', component: _home2.default }, { path: '/cart', component: _cart2.default }, { path: '/news/newslist', component: _newslist2.default }, { path: '/usercenter/user', component: _user2.default }, { path: '/disimg/:id', component: _disimg2.default }, { path: '/setting', component: _set2.default }, { path: '/nearby', component: _nearby2.default }]
 	});
 
 	//在vue全局使用mintui
@@ -9204,7 +9208,7 @@
 	  }, [_vm._v("首页")])]), _vm._v(" "), _c('router-link', {
 	    staticClass: "mui-tab-item",
 	    attrs: {
-	      "to": "/sider"
+	      "to": "/nearby"
 	    }
 	  }, [_c('span', {
 	    staticClass: "mui-icon tic2"
@@ -11953,7 +11957,7 @@
 
 
 	// module
-	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n /* .toleft\n\t {\n\t\t display: none;\n     } */\n#header[data-v-72b7d7c6]{\n        background-color: #fff;\n}\n.mui-bar .mui-title[data-v-72b7d7c6]\n     {\n         width: 60%;\n         left: auto;\n         margin: 0 2%;\n}\n.isearch[data-v-72b7d7c6]\n     {\n       border-radius: 20px;\n         padding: 8px;\n    font-size: 0.7em;\n    text-align: left;\n    padding-left: 30px;     \n    height: 24px;\n    border: none;\n    background-color: rgba(200, 200, 200, 0.3);\n}\n#header .mui-icon[data-v-72b7d7c6]\n    {\n        color: rgb(82, 82, 82);\n        font-weight: 600;\n        font-size: 1.6em;\n}\n#header .mui-title .asear[data-v-72b7d7c6]\n    {\n        position: absolute;\n        top:50%;\n      top: 50%;\n     margin-top: -9px;\n    font-size: 16px;\n    left: 8px;\n}\n.mint-swipe[data-v-72b7d7c6]{\n      height:200px;\n}\n.mint-swipe-item img[data-v-72b7d7c6]\n  {\n      width:100%;\n      height:100%;\n}\n.mint-swipe-item[data-v-72b7d7c6]\n  {\n       text-align: center;\n       line-height:300px;\n       color:#fff;\n       font-size:36px;\n       background-color:rgb(37, 173, 180);\n       width:100%;\n       height:200px;\n}\n.mui-content > .mui-table-view[data-v-72b7d7c6]:first-child\n  {\n      margin-top: 0;\n}\n.mui-content[data-v-72b7d7c6],.mui-content ul[data-v-72b7d7c6]{\n      background-color: #fff;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]{\n      border-bottom: 0px;\n      border-right: 0px;\n}\n.mui-grid-view.mui-grid-9[data-v-72b7d7c6]{\n      border-top: 0px;\n      border-left: 0px;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] \n  {\n      font-size: 0.7em;\n      color: rgb(82, 82, 82);\n       overflow: visible;\n}\n.mui-content .mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] \n  {\n      margin-top: 0;\n}\n\n/*   .content2 .mui-grid-view.mui-grid-9 .mui-media .mui-icon\n  {\n      font-size:1.5em;\n      color: rgb(78, 187, 183);\n  } */\n.mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-72b7d7c6]\n  {\n      font-size:2.4em;\n}\n.content0 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 5px 0;\n}\n.content2 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6]\n  {\n      padding: 0px 0;\n}\n.mui-col-xs-3[data-v-72b7d7c6] {\n    width: 20%;\n}\n.mui-icon .mui-badge[data-v-72b7d7c6] {\n    margin-left: -40%;\n}\n.hr90[data-v-72b7d7c6]{\n    width: 95%;\n    margin: 0 auto;\n    padding: 0;\n    border-top:1px solid rgba(200, 200, 200, 0.3);\n}\n.dis-content .mui-table-view[data-v-72b7d7c6]\n{\n    margin: 10px 0;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-object[data-v-72b7d7c6]{\n    height: 110px;\n    opacity: 0.6;\n     max-width: 99.9%;\n}\n.mui-table-view[data-v-72b7d7c6]{\n    position: static;\n}\n.mui-table-view[data-v-72b7d7c6]::after\n{\n   height: 0;\n}\n.divpo[data-v-72b7d7c6]\n{\n    position: absolute;\n    top:2px;\n    left: 14px;\n}\n.divpo p[data-v-72b7d7c6]\n{\n   text-align: left;\n   padding: 5px 10px;\n}\n.plable[data-v-72b7d7c6]{\n    color: #fff;\n    border-radius: 0 0 5px 0;\n    display: inline-block;\n    float: left;\n    padding-right: 10px;\n    font-weight: bold;\n}\n.ptitle[data-v-72b7d7c6]\n{\n    clear: both;\n    color: #000;\n    font-weight: bold;\n}\n.ptype[data-v-72b7d7c6]\n{\n   color: rgb(82, 82, 82);\n   font-size: 12px;\n}\n.mui-content[data-v-72b7d7c6]\n{\n    padding: 2px 5px 0;\n}\n.content2[data-v-72b7d7c6]\n{\n    padding-bottom: 10px;\n}\n.content0 .mui-icon[data-v-72b7d7c6]\n{\n    line-height: 0;\n}\n.content0 .mui-icon[data-v-72b7d7c6]::before\n{\n    content: '';\n    background: url(" + escape(__webpack_require__(21)) + ");\n    display: inline-block;\n    width: 55px;\n    height: 55px;\n    background-size: 720%;\n}\n.content2 .mui-icon[data-v-72b7d7c6]::before\n{\n    content: '';\n    background: url(" + escape(__webpack_require__(21)) + ");\n    display: inline-block;\n    width: 33px;\n    height: 33px;\n    background-size: 1280%;\n}\n.mui-content .hic1[data-v-72b7d7c6]::before{\n    background-position: -16px -16px;\n}\n.mui-content .hic2[data-v-72b7d7c6]::before{\n    background-position: -93px -16px;\n}\n.mui-content .hic3[data-v-72b7d7c6]::before{\n    background-position: -170px -16px;\n}\n.mui-content .hic4[data-v-72b7d7c6]::before{\n    background-position: -247px -16px;\n}\n.mui-content .hic5[data-v-72b7d7c6]::before{\n    background-position: -326px -16px;\n}\n.mui-content .hic6[data-v-72b7d7c6]::before{\n    background-position: -30px -120px;\n}\n.mui-content .hic7[data-v-72b7d7c6]::before{\n    background-position: -110px -120px;\n}\n.mui-content .hic8[data-v-72b7d7c6]::before{\n    background-position: -194px -120px;\n}\n.mui-content .hic9[data-v-72b7d7c6]::before{\n    background-position: -274px -120px;\n}\n.mui-content .hic10[data-v-72b7d7c6]::before{\n    background-position: -356px -120px;\n}\n.mui-content .hic11[data-v-72b7d7c6]::before{\n    background-position: -32px -198px\n}\n.mui-content .hic12[data-v-72b7d7c6]::before{\n    background-position: -110px -198px;\n}\n.mui-content .hic13[data-v-72b7d7c6]::before{\n    background-position: -194px -198px;\n}\n.mui-content .hic14[data-v-72b7d7c6]::before{\n    background-position: -274px -198px;\n}\n.mui-content .hic15[data-v-72b7d7c6]::before{\n    background-position: -356px -198px;\n}\n.yourlove .mui-table-view-cell[data-v-72b7d7c6]{\n    padding: 14px 14px 0px;\n}\n.pulove[data-v-72b7d7c6]{\n    text-align: center;\n    padding: 10px;\n    color: #aaa;\n    background: #fff;\n    border-bottom: 1px solid #f7f7f7;\n    margin-bottom: 0;\n}\n.guanggao[data-v-72b7d7c6]{\n    margin-bottom: 10px;\n    text-align: center;\n    width: 100%;\n    height: 100px;\n    background:linear-gradient(90deg,#17c5b0,#4daafd,#ff6c84);\n    font-weight: bold;\n    line-height: 100px;\n}\n.yourlove li img[data-v-72b7d7c6]{\n    border-radius: 2px;\n    max-width: 75px;\n    height: 75px;\n}\n.yourlove li .product-info[data-v-72b7d7c6]{\n    color: #555;\n    font-size: 13px;\n    height: 40px;\n    white-space: inherit;\n    margin: 5px 0;\n    overflow: hidden;\n    text-overflow: ellipsis; \n    font-family: Arial, Helvetica, sans-serif\n}\n.yourlove .mui-media-body[data-v-72b7d7c6]{\n    white-space: initial;\n}\n.yourlove li .product-distance[data-v-72b7d7c6]{\n    position: absolute;\n    top: 15px;\n    right: 10px;\n    font-size: 13px;\n    color: #555;\n}\n.yourlove li .product-info .product-sale[data-v-72b7d7c6]{\n    float: right;\n}\n.yourlove li .product-info .product-price[data-v-72b7d7c6]{\n    color: #f74940;\n}\n.yourlove li .product-info .product-price .bigprice[data-v-72b7d7c6]{\n    font-size: 18px;\n    font-weight: bold;\n}\n", ""]);
+	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n/* .toleft\r\n\t {\r\n\t\t display: none;\r\n     } */\n#header[data-v-72b7d7c6] {\r\n  background-color: #fff;\n}\n#header .location[data-v-72b7d7c6] {\r\n  color: #444;\r\n  font-size: 15px;\r\n  display: inline-block;\r\n  height: 44px;\r\n  line-height: 44px;\r\n  padding-left: 30px;\n}\n#header .location span.mui-icon[data-v-72b7d7c6] {\r\n  font-size: 14px;\n}\n.mui-bar .mui-title[data-v-72b7d7c6] {\r\n  width: 60%;\r\n  left: auto;\r\n  margin: 0 2%;\n}\n.isearch[data-v-72b7d7c6] {\r\n  border-radius: 20px;\r\n  padding: 8px;\r\n  font-size: 0.7em;\r\n  text-align: left;\r\n  padding-left: 30px;\r\n  height: 24px;\r\n  border: none;\r\n  background-color: rgba(200, 200, 200, 0.3);\n}\n#header .mui-icon[data-v-72b7d7c6] {\r\n  color: rgb(82, 82, 82);\r\n  font-weight: 600;\r\n  font-size: 1.6em;\n}\n#header .mui-title .asear[data-v-72b7d7c6] {\r\n  position: absolute;\r\n  top: 50%;\r\n  top: 50%;\r\n  margin-top: -9px;\r\n  font-size: 16px;\r\n  left: 8px;\n}\n.mint-swipe[data-v-72b7d7c6] {\r\n  height: 120px;\n}\n.mint-swipe-item img[data-v-72b7d7c6] {\r\n  width: 100%;\r\n  height: 100%;\n}\n.mint-swipe-item[data-v-72b7d7c6] {\r\n  color: #fff;\r\n  font-size: 36px;\r\n  background-color: rgb(37, 173, 180);\r\n  width: 100%;\r\n  height: 120px;\n}\n.mui-content > .mui-table-view[data-v-72b7d7c6]:first-child {\r\n  margin-top: 0;\n}\n.mui-content[data-v-72b7d7c6],\r\n.mui-content ul[data-v-72b7d7c6] {\r\n  background-color: #fff;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6] {\r\n  border-bottom: 0px;\r\n  border-right: 0px;\n}\n.mui-grid-view.mui-grid-9[data-v-72b7d7c6] {\r\n  border-top: 0px;\r\n  border-left: 0px;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body[data-v-72b7d7c6] {\r\n  font-size: 0.7em;\r\n  color: rgb(82, 82, 82);\r\n  overflow: visible;\n}\n.mui-content\r\n  .mui-table-view.mui-grid-view\r\n  .mui-table-view-cell\r\n  .mui-media-body[data-v-72b7d7c6] {\r\n  margin-top: 0;\n}\r\n\r\n/*   .content2 .mui-grid-view.mui-grid-9 .mui-media .mui-icon\r\n  {\r\n      font-size:1.5em;\r\n      color: rgb(78, 187, 183);\r\n  } */\n.mui-grid-view.mui-grid-9 .mui-media .mui-icon[data-v-72b7d7c6] {\r\n  font-size: 2.4em;\n}\n.content0 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6] {\r\n  padding: 5px 0;\n}\n.content2 .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-72b7d7c6] {\r\n  padding: 0px 0;\n}\n.mui-col-xs-3[data-v-72b7d7c6] {\r\n  width: 20%;\n}\n.mui-icon .mui-badge[data-v-72b7d7c6] {\r\n  margin-left: -40%;\n}\n.hr90[data-v-72b7d7c6] {\r\n  width: 95%;\r\n  margin: 0 auto;\r\n  padding: 0;\r\n  border-top: 1px solid rgba(200, 200, 200, 0.3);\n}\n.dis-content .mui-table-view[data-v-72b7d7c6] {\r\n  margin: 10px 0;\n}\n.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-object[data-v-72b7d7c6] {\r\n  height: 110px;\r\n  opacity: 0.6;\r\n  max-width: 99.9%;\n}\n.mui-table-view[data-v-72b7d7c6] {\r\n  position: static;\n}\n.mui-table-view[data-v-72b7d7c6]::after {\r\n  height: 0;\n}\n.divpo[data-v-72b7d7c6] {\r\n  position: absolute;\r\n  top: 2px;\r\n  left: 14px;\n}\n.divpo p[data-v-72b7d7c6] {\r\n  text-align: left;\r\n  padding: 5px 10px;\n}\n.plable[data-v-72b7d7c6] {\r\n  color: #fff;\r\n  border-radius: 0 0 5px 0;\r\n  display: inline-block;\r\n  float: left;\r\n  font-weight: bold;\r\n  font-size: 12px;\n}\n.ptitle[data-v-72b7d7c6] {\r\n  clear: both;\r\n  color: #000;\r\n  font-weight: bold;\n}\n.ptype[data-v-72b7d7c6] {\r\n  color: rgb(82, 82, 82);\r\n  font-size: 12px;\n}\n.mui-content[data-v-72b7d7c6] {\r\n  padding: 2px 5px 0;\n}\n.content2[data-v-72b7d7c6] {\r\n  padding-bottom: 10px;\n}\n.content0 .mui-icon[data-v-72b7d7c6] {\r\n  line-height: 0;\n}\n.content0 .mui-icon[data-v-72b7d7c6]::before {\r\n  content: \"\";\r\n  background: url(" + escape(__webpack_require__(21)) + ");\r\n  display: inline-block;\r\n  width: 55px;\r\n  height: 55px;\r\n  background-size: 720%;\n}\n.content2 .mui-icon[data-v-72b7d7c6]::before {\r\n  content: \"\";\r\n  background: url(" + escape(__webpack_require__(21)) + ");\r\n  display: inline-block;\r\n  width: 33px;\r\n  height: 33px;\r\n  background-size: 1280%;\n}\n.mui-content .hic1[data-v-72b7d7c6]::before {\r\n  background-position: -16px -16px;\n}\n.mui-content .hic2[data-v-72b7d7c6]::before {\r\n  background-position: -93px -16px;\n}\n.mui-content .hic3[data-v-72b7d7c6]::before {\r\n  background-position: -170px -16px;\n}\n.mui-content .hic4[data-v-72b7d7c6]::before {\r\n  background-position: -247px -16px;\n}\n.mui-content .hic5[data-v-72b7d7c6]::before {\r\n  background-position: -326px -16px;\n}\n.mui-content .hic6[data-v-72b7d7c6]::before {\r\n  background-position: -30px -120px;\n}\n.mui-content .hic7[data-v-72b7d7c6]::before {\r\n  background-position: -110px -120px;\n}\n.mui-content .hic8[data-v-72b7d7c6]::before {\r\n  background-position: -194px -120px;\n}\n.mui-content .hic9[data-v-72b7d7c6]::before {\r\n  background-position: -274px -120px;\n}\n.mui-content .hic10[data-v-72b7d7c6]::before {\r\n  background-position: -356px -120px;\n}\n.mui-content .hic11[data-v-72b7d7c6]::before {\r\n  background-position: -32px -198px;\n}\n.mui-content .hic12[data-v-72b7d7c6]::before {\r\n  background-position: -110px -198px;\n}\n.mui-content .hic13[data-v-72b7d7c6]::before {\r\n  background-position: -194px -198px;\n}\n.mui-content .hic14[data-v-72b7d7c6]::before {\r\n  background-position: -274px -198px;\n}\n.mui-content .hic15[data-v-72b7d7c6]::before {\r\n  background-position: -356px -198px;\n}\n.yourlove .mui-table-view-cell[data-v-72b7d7c6] {\r\n  padding: 14px 14px 0px;\n}\n.pulove[data-v-72b7d7c6] {\r\n  text-align: center;\r\n  padding: 10px;\r\n  color: #777;\r\n  background: #fff;\r\n  border-bottom: 1px solid #f7f7f7;\r\n  margin-bottom: 0;\n}\n.guanggao[data-v-72b7d7c6] {\r\n  margin-bottom: 10px;\r\n  text-align: center;\r\n  width: 100%;\r\n  height: 100px;\r\n  background: linear-gradient(90deg, #17c5b0, #4daafd, #ff6c84);\r\n  font-weight: bold;\r\n  line-height: 100px;\n}\n.yourlove li img[data-v-72b7d7c6] {\r\n  border-radius: 2px;\r\n  max-width: 75px;\r\n  height: 75px;\n}\n.yourlove li .product-info[data-v-72b7d7c6] {\r\n  color: #555;\r\n  font-size: 12px;\r\n  height: 40px;\r\n  white-space: inherit;\r\n  margin: 5px 0;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  font-family: Arial, Helvetica, sans-serif;\n}\n.yourlove .mui-media-body[data-v-72b7d7c6] {\r\n  white-space: initial;\n}\n.yourlove li .product-distance[data-v-72b7d7c6] {\r\n  position: absolute;\r\n  top: 15px;\r\n  right: 10px;\r\n  font-size: 12px;\r\n  color: #555;\n}\n.yourlove li .product-info .product-sale[data-v-72b7d7c6] {\r\n  float: right;\n}\n.yourlove li .product-info .product-price[data-v-72b7d7c6] {\r\n  color: #f74940;\n}\n.yourlove li .product-info .product-price .bigprice[data-v-72b7d7c6] {\r\n  font-size: 18px;\r\n  font-weight: bold;\n}\n.mui-table-view-cell[data-v-72b7d7c6]:after {\r\n  left: 0;\r\n  margin: 0 auto;\r\n  width: 95%;\r\n  background-color: #eeeded;\n}\r\n", ""]);
 
 	// exports
 
@@ -11968,10 +11972,10 @@
 /* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
-	    value: true
+	  value: true
 	});
 
 	var _mintUi = __webpack_require__(23);
@@ -12119,69 +12123,134 @@
 	//
 	//
 	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
 
 	exports.default = {
-	    data: function data() {
-	        return {
-	            list: [],
-	            list2: []
+	  data: function data() {
+	    return {
+	      list: [],
+	      list2: []
+	    };
+	  },
+	  created: function created() {
+	    this.getimgs();
+	    this.getimglist2();
+	  },
 
-	        };
-	    },
-	    created: function created() {
-	        this.getimgs();
-	        this.getimglist2();
-	    },
-
-	    methods: {
-	        getimgs: function getimgs() {
-	            var url = _common2.default.apidomain + "/Mobile-vue/data/img.json";
-	            this.$http.get(url).then(function (response) {
-	                if (response.body.status != 0) {
-	                    (0, _mintUi.Toast)(response.body.message);
-	                    return;
-	                }
-
-	                this.list = response.body.message;
-	            });
-	        },
-	        getimglist2: function getimglist2() {
-	            this.list2 = [{
-	                "id": 101,
-	                "label": "狠优惠",
-	                "color": "#fe4f5c",
-	                "title": "【到店吃】正新鸡排",
-	                "type": "美食",
-	                "dis": "5折抢购",
-	                "img_url": _common2.default.apidomain + "/DessertShop/images/team/team-1.jpg"
-	            }, {
-	                "id": 102,
-	                "label": "有格调",
-	                "color": "#c4aa7a",
-	                "title": "于都湖彬大酒店",
-	                "type": "酒店",
-	                "dis": "",
-	                "img_url": _common2.default.apidomain + "/DessertShop/images/team/team-2.jpg"
-	            }, {
-	                "id": 103,
-	                "label": "午餐要讲究",
-	                "color": "#fb8708",
-	                "title": "蚝莊",
-	                "type": "河海鲜",
-	                "dis": "",
-	                "img_url": _common2.default.apidomain + "/DessertShop/images/team/team-3.jpg"
-	            }, {
-	                "id": 104,
-	                "label": "周末去哪儿",
-	                "color": "#4685eb",
-	                "title": "赣州极地海洋世界成人票",
-	                "type": "周边游",
-	                "dis": "",
-	                "img_url": _common2.default.apidomain + "/DessertShop/images/team/team-1.jpg"
-	            }];
+	  methods: {
+	    getimgs: function getimgs() {
+	      var url = _common2.default.apidomain + "/Mobile-vue/data/img.json";
+	      this.$http.get(url).then(function (response) {
+	        if (response.body.status != 0) {
+	          (0, _mintUi.Toast)(response.body.message);
+	          return;
 	        }
-	    }
 
+	        this.list = response.body.message;
+	      });
+	    },
+	    getimglist2: function getimglist2() {
+	      this.list2 = [{
+	        id: 101,
+	        label: "狠优惠",
+	        color: "#fe4f5c",
+	        title: "【到店吃】正新鸡排",
+	        type: "美食",
+	        dis: "5折抢购",
+	        img_url: _common2.default.apidomain + "/DessertShop/images/team/team-1.jpg"
+	      }, {
+	        id: 102,
+	        label: "有格调",
+	        color: "#c4aa7a",
+	        title: "于都湖彬大酒店",
+	        type: "酒店",
+	        dis: "",
+	        img_url: _common2.default.apidomain + "/DessertShop/images/team/team-2.jpg"
+	      }, {
+	        id: 103,
+	        label: "午餐要讲究",
+	        color: "#fb8708",
+	        title: "蚝莊",
+	        type: "河海鲜",
+	        dis: "",
+	        img_url: _common2.default.apidomain + "/DessertShop/images/team/team-3.jpg"
+	      }, {
+	        id: 104,
+	        label: "周末去哪儿",
+	        color: "#4685eb",
+	        title: "赣州极地海洋世界成人票",
+	        type: "周边游",
+	        dis: "",
+	        img_url: _common2.default.apidomain + "/DessertShop/images/team/team-1.jpg"
+	      }];
+	    }
+	  }
 	};
 
 /***/ },
@@ -22216,7 +22285,21 @@
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('div', {
 	    staticClass: "topBottom"
-	  }, [_vm._m(0), _vm._v(" "), _c('mt-swipe', {
+	  }, [_c('header', {
+	    staticClass: "mui-bar mui-bar-transparent",
+	    attrs: {
+	      "id": "header"
+	    }
+	  }, [_c('router-link', {
+	    staticClass: "location",
+	    attrs: {
+	      "to": "/location"
+	    }
+	  }, [_vm._v("杭州\n            "), _c('span', {
+	    staticClass: "mui-icon mui-icon-arrowdown"
+	  })]), _vm._v(" "), _vm._m(0), _vm._v(" "), _c('a', {
+	    staticClass: "mui-icon mui-icon-plusempty mui-pull-right"
+	  })], 1), _vm._v(" "), _c('mt-swipe', {
 	    attrs: {
 	      "auto": 3000
 	    }
@@ -22419,14 +22502,9 @@
 	    }, [_vm._v(_vm._s(item.type))])])])], 1)
 	  }))]), _vm._v(" "), _c('div', {
 	    staticClass: "guanggao"
-	  }, [_vm._v("\n            我是一条广告，你看不出来么\n        ")]), _vm._v(" "), _vm._m(1)], 1)
+	  }, [_vm._v("\n        我是一条广告，你看不出来么\n    ")]), _vm._v(" "), _vm._m(1)], 1)
 	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('header', {
-	    staticClass: "mui-bar mui-bar-transparent",
-	    attrs: {
-	      "id": "header"
-	    }
-	  }, [_c('div', {
+	  return _c('div', {
 	    staticClass: "mui-title"
 	  }, [_c('a', {
 	    staticClass: "mui-icon mui-icon-search asear"
@@ -22436,8 +22514,6 @@
 	      "type": "text",
 	      "placeholder": "蛋糕  "
 	    }
-	  })]), _vm._v(" "), _c('a', {
-	    staticClass: "mui-icon mui-icon-plusempty mui-pull-right"
 	  })])
 	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('div', {
@@ -22459,19 +22535,19 @@
 	    }
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
-	  }, [_vm._v("\n\t\t\t\t\t\t\t【到店吃】汉堡王\n\t\t\t\t\t\t\t"), _c('p', {
+	  }, [_vm._v("\n                        【到店吃】汉堡王\n                        "), _c('p', {
 	    staticClass: "product-info"
 	  }, [_vm._v("[多城市]【到点吃】仅售36元！价值40元的2份双层香脆皮鸡排堡+薯霸王(中)+百事可乐(中)")]), _vm._v(" "), _c('p', {
 	    staticClass: "product-info"
 	  }, [_c('span', {
 	    staticClass: "product-price"
-	  }, [_vm._v("￥"), _c('span', {
+	  }, [_vm._v("￥\n                                "), _c('span', {
 	    staticClass: "bigprice"
 	  }, [_vm._v("36")])]), _vm._v(" "), _c('span', {
 	    staticClass: "product-oldprice"
 	  }, [_vm._v("门市价:￥40")]), _vm._v(" "), _c('span', {
 	    staticClass: "product-sale"
-	  }, [_vm._v("已售:29376")])]), _vm._v(" "), _c('span', {
+	  }, [_vm._v("已售29376")])]), _vm._v(" "), _c('span', {
 	    staticClass: "product-distance"
 	  }, [_vm._v("78.5km")])])])]), _vm._v(" "), _c('li', {
 	    staticClass: "mui-table-view-cell mui-media"
@@ -22486,19 +22562,19 @@
 	    }
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
-	  }, [_vm._v("\n\t\t\t\t\t\t\t【到店吃】汉堡王\n\t\t\t\t\t\t\t"), _c('p', {
+	  }, [_vm._v("\n                        【到店吃】汉堡王\n                        "), _c('p', {
 	    staticClass: "product-info"
 	  }, [_vm._v("[多城市]【到点吃】仅售36元！价值40元的2份双层香脆皮鸡排堡+薯霸王(中)+百事可乐(中)")]), _vm._v(" "), _c('p', {
 	    staticClass: "product-info"
 	  }, [_c('span', {
 	    staticClass: "product-price"
-	  }, [_vm._v("￥"), _c('span', {
+	  }, [_vm._v("￥\n                                "), _c('span', {
 	    staticClass: "bigprice"
 	  }, [_vm._v("36")])]), _vm._v(" "), _c('span', {
 	    staticClass: "product-oldprice"
 	  }, [_vm._v("门市价:￥40")]), _vm._v(" "), _c('span', {
 	    staticClass: "product-sale"
-	  }, [_vm._v("已售:29376")])]), _vm._v(" "), _c('span', {
+	  }, [_vm._v("已售29376")])]), _vm._v(" "), _c('span', {
 	    staticClass: "product-distance"
 	  }, [_vm._v("78.5km")])])])]), _vm._v(" "), _c('li', {
 	    staticClass: "mui-table-view-cell mui-media"
@@ -22513,19 +22589,19 @@
 	    }
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
-	  }, [_vm._v("\n\t\t\t\t\t\t\t【到店吃】汉堡王\n\t\t\t\t\t\t\t"), _c('p', {
+	  }, [_vm._v("\n                        【到店吃】汉堡王\n                        "), _c('p', {
 	    staticClass: "product-info"
 	  }, [_vm._v("[多城市]【到点吃】仅售36元！价值40元的2份双层香脆皮鸡排堡+薯霸王(中)+百事可乐(中)")]), _vm._v(" "), _c('p', {
 	    staticClass: "product-info"
 	  }, [_c('span', {
 	    staticClass: "product-price"
-	  }, [_vm._v("￥"), _c('span', {
+	  }, [_vm._v("￥\n                                "), _c('span', {
 	    staticClass: "bigprice"
 	  }, [_vm._v("36")])]), _vm._v(" "), _c('span', {
 	    staticClass: "product-oldprice"
 	  }, [_vm._v("门市价:￥40")]), _vm._v(" "), _c('span', {
 	    staticClass: "product-sale"
-	  }, [_vm._v("已售:29376")])]), _vm._v(" "), _c('span', {
+	  }, [_vm._v("已售29376")])]), _vm._v(" "), _c('span', {
 	    staticClass: "product-distance"
 	  }, [_vm._v("78.5km")])])])])])])
 	}]}
@@ -22813,7 +22889,7 @@
 
 
 	// module
-	exports.push([module.id, "\n#header[data-v-46b6585f]{\n     background-color: #fff;\n     border-bottom: 1px solid #ccc;\n}\n#header h1[data-v-46b6585f]{\n     font-weight: bold;\n}\n.topBottom[data-v-46b6585f]\n{\n        margin: 45px 0 55px;\n}\n.mui-card-header.mui-card-media[data-v-46b6585f]\n{\n    padding: 0;\n}\n.mui-card-media[data-v-46b6585f]\n{\n    position: relative;\n}\n.mui-card-media p[data-v-46b6585f]\n{\n    color: #fff;\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n    height: 36px;\n    font-size: 1.1em;\n    line-height: 36px;\n    background-color: rgba(27, 28, 75,.8);\n    text-align: center;\n}\n /* .ft{\n     margin-top: 1.5em;\n     font-size: 12px;\n     color: dimgray;\n }*/\n.ft .click[data-v-46b6585f]{\n     float: right;\n}\n.pbottom[data-v-46b6585f]{\n     text-align: center;\n     margin: 24px auto;\n     font-size: 0.6em;\n}\n", ""]);
+	exports.push([module.id, "\n#header[data-v-46b6585f]{\n     background-color: #fff;\n     border-bottom: 1px solid #ccc;\n}\n#header h1[data-v-46b6585f]{\n     font-weight: bold;\n}\n.topBottom[data-v-46b6585f]\n{\n        margin: 50px 0 55px;\n}\n.mui-card-header.mui-card-media[data-v-46b6585f]\n{\n    padding: 0;\n}\n.mui-card-media[data-v-46b6585f]\n{\n    position: relative;\n}\n.mui-card-media p[data-v-46b6585f]\n{\n    color: #fff;\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n    height: 36px;\n    font-size: 1.1em;\n    line-height: 36px;\n    background-color: rgba(27, 28, 75,.8);\n    text-align: center;\n}\n /* .ft{\n     margin-top: 1.5em;\n     font-size: 12px;\n     color: dimgray;\n }*/\n.ft .click[data-v-46b6585f]{\n     float: right;\n}\n.pbottom[data-v-46b6585f]{\n     text-align: center;\n     margin: 24px auto;\n     font-size: 0.6em;\n}\n", ""]);
 
 	// exports
 
@@ -23792,7 +23868,186 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(58);
+	/* styles */
+	__webpack_require__(58)
+
+	var Component = __webpack_require__(14)(
+	  /* script */
+	  __webpack_require__(60),
+	  /* template */
+	  __webpack_require__(61),
+	  /* scopeId */
+	  "data-v-9a4f647e",
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "G:\\2018—Web\\暑期8月上旬学习\\work\\src\\components\\nearby\\nearby.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] nearby.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-9a4f647e", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-9a4f647e", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 58 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(59);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	if(content.locals) module.exports = content.locals;
+	// add the styles to the DOM
+	var update = __webpack_require__(12)("30ceb7c9", content, false);
+	// Hot Module Replacement
+	if(false) {
+	 // When the styles change, update the <style> tags
+	 if(!content.locals) {
+	   module.hot.accept("!!../../../node_modules/_css-loader@1.0.0@css-loader/index.js!../../../node_modules/_vue-loader@11.3.4@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-9a4f647e\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/_vue-loader@11.3.4@vue-loader/lib/selector.js?type=styles&index=0!./nearby.vue", function() {
+	     var newContent = require("!!../../../node_modules/_css-loader@1.0.0@css-loader/index.js!../../../node_modules/_vue-loader@11.3.4@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-9a4f647e\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/_vue-loader@11.3.4@vue-loader/lib/selector.js?type=styles&index=0!./nearby.vue");
+	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	     update(newContent);
+	   });
+	 }
+	 // When the module is disposed, remove the <style> tags
+	 module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 59 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(9)(false);
+	// imports
+
+
+	// module
+	exports.push([module.id, "\n#header[data-v-9a4f647e] {\r\n  background-color: #f9f9f9;\r\n  border-bottom: 1px solid #ccc;\n}\n#header .location[data-v-9a4f647e] {\r\n  color: #444;\r\n  font-size: 14px;\r\n  display: inline-block;\r\n  height: 44px;\r\n  line-height: 44px;\r\n  padding-left: 10px;\n}\n#header .location span.mui-icon[data-v-9a4f647e] {\r\n  font-size: 16px;\n}\n.mui-bar .mui-title[data-v-9a4f647e] {\r\n  width: 60%;\r\n  margin: 0 2%;\r\n  right: 10px;\r\n  left: auto;\n}\n.isearch[data-v-9a4f647e] {\r\n  border-radius: 2px;\r\n  padding: 8px;\r\n  font-size: 0.7em;\r\n  text-align: left;\r\n  padding-left: 30px;\r\n  height: 24px;\r\n  border: none;\r\n  background-color: rgba(200, 200, 200, 0.3);\n}\n#header .mui-title .asear[data-v-9a4f647e] {\r\n  position: absolute;\r\n  top: 50%;\r\n  top: 50%;\r\n  margin-top: -9px;\r\n  font-size: 16px;\r\n  left: 8px;\n}\n.topBottom[data-v-9a4f647e] {\r\n  margin: 50px 0 55px;\n}\n.card[data-v-9a4f647e]{\r\n    width: 180%;\r\n    padding: 15px;\n}\n.card img[data-v-9a4f647e]{\r\n    width: 280px;\r\n    height: 150px;\r\n    border-radius: 20px;\r\n    box-shadow: 0 10px 20px #aaa;\r\n    margin-left: 10px;\n}\n.card .active-card[data-v-9a4f647e]{\r\n    width: 300px;\r\n    height: 170px;\n}\r\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 60 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _common = __webpack_require__(27);
+
+	var _common2 = _interopRequireDefault(_common);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	exports.default = {
+	  data: function data() {
+	    return {
+	      list: []
+	    };
+	  },
+	  created: function created() {},
+
+	  methods: {}
+	}; //
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+/***/ },
+/* 61 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: "topBottom"
+	  }, [_c('header', {
+	    staticClass: "mui-bar mui-bar-transparent",
+	    attrs: {
+	      "id": "header"
+	    }
+	  }, [_c('router-link', {
+	    staticClass: "location",
+	    attrs: {
+	      "to": "/location"
+	    }
+	  }, [_vm._v("666县道附近\n            "), _c('span', {
+	    staticClass: "mui-icon mui-icon-arrowdown"
+	  })]), _vm._v(" "), _vm._m(0)], 1), _vm._v(" "), _vm._m(1)])
+	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: "mui-title"
+	  }, [_c('a', {
+	    staticClass: "mui-icon mui-icon-search asear"
+	  }), _vm._v(" "), _c('input', {
+	    staticClass: "isearch mui-icon-search",
+	    attrs: {
+	      "type": "text",
+	      "placeholder": "找附近的吃喝玩乐"
+	    }
+	  })])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: "card"
+	  }, [_c('img', {
+	    staticClass: "active-card",
+	    attrs: {
+	      "src": __webpack_require__(29),
+	      "alt": "CARD"
+	    }
+	  }), _vm._v(" "), _c('img', {
+	    attrs: {
+	      "src": __webpack_require__(29),
+	      "alt": "CARD"
+	    }
+	  })])
+	}]}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-9a4f647e", module.exports)
+	  }
+	}
+
+/***/ },
+/* 62 */
+/***/ function(module, exports, __webpack_require__) {
+
+	
+	var content = __webpack_require__(63);
 
 	if(typeof content === 'string') content = [[module.id, content, '']];
 
@@ -23806,7 +24061,7 @@
 	options.transform = transform
 	options.insertInto = undefined;
 
-	var update = __webpack_require__(59)(content, options);
+	var update = __webpack_require__(64)(content, options);
 
 	if(content.locals) module.exports = content.locals;
 
@@ -23838,7 +24093,7 @@
 	}
 
 /***/ },
-/* 58 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)(false);
@@ -23852,7 +24107,7 @@
 
 
 /***/ },
-/* 59 */
+/* 64 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -23918,7 +24173,7 @@
 	var	singletonCounter = 0;
 	var	stylesInsertedAtTop = [];
 
-	var	fixUrls = __webpack_require__(60);
+	var	fixUrls = __webpack_require__(65);
 
 	module.exports = function(list, options) {
 		if (false) {
@@ -24238,7 +24493,7 @@
 
 
 /***/ },
-/* 60 */
+/* 65 */
 /***/ function(module, exports) {
 
 	
@@ -24333,11 +24588,11 @@
 
 
 /***/ },
-/* 61 */
+/* 66 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(62);
+	var content = __webpack_require__(67);
 
 	if(typeof content === 'string') content = [[module.id, content, '']];
 
@@ -24351,7 +24606,7 @@
 	options.transform = transform
 	options.insertInto = undefined;
 
-	var update = __webpack_require__(59)(content, options);
+	var update = __webpack_require__(64)(content, options);
 
 	if(content.locals) module.exports = content.locals;
 
@@ -24383,7 +24638,7 @@
 	}
 
 /***/ },
-/* 62 */
+/* 67 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var escape = __webpack_require__(8);
@@ -24398,11 +24653,11 @@
 
 
 /***/ },
-/* 63 */
+/* 68 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(64);
+	var content = __webpack_require__(69);
 
 	if(typeof content === 'string') content = [[module.id, content, '']];
 
@@ -24416,7 +24671,7 @@
 	options.transform = transform
 	options.insertInto = undefined;
 
-	var update = __webpack_require__(59)(content, options);
+	var update = __webpack_require__(64)(content, options);
 
 	if(content.locals) module.exports = content.locals;
 
@@ -24448,7 +24703,7 @@
 	}
 
 /***/ },
-/* 64 */
+/* 69 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(9)(false);
@@ -24462,7 +24717,7 @@
 
 
 /***/ },
-/* 65 */
+/* 70 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*!
@@ -25558,7 +25813,7 @@
 
 	function nodeClient (request) {
 
-	    var client = __webpack_require__(66);
+	    var client = __webpack_require__(71);
 
 	    return new PromiseObj(function (resolve) {
 
@@ -26025,7 +26280,7 @@
 
 
 /***/ },
-/* 66 */
+/* 71 */
 /***/ function(module, exports) {
 
 	/* (ignored) */

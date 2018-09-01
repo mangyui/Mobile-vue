@@ -19,7 +19,7 @@
 				<span class="mui-icon tic1"></span>
 				<span class="mui-tab-label">首页</span>
 			</router-link >
-			<router-link  class="mui-tab-item" to="/sider">
+			<router-link  class="mui-tab-item" to="/nearby">
 				<span class="mui-icon tic2"></span>
 				<span class="mui-tab-label">附近</span>
 			</router-link >

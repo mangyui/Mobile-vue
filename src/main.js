@@ -15,6 +15,7 @@ import news from './components/news/newslist.vue';
 import user from './components/usercenter/user.vue';
 import disimg from './components/other/disimg.vue';
 import set from './components/setting/set.vue';
+import nearby from './components/nearby/nearby.vue';
 
 var router1 =new vueRouter({
     linkActiveClass:'mui-active',
@@ -25,7 +26,8 @@ var router1 =new vueRouter({
        {path:'/news/newslist',component:news},
        {path:'/usercenter/user',component:user},
        {path:'/disimg/:id',component:disimg},
-       {path:'/setting',component:set},       
+       {path:'/setting',component:set},    
+       {path:'/nearby',component:nearby}      
     ]
 });
 
